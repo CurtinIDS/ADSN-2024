@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: "export", // enable static page exports, required for publishing a Next.js project to GitHub pages
+};
 
 export default nextConfig;
