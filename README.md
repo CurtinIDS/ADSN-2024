@@ -3,21 +3,24 @@
 [https://dario-limongi-cids.github.io/asdn24-web/](https://dario-limongi-cids.github.io/asdn24-web/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-Useful learning materials for React/Next.js quick start:
+
+Useful "quick start" learning materials:
+
 - [React Foundations](https://nextjs.org/learn/react-foundations)
 - [Next.js](https://nextjs.org/learn/dashboard-app)
 
 ## Table of contents
+
 - [ASDN 24 Static Webpage](#asdn-24-static-webpage)
   - [Table of contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Deploy to GitHub pages](#deploy-to-github-pages)
     - [Support images on GitHub pages with a static Next.js project](#support-images-on-github-pages-with-a-static-nextjs-project)
 
-
 ## Getting Started
 
-Install `Node` locally, the version used in the project is `20` (or latest LTS). Using [nvm]((https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage)) to manage different versions of Node is recommended:
+Install `Node` locally, the version used in the project is `20` (or latest LTS). Using [nvm](<(https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage)>) to manage different versions of Node is recommended:
+
 ```bash
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -30,8 +33,19 @@ nvm use --lts
 ```
 
 Next.js devs [recommend](https://nextjs.org/learn/dashboard-app/getting-started#creating-a-new-project) to use `pnpm` as package manager:
+
 ```bash
 npm install -g pnpm
+```
+
+[NextUI](https://nextui.org/docs/guide/introduction) is used for UI components. This [extra step](https://nextui.org/docs/guide/installation#hoisted-dependencies-setup-1) is required for `pnpm`:
+
+```bash
+# Example location of `.pnpmrc` if using `nvm`
+sudo gedit ~/.nvm/.npmrc
+
+# Add this line and save
+public-hoist-pattern[]=*@nextui-org/*
 ```
 
 Install the project dependencies:
@@ -62,6 +76,7 @@ For details see the implementation of the deploy GitHub action: [nextjs.yml](/.g
 ### Support images on GitHub pages with a static Next.js project
 
 The following adaptations are needed in order to make images work on GitHub Pages:
+
 - `basePath` needs to be added in [next.config.mjs](next.config.mjs)
 - add `unoptimized` argument to all `Images` in [next.config.mjs](next.config.mjs)
 - every `Image` in the code should have `basePath` prefixed in their `src` value. (Example: `<Image src="/asdn24-web/image.svg" />`)
