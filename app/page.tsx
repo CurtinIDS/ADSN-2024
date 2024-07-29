@@ -11,41 +11,62 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <Navbar>
+      <Navbar className="bg-blue-navbar" maxWidth="full">
         <NavbarBrand>
           <Image
             src="/asdn24-web/ADSN_logo.png"
             alt="ADSN Logo"
-            width={36}
-            height={36}
+            width={150}
+            height={64}
             priority
           />
-          <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Features
-            </Link>
-          </NavbarItem>
-          <NavbarItem isActive>
-            <Link href="#" aria-current="page">
-              Customers
+            <Link color="foreground" className="text-white" href="#">
+              About
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Integrations
+            <Link color="foreground" className="text-white" href="#">
+              Key Dates
+            </Link>
+          </NavbarItem>
+          {/* <NavbarItem isActive>
+            <Link href="#" aria-current="page">
+              Key Dates
+            </Link>
+          </NavbarItem> */}
+          <NavbarItem>
+            <Link color="foreground" className="text-white" href="#">
+              Committees
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" className="text-white" href="#">
+              Get Involved
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" className="text-white" href="#">
+              Visitors
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" className="text-white" href="#">
+              Contact
             </Link>
           </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link href="#">Login</Link>
-          </NavbarItem>
           <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
-              Sign Up
+            <Button
+              as={Link}
+              href="#"
+              className="bg-green-button text-white font-bold"
+              radius="full"
+            >
+              Register Now
             </Button>
           </NavbarItem>
         </NavbarContent>
