@@ -3,6 +3,9 @@
 [https://dario-limongi-cids.github.io/asdn24-web/](https://dario-limongi-cids.github.io/asdn24-web/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Useful learning materials for React/Next.js quick start:
+- [React Foundations](https://nextjs.org/learn/react-foundations)
+- [Next.js](https://nextjs.org/learn/dashboard-app)
 
 ## Table of contents
 - [ASDN 24 Static Webpage](#asdn-24-static-webpage)
@@ -14,7 +17,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-Install `Node` locally, the version used in the project is `20` (or latest LTS). Using `nvm` to manage different versions of Node is recommended: [how to](https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage))
+Install `Node` locally, the version used in the project is `20` (or latest LTS). Using [nvm]((https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage)) to manage different versions of Node is recommended:
 ```bash
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -31,7 +34,7 @@ Next.js devs [recommend](https://nextjs.org/learn/dashboard-app/getting-started#
 npm install -g pnpm
 ```
 
-First, install the project dependencies:
+Install the project dependencies:
 
 ```bash
 pnpm install
@@ -53,7 +56,7 @@ The project needs to be compiled as a static webpage for working on GitHub Pages
 pnpm next build
 ```
 
-These steps are actually done automatically with `GitHub Actions`: everytime a commit is merged or a pull request is opened, the code is deployed to the GitHub Page.
+These steps are actually done automatically with `GitHub Actions`: everytime a commit or pull request is merged, the new code is deployed to the GitHub Page.
 For details see the implementation of the deploy GitHub action: [nextjs.yml](/.github/workflows/nextjs.yml)
 
 ### Support images on GitHub pages with a static Next.js project
