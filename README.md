@@ -47,19 +47,20 @@ Open [http://localhost:3000/asdn24-web](http://localhost:3000/asdn24-web) with y
 
 ## Deploy to GitHub pages
 
-The project needs to be compiled as a static webpage for working on GitHub Pages. The results will be created inside `out` directory:
+The project needs to be compiled as a static webpage for working on GitHub Pages. It can be done locally, the results will be created inside `out` directory, which then needs to be uploaded to GitHub pages:
 
 ```bash
 pnpm next build
 ```
 
-This can be done automatically by running the GitHub action, which will also upload the results to the GitHub Page: [nextjs.yml](/.github/workflows/nextjs.yml)
+These steps are actually done automatically with `GitHub Actions`: everytime a commit is merged or a pull request is opened, the code is deployed to the GitHub Page.
+For details see the implementation of the deploy GitHub action: [nextjs.yml](/.github/workflows/nextjs.yml)
 
 ### Support images on GitHub pages with a static Next.js project
 
 The following adaptations are needed in order to make images work on GitHub Pages:
 - `basePath` needs to be added in [next.config.mjs](next.config.mjs)
 - add `unoptimized` argument to all `Images` in [next.config.mjs](next.config.mjs)
-- every `Image` in the code should have `basePath` prefixed in their `src` value. (Example: `<Image src="/asdn24-web/next.svg" />)
+- every `Image` in the code should have `basePath` prefixed in their `src` value. (Example: `<Image src="/asdn24-web/image.svg" />`)
 
 As a result of this, when developing locally the home page will need `basePath` prefixed: [http://localhost:3000/asdn24-web](http://localhost:3000/asdn24-web)
