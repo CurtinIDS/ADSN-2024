@@ -12,6 +12,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Install `Node` locally, the version used in the project is `20` (or latest LTS). Using `nvm` to manage different versions of Node is recommended: [how to](https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage))
+```bash
+# Install NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Install Node v20 (latest LTS)
+nvm install --lts
+
+# Use Node v20 (latest LTS)
+nvm use --lts
+```
+
+Next.js devs [recommend](https://nextjs.org/learn/dashboard-app/getting-started#creating-a-new-project) to use `pnpm` as package manager:
+```bash
+npm install -g pnpm
+```
+
 First, install the project dependencies:
 
 ```bash
