@@ -42,7 +42,7 @@ Run the development server:
 pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/asdn24-web](http://localhost:3000/asdn24-web) with your browser to see the result.
 
 ## Deploy on GitHub pages
 
