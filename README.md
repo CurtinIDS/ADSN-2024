@@ -8,7 +8,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [ASDN 24 Static Webpage](#asdn-24-static-webpage)
   - [Table of contents](#table-of-contents)
   - [Getting Started](#getting-started)
-  - [Deploy on GitHub pages](#deploy-on-github-pages)
+  - [Deploy to GitHub pages](#deploy-to-github-pages)
+    - [Support images on GitHub pages with a static Next.js project](#support-images-on-github-pages-with-a-static-nextjs-project)
 
 
 ## Getting Started
@@ -44,7 +45,7 @@ pnpm run dev
 
 Open [http://localhost:3000/asdn24-web](http://localhost:3000/asdn24-web) with your browser to see the result.
 
-## Deploy on GitHub pages
+## Deploy to GitHub pages
 
 The project needs to be compiled as a static webpage for working on GitHub Pages. The results will be created inside `out` directory:
 
@@ -53,3 +54,12 @@ pnpm next build
 ```
 
 This can be done automatically by running the GitHub action, which will also upload the results to the GitHub Page: [nextjs.yml](/.github/workflows/nextjs.yml)
+
+### Support images on GitHub pages with a static Next.js project
+
+The following adaptations are needed in order to make images work on GitHub Pages:
+- `basePath` needs to be added in [next.config.mjs](next.config.mjs)
+- add `unoptimized` argument to all `Images` in [next.config.mjs](next.config.mjs)
+- every `Image` in the code should have `basePath` prefixed in their `src` value. (Example: `<Image src="/asdn24-web/next.svg" />)
+
+As a result of this, when developing locally the home page will need `basePath` prefixed: [http://localhost:3000/asdn24-web](http://localhost:3000/asdn24-web)
