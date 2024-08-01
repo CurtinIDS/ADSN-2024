@@ -1,238 +1,210 @@
-import { Button } from "@nextui-org/button";
-import { Link } from "@nextui-org/link";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-} from "@nextui-org/navbar";
 import Image from "next/image";
+import NavigationBar from "./navigationbar";
 
 export default function Home() {
   return (
     <div>
-      <Navbar className="bg-blue-navbar" maxWidth="full">
-        <NavbarBrand>
-          <Image
-            src="/asdn24-web/ADSN_logo.png"
-            alt="ADSN Logo"
-            width={150}
-            height={64}
-            priority
-          />
-        </NavbarBrand>
-        <NavbarContent className="hidden sm:flex gap-4" justify="center">
-          <NavbarItem>
-            <Link color="foreground" className="text-white" href="#">
-              About
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Link color="foreground" className="text-white" href="#">
-              Key Dates
-            </Link>
-          </NavbarItem>
-          {/* <NavbarItem isActive>
-            <Link href="#" aria-current="page">
-              Key Dates
-            </Link>
-          </NavbarItem> */}
-          <NavbarItem>
-            <Link color="foreground" className="text-white" href="#">
-              Committees
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Link color="foreground" className="text-white" href="#">
-              Get Involved
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Link color="foreground" className="text-white" href="#">
-              Visitors
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Link color="foreground" className="text-white" href="#">
-              Contact
-            </Link>
-          </NavbarItem>
-        </NavbarContent>
-        <NavbarContent justify="end">
-          <NavbarItem>
-            <Button
-              as={Link}
-              href="#"
-              className="bg-green-button text-white font-bold"
-              radius="full"
-            >
-              Register Now
-            </Button>
-          </NavbarItem>
-        </NavbarContent>
-      </Navbar>
-      <div className="px-6 flex gap-4 flex-col pb-16 flex-grow">
-        <h1 className="mt-4 font-bold text-4xl">Lorem ipsum dolor sit amet</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus
-          gravida quis blandit turpis. Augue neque gravida in fermentum et
-          sollicitudin ac orci. Et sollicitudin ac orci phasellus egestas.
-          Elementum tempus egestas sed sed risus pretium quam vulputate.
-          Interdum velit euismod in pellentesque massa placerat duis ultricies.
-        </p>
-        <p>
-          Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-          Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
-          fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
-          consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
-          viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
-          arcu. Augue mauris augue neque gravida in.
-        </p>
-        <p>
-          Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
-          dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
-          quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
-          nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
-          Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
-          Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
-          risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
-          dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
-          rutrum quisque non tellus orci ac.
-        </p>
-        <p>
-          Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. In
-          pellentesque massa placerat duis ultricies. Sit amet massa vitae
-          tortor condimentum. Morbi tincidunt augue interdum velit euismod.
-          Aliquet enim tortor at auctor urna nunc id. A scelerisque purus semper
-          eget. Vitae justo eget magna fermentum iaculis. Arcu non odio euismod
-          lacinia at quis. Et leo duis ut diam quam nulla porttitor massa. Eget
-          nunc scelerisque viverra mauris. Suscipit tellus mauris a diam
-          maecenas sed enim. Cras sed felis eget velit aliquet. Est placerat in
-          egestas erat imperdiet sed euismod nisi porta. In ante metus dictum at
-          tempor commodo. In cursus turpis massa tincidunt dui ut ornare lectus.
-          Tempus iaculis urna id volutpat. Iaculis eu non diam phasellus
-          vestibulum lorem sed risus.
-        </p>
-        <p>
-          Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
-          Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper
-          malesuada. Faucibus pulvinar elementum integer enim neque volutpat.
-          Gravida arcu ac tortor dignissim convallis aenean. Lectus quam id leo
-          in vitae. Ultricies tristique nulla aliquet enim tortor. Nec tincidunt
-          praesent semper feugiat nibh sed. Imperdiet proin fermentum leo vel
-          orci porta non pulvinar neque. Praesent semper feugiat nibh sed
-          pulvinar proin gravida. Dis parturient montes nascetur ridiculus mus
-          mauris. Rhoncus dolor purus non enim praesent elementum facilisis leo
-          vel. Ut lectus arcu bibendum at. Integer enim neque volutpat ac. Diam
-          sit amet nisl suscipit. Eros donec ac odio tempor orci dapibus
-          ultrices in iaculis. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod. Quis lectus nulla at volutpat diam ut. Turpis egestas integer
-          eget aliquet. Adipiscing tristique risus nec feugiat in fermentum
-          posuere. Morbi tempus iaculis urna id. Amet commodo nulla facilisi
-          nullam vehicula ipsum a arcu.
-        </p>
-        <p>
-          Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-          Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
-          fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
-          consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
-          viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
-          arcu. Augue mauris augue neque gravida in.
-        </p>
-        <p>
-          Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
-          dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
-          quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
-          nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
-          Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
-          Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
-          risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
-          dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
-          rutrum quisque non tellus orci ac.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus
-          gravida quis blandit turpis. Augue neque gravida in fermentum et
-          sollicitudin ac orci. Et sollicitudin ac orci phasellus egestas.
-          Elementum tempus egestas sed sed risus pretium quam vulputate.
-          Interdum velit euismod in pellentesque massa placerat duis ultricies.
-        </p>
-        <p>
-          Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-          Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
-          fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
-          consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
-          viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
-          arcu. Augue mauris augue neque gravida in.
-        </p>
-        <p>
-          Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
-          dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
-          quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
-          nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
-          Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
-          Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
-          risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
-          dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
-          rutrum quisque non tellus orci ac.
-        </p>
-        <p>
-          Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. In
-          pellentesque massa placerat duis ultricies. Sit amet massa vitae
-          tortor condimentum. Morbi tincidunt augue interdum velit euismod.
-          Aliquet enim tortor at auctor urna nunc id. A scelerisque purus semper
-          eget. Vitae justo eget magna fermentum iaculis. Arcu non odio euismod
-          lacinia at quis. Et leo duis ut diam quam nulla porttitor massa. Eget
-          nunc scelerisque viverra mauris. Suscipit tellus mauris a diam
-          maecenas sed enim. Cras sed felis eget velit aliquet. Est placerat in
-          egestas erat imperdiet sed euismod nisi porta. In ante metus dictum at
-          tempor commodo. In cursus turpis massa tincidunt dui ut ornare lectus.
-          Tempus iaculis urna id volutpat. Iaculis eu non diam phasellus
-          vestibulum lorem sed risus.
-        </p>
-        <p>
-          Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
-          Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper
-          malesuada. Faucibus pulvinar elementum integer enim neque volutpat.
-          Gravida arcu ac tortor dignissim convallis aenean. Lectus quam id leo
-          in vitae. Ultricies tristique nulla aliquet enim tortor. Nec tincidunt
-          praesent semper feugiat nibh sed. Imperdiet proin fermentum leo vel
-          orci porta non pulvinar neque. Praesent semper feugiat nibh sed
-          pulvinar proin gravida. Dis parturient montes nascetur ridiculus mus
-          mauris. Rhoncus dolor purus non enim praesent elementum facilisis leo
-          vel. Ut lectus arcu bibendum at. Integer enim neque volutpat ac. Diam
-          sit amet nisl suscipit. Eros donec ac odio tempor orci dapibus
-          ultrices in iaculis. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod. Quis lectus nulla at volutpat diam ut. Turpis egestas integer
-          eget aliquet. Adipiscing tristique risus nec feugiat in fermentum
-          posuere. Morbi tempus iaculis urna id. Amet commodo nulla facilisi
-          nullam vehicula ipsum a arcu.
-        </p>
-        <p>
-          Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-          Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
-          fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
-          consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
-          viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
-          arcu. Augue mauris augue neque gravida in.
-        </p>
-        <p>
-          Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
-          dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
-          quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
-          nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
-          Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
-          Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
-          risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
-          dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
-          rutrum quisque non tellus orci ac.
-        </p>
-      </div>
+      <NavigationBar />
+      <main className="w-full">
+        <section>
+          <div className="fixed inset-0 z-0">
+            <Image
+              aria-hidden="true"
+              data-placeholder-image=""
+              className="object-cover w-full h-full opacity-100 transition-opacity duration-500 ease-linear"
+              src="/asdn24-web/perth_skyline.webp"
+              layout="fill"
+              alt="Perth Skyline"
+            />
+          </div>
+          <div
+            className="absolute right-40 bg-opacity-85 bg-gray-200 pl-11 pr-4 py-8 rounded-b-xl shadow-lg w-[350px]"
+            style={{ backgroundColor: "rgba(230, 228, 220, 0.85)" }}
+          >
+            <h1 className="mb-2 relative text-gray-700 font-extrabold tracking-wide text-4xl leading-tight">
+              <span>The 3rd Australian Data Science Network Conference</span>
+              <br />
+              <span className="text-blue-900" style={{ fontSize: "37px" }}>
+                ADSN Conference
+              </span>
+              <br />
+              <span className="text-blue-900" style={{ fontSize: "37px" }}>
+                2024
+              </span>
+            </h1>
+            <p className="mb-4 font-semibold text-xl text-gray-700 ">
+              Perth, Australia
+            </p>
+            <p className="mb-1 font-bold text-2xl tracking-wide text-gray-700 ">
+              2 - 5 December, 2024
+            </p>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
+
+//<img aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear" src="./img/back.jpg" alt="Southbank skyline"></img>
+// <div className="px-6 flex gap-4 flex-col pb-16 flex-grow">
+// <h1 className="mt-4 font-bold text-4xl">Lorem ipsum dolor sit amet</h1>
+// <p>
+//   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+//   eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus
+//   gravida quis blandit turpis. Augue neque gravida in fermentum et
+//   sollicitudin ac orci. Et sollicitudin ac orci phasellus egestas.
+//   Elementum tempus egestas sed sed risus pretium quam vulputate.
+//   Interdum velit euismod in pellentesque massa placerat duis ultricies.
+// </p>
+// <p>
+//   Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
+//   Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
+//   fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
+//   consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
+//   viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
+//   arcu. Augue mauris augue neque gravida in.
+// </p>
+// <p>
+//   Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
+//   dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
+//   quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
+//   nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
+//   Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
+//   Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
+//   risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
+//   dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
+//   rutrum quisque non tellus orci ac.
+// </p>
+// <p>
+//   Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. In
+//   pellentesque massa placerat duis ultricies. Sit amet massa vitae
+//   tortor condimentum. Morbi tincidunt augue interdum velit euismod.
+//   Aliquet enim tortor at auctor urna nunc id. A scelerisque purus semper
+//   eget. Vitae justo eget magna fermentum iaculis. Arcu non odio euismod
+//   lacinia at quis. Et leo duis ut diam quam nulla porttitor massa. Eget
+//   nunc scelerisque viverra mauris. Suscipit tellus mauris a diam
+//   maecenas sed enim. Cras sed felis eget velit aliquet. Est placerat in
+//   egestas erat imperdiet sed euismod nisi porta. In ante metus dictum at
+//   tempor commodo. In cursus turpis massa tincidunt dui ut ornare lectus.
+//   Tempus iaculis urna id volutpat. Iaculis eu non diam phasellus
+//   vestibulum lorem sed risus.
+// </p>
+// <p>
+//   Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
+//   Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper
+//   malesuada. Faucibus pulvinar elementum integer enim neque volutpat.
+//   Gravida arcu ac tortor dignissim convallis aenean. Lectus quam id leo
+//   in vitae. Ultricies tristique nulla aliquet enim tortor. Nec tincidunt
+//   praesent semper feugiat nibh sed. Imperdiet proin fermentum leo vel
+//   orci porta non pulvinar neque. Praesent semper feugiat nibh sed
+//   pulvinar proin gravida. Dis parturient montes nascetur ridiculus mus
+//   mauris. Rhoncus dolor purus non enim praesent elementum facilisis leo
+//   vel. Ut lectus arcu bibendum at. Integer enim neque volutpat ac. Diam
+//   sit amet nisl suscipit. Eros donec ac odio tempor orci dapibus
+//   ultrices in iaculis. Ullamcorper a lacus vestibulum sed arcu non odio
+//   euismod. Quis lectus nulla at volutpat diam ut. Turpis egestas integer
+//   eget aliquet. Adipiscing tristique risus nec feugiat in fermentum
+//   posuere. Morbi tempus iaculis urna id. Amet commodo nulla facilisi
+//   nullam vehicula ipsum a arcu.
+// </p>
+// <p>
+//   Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
+//   Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
+//   fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
+//   consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
+//   viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
+//   arcu. Augue mauris augue neque gravida in.
+// </p>
+// <p>
+//   Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
+//   dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
+//   quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
+//   nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
+//   Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
+//   Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
+//   risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
+//   dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
+//   rutrum quisque non tellus orci ac.
+// </p>
+// <p>
+//   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+//   eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus
+//   gravida quis blandit turpis. Augue neque gravida in fermentum et
+//   sollicitudin ac orci. Et sollicitudin ac orci phasellus egestas.
+//   Elementum tempus egestas sed sed risus pretium quam vulputate.
+//   Interdum velit euismod in pellentesque massa placerat duis ultricies.
+// </p>
+// <p>
+//   Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
+//   Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
+//   fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
+//   consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
+//   viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
+//   arcu. Augue mauris augue neque gravida in.
+// </p>
+// <p>
+//   Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
+//   dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
+//   quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
+//   nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
+//   Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
+//   Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
+//   risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
+//   dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
+//   rutrum quisque non tellus orci ac.
+// </p>
+// <p>
+//   Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. In
+//   pellentesque massa placerat duis ultricies. Sit amet massa vitae
+//   tortor condimentum. Morbi tincidunt augue interdum velit euismod.
+//   Aliquet enim tortor at auctor urna nunc id. A scelerisque purus semper
+//   eget. Vitae justo eget magna fermentum iaculis. Arcu non odio euismod
+//   lacinia at quis. Et leo duis ut diam quam nulla porttitor massa. Eget
+//   nunc scelerisque viverra mauris. Suscipit tellus mauris a diam
+//   maecenas sed enim. Cras sed felis eget velit aliquet. Est placerat in
+//   egestas erat imperdiet sed euismod nisi porta. In ante metus dictum at
+//   tempor commodo. In cursus turpis massa tincidunt dui ut ornare lectus.
+//   Tempus iaculis urna id volutpat. Iaculis eu non diam phasellus
+//   vestibulum lorem sed risus.
+// </p>
+// <p>
+//   Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
+//   Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper
+//   malesuada. Faucibus pulvinar elementum integer enim neque volutpat.
+//   Gravida arcu ac tortor dignissim convallis aenean. Lectus quam id leo
+//   in vitae. Ultricies tristique nulla aliquet enim tortor. Nec tincidunt
+//   praesent semper feugiat nibh sed. Imperdiet proin fermentum leo vel
+//   orci porta non pulvinar neque. Praesent semper feugiat nibh sed
+//   pulvinar proin gravida. Dis parturient montes nascetur ridiculus mus
+//   mauris. Rhoncus dolor purus non enim praesent elementum facilisis leo
+//   vel. Ut lectus arcu bibendum at. Integer enim neque volutpat ac. Diam
+//   sit amet nisl suscipit. Eros donec ac odio tempor orci dapibus
+//   ultrices in iaculis. Ullamcorper a lacus vestibulum sed arcu non odio
+//   euismod. Quis lectus nulla at volutpat diam ut. Turpis egestas integer
+//   eget aliquet. Adipiscing tristique risus nec feugiat in fermentum
+//   posuere. Morbi tempus iaculis urna id. Amet commodo nulla facilisi
+//   nullam vehicula ipsum a arcu.
+// </p>
+// <p>
+//   Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
+//   Praesent semper feugiat nibh sed pulvinar. Ultrices gravida dictum
+//   fusce ut placerat orci nulla pellentesque. Malesuada proin libero nunc
+//   consequat interdum varius sit amet. Lectus quam id leo in vitae. Sed
+//   viverra tellus in hac habitasse platea dictumst. Vivamus at augue eget
+//   arcu. Augue mauris augue neque gravida in.
+// </p>
+// <p>
+//   Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida
+//   dictum fusce ut placerat. Erat velit scelerisque in dictum non. Tempus
+//   quam pellentesque nec nam aliquam sem et tortor consequat. Eu nisl
+//   nunc mi ipsum faucibus. Cras fermentum odio eu feugiat pretium nibh.
+//   Vel pharetra vel turpis nunc eget lorem dolor sed viverra.
+//   Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Sed id semper
+//   risus in hendrerit gravida rutrum. Eget nulla facilisi etiam
+//   dignissim. Erat imperdiet sed euismod nisi. Risus in hendrerit gravida
+//   rutrum quisque non tellus orci ac.
+// </p>
+// </div>
 
 // export default function Home() {
 //   return (
