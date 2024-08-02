@@ -4,13 +4,13 @@ const ComingSoon = () => {
   return (
     <div className="p-10 relative flex justify-center items-center w-full bg-cover bg-center bg-[url('/ADSN-2024/background_coming_soon.webp')]">
       <div className="text-center text-white">
-        <h1 className="p-6 text-4xl font-extrabold">
+        <h1 className="p-6 font-extrabold tracking-wide text-4xl">
           2024 CONFERENCE PROGRAM COMING SOON
         </h1>
-        <p className="p-6 font-bold">
+        <p className="p-6 text-xl font-bold">
           Stay tuned - 2024 conference program coming soon.
         </p>
-        <p>
+        <p className="px-10 text-xl">
           The Australian Data Science Network Conference 2023 showcased an
           extensive range of topics and presentations from a diverse group of
           speakers. Panel discussion explored the relationship between academia
@@ -19,7 +19,7 @@ const ComingSoon = () => {
           presentations accompanied by interactive session, allowing in-person
           discussion and valuable networking opportunities.
         </p>
-        <p className="p-6">
+        <p className="px-10 p-6 text-xl">
           This year, we are pleased to offer a comprehensive program designed to
           be just as stimulating and informative as the 2023 conference. Please
           stay tuned for updates and announcements. For now, you can review the

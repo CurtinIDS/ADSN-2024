@@ -11,7 +11,7 @@ const AdsnButton: React.FC<AdsnButtonProps> = ({ text }) => {
     <Button
       as={Link}
       href="#"
-      className="bg-green-button text-white font-bold"
+      className="bg-green-button text-white text-center font-bold text-xl py-6 px-6"
       radius="full"
     >
       {text}
