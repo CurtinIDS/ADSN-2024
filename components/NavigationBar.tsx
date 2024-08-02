@@ -1,4 +1,3 @@
-import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
 import {
   Navbar,
@@ -7,6 +6,7 @@ import {
   NavbarItem,
 } from "@nextui-org/navbar";
 import Image from "next/image";
+import AdsnButton from "@/components/AdsnButton";
 
 const NavigationBar = () => {
   return (
@@ -59,14 +59,7 @@ const NavigationBar = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button
-            as={Link}
-            href="#"
-            className="bg-green-button text-white font-bold"
-            radius="full"
-          >
-            Register Now
-          </Button>
+          <AdsnButton text="Register Now" />
         </NavbarItem>
       </NavbarContent>
     </Navbar>

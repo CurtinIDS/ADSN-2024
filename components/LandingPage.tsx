@@ -9,7 +9,7 @@ const LandingPage = () => {
             aria-hidden="true"
             data-placeholder-image=""
             className="object-cover w-full h-full"
-            src="/ADSN-2024/perth_skyline.webp"
+            src="/ADSN-2024/background_perth_skyline.webp"
             fill={true}
             alt="Perth Skyline"
           />
