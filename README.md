@@ -1,6 +1,6 @@
 # ASDN 24 Static Webpage
 
-[https://dario-limongi-cids.github.io/asdn24-web/](https://dario-limongi-cids.github.io/asdn24-web/)
+[https://curtinids.github.io/ADSN-2024/](https://curtinids.github.io/ADSN-2024/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

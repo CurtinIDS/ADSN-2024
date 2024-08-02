@@ -13,7 +13,7 @@ const NavigationBar = () => {
     <Navbar className="bg-blue-navbar" maxWidth="full">
       <NavbarBrand>
         <Image
-          src="/asdn24-web/ADSN_logo.png"
+          src="/ADSN-2024/ADSN_logo.png"
           alt="ADSN Logo"
           width={150}
           height={64}
