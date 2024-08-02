@@ -1,4 +1,4 @@
-# ASDN 24 Static Webpage
+# ADSN 24 Static Webpage
 
 [https://curtinids.github.io/ADSN-2024/](https://curtinids.github.io/ADSN-2024/)
 
@@ -11,7 +11,7 @@ Useful "quick start" learning materials:
 
 ## Table of contents
 
-- [ASDN 24 Static Webpage](#asdn-24-static-webpage)
+- [ADSN 24 Static Webpage](#adsn-24-static-webpage)
   - [Table of contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Deploy to GitHub pages](#deploy-to-github-pages)
@@ -60,7 +60,7 @@ Run the development server:
 pnpm run dev
 ```
 
-Open [http://localhost:3000/asdn24-web](http://localhost:3000/asdn24-web) with your browser to see the result.
+Open [http://localhost:3000/ADSN-2024](http://localhost:3000/ADSN-2024) with your browser to see the result.
 
 ## Deploy to GitHub pages
 
@@ -79,6 +79,6 @@ The following adaptations are needed in order to make images work on GitHub Page
 
 - `basePath` needs to be added in [next.config.mjs](next.config.mjs)
 - add `unoptimized` argument to all `Images` in [next.config.mjs](next.config.mjs)
-- every `Image` in the code should have `basePath` prefixed in their `src` value. (Example: `<Image src="/asdn24-web/image.svg" />`)
+- every `Image` in the code should have `basePath` prefixed in their `src` value. (Example: `<Image src="/ADSN-2024/image.svg" />`)
 
-As a result of this, when developing locally the home page will need `basePath` prefixed: [http://localhost:3000/asdn24-web](http://localhost:3000/asdn24-web)
+As a result of this, when developing locally the home page will need `basePath` prefixed: [http://localhost:3000/ADSN-2024](http://localhost:3000/ADSN-2024)

@@ -13,8 +13,8 @@ export default function Home() {
               data-placeholder-image=""
               className="object-cover w-full h-full opacity-100 transition-opacity duration-500 ease-linear"
               src="/ADSN-2024/perth_skyline.webp"
-              layout="fill"
               alt="Perth Skyline"
+              fill={true}
             />
           </div>
           <div
