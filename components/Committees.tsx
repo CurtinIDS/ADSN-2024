@@ -15,16 +15,27 @@ const Committees = () => {
         className="flex flex-row gap-6 items-center w-full max-w-6xl"
       >
         <div className="flex-1 py-6 px-10 flex flex-col">
-          <p className="text-xl pb-4 ">Program Committee</p>
+          <p className="text-xl pb-4 ">Scientific Program Committee</p>
           <ul className="marker:text-green-button list-disc list-inside">
-            <li>Prof Dino Sejdinovic, Adelaide (Chair)</li>
-            <li>Prof Nicola Armstrong, Curtin</li>
-            <li>Dr Melissa Humphries, Adelaide</li>
-            <li>Prof Lewis Mitchell, Adelaide</li>
-            <li>Dr Emi Tanaka, ANU</li>
-            <li>Dr Gentry White, QUT</li>
-            <li>Prof Andrew Zammit Mangion, Wollongong</li>
-            <li>Tim Macuga, QUT</li>
+            <li>
+              Prof. Melanie Johnston-Hollitt, Director, Curtin Institute for
+              Data Science (Chair)
+            </li>
+            <li>
+              Prof. Joanna Batstone, Director, Monash Data Futures Institute
+            </li>
+            <li>
+              Prof. Christopher Fluke, Director Advanced Visualisation
+              Laboratory, Swinburne University
+            </li>
+            <li>
+              Prof. Lewis Mitchell, University of Adelaide (immediate past
+              conference chair)
+            </li>
+            <li>Prof. Michael Small, Director, UWA Data Institute</li>
+            <li>
+              Keith Russell, Director Outreach, Australia Research Data Commons
+            </li>
           </ul>
         </div>
         <div className="flex-1 py-6 px-10 flex flex-col">
@@ -40,16 +51,21 @@ const Committees = () => {
             )
           </p>
           <ul className="marker:text-green-button list-disc list-inside select-end">
-            <li>Prof Melanie Johnston-Hollitt (CIDS Director)</li>
             <li>Dr Uno Fang (Chair)</li>
             <li>Dr Daniel Marrable (Deputy Chair)</li>
-            <li>Calvin Pang</li>
-            <li>Dario Limongi</li>
-            <li>Juanaili Hultzsch</li>
-            <li>Leigh Tyers</li>
-            <li>Shan Shan Ng</li>
-            <li>Trish Radotic</li>
-            <li>Youngwoo (Paul) Kim</li>
+            <li>Calvin Pang (Program Coordination and Catering Management)</li>
+            <li>Dario Limongi (Web Application Development)</li>
+            <li>Juanaili Hultzsch (Logistics and Venue Coordination)</li>
+            <li>Leigh Tyers (Program Coordination and Risk Management)</li>
+            <li>Shan Shan Ng (Budget, Finance and Participant Management)</li>
+            <li>
+              Trish Radotic (Business Development and Sponsorship Engagement)
+            </li>
+            <li>Youngwoo (Paul) Kim (Marketing and Publicity)</li>
+            <li>
+              Tim Macuga, Queensland University of Technology (Community
+              Engagement)
+            </li>
           </ul>
         </div>
       </div>
