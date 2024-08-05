@@ -5,6 +5,7 @@ import KeyDates from "@/components/KeyDates";
 import ComingSoon from "@/components/ComingSoon";
 import Footer from "@/components/Footer";
 import PreviousConferences from "@/components/PreviousConferences";
+import Committees from "@/components/Committees";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <KeyDates />
       <ComingSoon />
+      <Committees />
       <PreviousConferences />
 
       <Footer />
