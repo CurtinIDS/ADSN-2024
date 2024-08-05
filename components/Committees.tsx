@@ -4,9 +4,9 @@ const Committees = () => {
   return (
     <div
       id="committees"
-      className="p-10 relative flex flex-col items-center w-full bg-white text-black"
+      className="md:p-10 relative flex flex-col items-center w-full bg-white text-black"
     >
-      <h1 className="p-6 font-extrabold tracking-wide text-4xl text-center">
+      <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
         Committees
       </h1>
 
@@ -14,8 +14,8 @@ const Committees = () => {
         id="members"
         className="flex flex-row gap-6 items-center w-full max-w-6xl"
       >
-        <div className="flex-1 py-6 px-10 flex flex-col">
-          <p className="text-xl pb-4 ">Scientific Program Committee</p>
+        <div className="flex-1 p-3 md:py-6 md:px-10 flex flex-col">
+          <p className="md:text-xl pb-4 ">Scientific Program Committee</p>
           <ul className="marker:text-green-button list-disc list-inside">
             <li>
               Prof. Melanie Johnston-Hollitt, Director, Curtin Institute for
@@ -38,8 +38,8 @@ const Committees = () => {
             </li>
           </ul>
         </div>
-        <div className="flex-1 py-6 px-10 flex flex-col">
-          <p className="text-xl pb-4">
+        <div className="flex-1 p-3 md:py-6 md:px-10 flex flex-col">
+          <p className="md:text-xl md:pb-4">
             Organizing Committee (
             <Link
               href="https://datascience.curtin.edu.au/"

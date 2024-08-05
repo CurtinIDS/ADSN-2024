@@ -2,16 +2,16 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-row gap-6 px-4 py-8 items-center bg-white"
+      className="flex flex-row md:gap-6 md:px-4 md:py-8 items-center bg-white"
     >
-      <div className="flex-1 py-6 px-10 flex items-center">
-        <p className="font-extrabold text-4xl p-10">
+      <div className="flex-1 p-3 md:py-6 md:px-10 flex items-center">
+        <p className="font-extrabold md:text-4xl md:p-10">
           Australian Data Science Network Conference is coming to Perth, WA from
           2 to 4 December 2024.
         </p>
       </div>
-      <div className="flex-1 py-6 px-10 text-justify flex items-center">
-        <p className="text-xl p-10">
+      <div className="flex-1 p-3 md:py-6 md:px-10 flex items-center">
+        <p className="md:text-xl md:p-10">
           The 3rd Australian Data Science Network Conference is set to take
           place in Perth, Western Australia. Hosted by The Curtin Institute for
           Data Science at Curtin University, Bentley Campus. The conference aims

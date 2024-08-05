@@ -1,3 +1,5 @@
+"use client";
+
 import { Link } from "@nextui-org/link";
 import {
   Navbar,
@@ -7,6 +9,7 @@ import {
 } from "@nextui-org/navbar";
 import Image from "next/image";
 import AdsnButton from "@/components/AdsnButton";
+import React from "react";
 
 const NavigationBar = () => {
   return (
@@ -17,10 +20,11 @@ const NavigationBar = () => {
           alt="ADSN Logo"
           width="0"
           height="0"
-          className="w-auto h-[40px]"
+          className="min-w-[150px] h-[35px]"
           priority
         />
       </NavbarBrand>
+
       <NavbarContent
         className="hidden sm:flex gap-y-4 gap-x-10"
         justify="center"
@@ -65,7 +69,7 @@ const NavigationBar = () => {
       <NavbarContent justify="end">
         <NavbarItem>
           <AdsnButton
-            text="Abstract Submission Portal"
+            text="Submit Abstract"
             url="https://curtin.au1.qualtrics.com/jfe/form/SV_0Pdhwdfxu0NWJH8"
           />
         </NavbarItem>

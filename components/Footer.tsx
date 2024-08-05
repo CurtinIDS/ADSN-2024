@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white font-extrabold py-8 flex justify-center">
-      <div className="grid grid-cols-2 grid-rows-2 gap-8 w-full max-w-6xl py-10 px-24">
+    <footer className="bg-black text-white font-extrabold p-3 md:py-8 flex justify-center">
+      <div className="grid grid-cols-2 grid-rows-2 md:gap-8 w-full max-w-6xl md:py-10 md:px-24">
         <div className="col-span-2">
-          <p className="pb-4">Presenting Partners</p>
-          <div className="flex flex-row items-center space-x-4">
+          <p className="pb-2 md:pb-4">Presenting Partners</p>
+          <div className="flex flex-row items-center justify-center md:justify-normal space-x-4">
             <div>
               <Link
                 href="https://www.australiandatascience.net/"
@@ -42,10 +42,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 p-3">
           <p>&copy; Australian Data Science Network. All rights reserved.</p>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 p-3 text-center md:text-left">
           <ul className="list-none p-0 m-0">
             <li className="mb-2">
               <Link
