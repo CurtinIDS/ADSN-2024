@@ -9,24 +9,36 @@ const Footer = () => {
           <p className="pb-4">Presenting Partners</p>
           <div className="flex flex-row items-center space-x-4">
             <div>
-              <Image
-                src="/ADSN-2024/ADSN-Logo-White-Stacked.png"
-                alt="ADSN Logo"
-                width="0"
-                height="0"
-                className="w-auto h-[70px]"
-                priority
-              />
+              <Link
+                href="https://www.australiandatascience.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/ADSN-2024/ADSN-Logo-White-Stacked.png"
+                  alt="ADSN Logo"
+                  width="0"
+                  height="0"
+                  className="w-auto h-[70px]"
+                  priority
+                />
+              </Link>
             </div>
             <div>
-              <Image
-                src="/ADSN-2024/Curtin_Logo.png"
-                alt="Curtin University Logo"
-                width="0"
-                height="0"
-                className="w-auto h-[70px]"
-                priority
-              />
+              <Link
+                href="https://datascience.curtin.edu.au/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/ADSN-2024/Curtin_Logo.png"
+                  alt="Curtin University Logo"
+                  width="0"
+                  height="0"
+                  className="w-auto h-[70px]"
+                  priority
+                />
+              </Link>
             </div>
           </div>
         </div>
