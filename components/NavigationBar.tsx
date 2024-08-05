@@ -10,7 +10,7 @@ import AdsnButton from "@/components/AdsnButton";
 
 const NavigationBar = () => {
   return (
-    <Navbar className="bg-blue-navbar" maxWidth="full">
+    <Navbar className="bg-blue-navbar" isBordered maxWidth="full">
       <NavbarBrand>
         <Image
           src="/ADSN-2024/ADSN_Logo.png"
@@ -21,26 +21,41 @@ const NavigationBar = () => {
           priority
         />
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent
+        className="hidden sm:flex gap-y-4 gap-x-10"
+        justify="center"
+      >
         <NavbarItem>
-          <Link color="foreground" className="text-white" href="#about">
+          <Link
+            color="foreground"
+            className="text-white font-extrabold"
+            href="#about"
+          >
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" className="text-white" href="#key-dates">
+          <Link
+            color="foreground"
+            className="text-white font-extrabold"
+            href="#key-dates"
+          >
             Key Dates
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" className="text-white" href="#committees">
+          <Link
+            color="foreground"
+            className="text-white font-extrabold"
+            href="#committees"
+          >
             Committees
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link
             color="foreground"
-            className="text-white"
+            className="text-white font-extrabold"
             href="mailto:uno.fang@curtin.edu.au"
           >
             Contact

@@ -13,7 +13,7 @@ const LandingPage = () => {
             fill={true}
             alt="Perth Skyline"
           />
-          <div className="absolute right-40 top-0 bg-[#e6e4dc] bg-opacity-85 pl-11 pr-4 py-8 rounded-b-xl shadow-lg w-[350px]">
+          <div className="absolute right-40 top-0 bg-[#e6e4dc] bg-opacity-85 pl-11 pr-4 py-8 rounded-b-xl shadow-lg w-[500px]">
             <h1 className="mb-2 relative text-gray-700 font-extrabold tracking-wide text-4xl leading-tight">
               <span>The 3rd Australian Data Science Network Conference</span>
               <br />

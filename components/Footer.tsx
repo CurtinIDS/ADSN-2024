@@ -14,7 +14,7 @@ const Footer = () => {
                 alt="ADSN Logo"
                 width="0"
                 height="0"
-                className="w-auto h-[65px]"
+                className="w-auto h-[70px]"
                 priority
               />
             </div>
@@ -24,7 +24,7 @@ const Footer = () => {
                 alt="Curtin University Logo"
                 width="0"
                 height="0"
-                className="w-auto h-[65px]"
+                className="w-auto h-[70px]"
                 priority
               />
             </div>

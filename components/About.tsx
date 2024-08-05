@@ -4,8 +4,8 @@ const About = () => {
       id="about"
       className="flex flex-row gap-6 px-4 py-8 items-center bg-white"
     >
-      <div className="flex-1 py-6 px-10 text-justify flex items-center">
-        <p className="font-extrabold tracking-wide text-4xl p-10">
+      <div className="flex-1 py-6 px-10 flex items-center">
+        <p className="font-extrabold text-4xl p-10">
           Australian Data Science Network Conference is coming to Perth, WA from
           2 to 4 December 2024.
         </p>
