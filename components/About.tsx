@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <div className="flex flex-row gap-6 px-4 py-8 items-center bg-white">
+    <div
+      id="about"
+      className="flex flex-row gap-6 px-4 py-8 items-center bg-white"
+    >
       <div className="flex-1 py-6 px-10 text-justify flex items-center">
         <p className="font-extrabold tracking-wide text-4xl p-10">
           Australian Data Science Network Conference is coming to Perth, WA from

@@ -10,15 +10,6 @@ const ComingSoon = () => {
         <p className="p-6 text-xl font-bold">
           Stay tuned - 2024 conference program coming soon.
         </p>
-        <p className="px-10 text-xl">
-          The Australian Data Science Network Conference 2023 showcased an
-          extensive range of topics and presentations from a diverse group of
-          speakers. Panel discussion explored the relationship between academia
-          and industry, as well as the ethical considerations in data science
-          and generative AI. Additionally, the conference featured poster
-          presentations accompanied by interactive session, allowing in-person
-          discussion and valuable networking opportunities.
-        </p>
         <p className="px-10 p-6 text-xl">
           This year, we are pleased to offer a comprehensive program designed to
           be just as stimulating and informative as the 2023 conference. Please
@@ -28,10 +19,13 @@ const ComingSoon = () => {
         </p>
         <div className="p-6 flex flex-row">
           <div className="flex-1">
-            <AdsnButton text="Register Now" />
+            <AdsnButton
+              text="Abstract Submission Portal"
+              url="https://curtin.au1.qualtrics.com/jfe/form/SV_0Pdhwdfxu0NWJH8"
+            />
           </div>
           <div className="flex-1">
-            <AdsnButton text="ADSN 2023 Wrap-up" />
+            <AdsnButton text="Registration (Coming Soon)" />
           </div>
         </div>
       </div>

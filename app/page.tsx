@@ -4,7 +4,7 @@ import About from "@/components/About";
 import KeyDates from "@/components/KeyDates";
 import ComingSoon from "@/components/ComingSoon";
 import Footer from "@/components/Footer";
-import Adsn2023 from "@/components/Adsn2023";
+import PreviousConferences from "@/components/PreviousConferences";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <About />
       <KeyDates />
       <ComingSoon />
-      <Adsn2023 />
+      <PreviousConferences />
 
       <Footer />
     </div>

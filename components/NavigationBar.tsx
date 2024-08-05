@@ -13,53 +13,46 @@ const NavigationBar = () => {
     <Navbar className="bg-blue-navbar" maxWidth="full">
       <NavbarBrand>
         <Image
-          src="/ADSN-2024/ADSN_logo.png"
+          src="/ADSN-2024/ADSN_Logo.png"
           alt="ADSN Logo"
-          width={150}
-          height={64}
+          width="0"
+          height="0"
+          className="w-auto h-[40px]"
           priority
         />
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" className="text-white" href="#">
+          <Link color="foreground" className="text-white" href="#about">
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" className="text-white" href="#">
+          <Link color="foreground" className="text-white" href="#key-dates">
             Key Dates
           </Link>
         </NavbarItem>
-        {/* <NavbarItem isActive>
-    <Link href="#" aria-current="page">
-      Key Dates
-    </Link>
-  </NavbarItem> */}
         <NavbarItem>
-          <Link color="foreground" className="text-white" href="#">
+          <Link color="foreground" className="text-white" href="#committees">
             Committees
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" className="text-white" href="#">
-            Get Involved
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" className="text-white" href="#">
-            Visitors
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" className="text-white" href="#">
+          <Link
+            color="foreground"
+            className="text-white"
+            href="mailto:uno.fang@curtin.edu.au"
+          >
             Contact
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <AdsnButton text="Register Now" />
+          <AdsnButton
+            text="Abstract Submission Portal"
+            url="https://curtin.au1.qualtrics.com/jfe/form/SV_0Pdhwdfxu0NWJH8"
+          />
         </NavbarItem>
       </NavbarContent>
     </Navbar>

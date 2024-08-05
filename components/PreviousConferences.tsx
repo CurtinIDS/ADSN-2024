@@ -1,12 +1,12 @@
 import AdsnButton from "@/components/AdsnButton";
 import Image from "next/image";
 
-const Adsn2023 = () => {
+const PreviousConferences = () => {
   return (
     <div className="p-10 relative flex justify-center items-center w-full bg-gray-300 text-black">
       <div className="text-center w-full">
         <h1 className="p-6 font-extrabold tracking-wide text-4xl">
-          ADSN Conference 2023 - Adelaide, SA
+          Previous ADSN Conferences
         </h1>
         <p className="p-10 text-xl">
           ADSN Conference 2023 was hosted by the University of Adelaide&apos;s
@@ -25,11 +25,14 @@ const Adsn2023 = () => {
           className="px-10"
         />
         <div className="p-10 flex justify-center">
-          <AdsnButton text="See ADSN Conference 2023" />
+          <AdsnButton
+            text="See ADSN Conference 2023"
+            url="https://www.australiandatascience.net/adsn-2023-conference/"
+          />
         </div>
       </div>
     </div>
   );
 };
 
-export default Adsn2023;
+export default PreviousConferences;

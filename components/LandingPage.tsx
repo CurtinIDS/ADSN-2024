@@ -25,7 +25,7 @@ const LandingPage = () => {
               Perth, Australia
             </p>
             <p className="mb-1 font-bold text-2xl tracking-wide text-gray-700">
-              2 - 5 December, 2024
+              2 - 4 December, 2024
             </p>
           </div>
         </div>
