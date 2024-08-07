@@ -60,7 +60,7 @@ const NavigationBar = () => {
           <Link
             color="foreground"
             className="text-white font-extrabold"
-            href="mailto:uno.fang@curtin.edu.au"
+            href="mailto:adsn2024@curtin.edu.au"
           >
             Contact
           </Link>

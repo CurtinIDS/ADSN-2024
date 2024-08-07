@@ -59,7 +59,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="mailto:uno.fang@curtin.edu.au"
+                href="mailto:adsn2024@curtin.edu.au"
                 className="text-white no-underline hover:no-underline"
               >
                 Contacts

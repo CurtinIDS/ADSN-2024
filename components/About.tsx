@@ -13,13 +13,13 @@ const About = () => {
       <div className="flex-1 p-3 md:py-6 md:px-10 flex items-center">
         <p className="md:text-xl md:p-10">
           The 3rd Australian Data Science Network Conference is set to take
-          place in Perth, Western Australia. Hosted by The Curtin Institute for
-          Data Science at Curtin University, Bentley Campus. The conference aims
-          to connect Australia&apos;s top experts in data science, fostering
-          collaboration, expanding opportunities, and showcasing our collective
-          capabilities. The network is driven by its members, ensuring a
-          strategic approach to enhancing outcomes and opportunities for all
-          members.
+          place in Perth, Western Australia. The Curtin Institute for Data
+          Science is hosting the conference at Curtin University&apos;s Bentley
+          Campus. The ADSN conference aims to connect Australia`&apos;s top
+          experts in data science, fostering collaboration, expanding
+          opportunities, and showcasing our collective capabilities. The network
+          is driven by its partner organisations, ensuring a strategic approach
+          to enhancing outcomes and opportunities for all members.
         </p>
       </div>
     </div>
