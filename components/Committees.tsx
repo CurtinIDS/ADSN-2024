@@ -10,10 +10,7 @@ const Committees = () => {
         Committees
       </h1>
 
-      <div
-        id="members"
-        className="flex flex-row gap-6 items-center w-full max-w-6xl"
-      >
+      <div className="flex flex-row gap-6 items-center w-full max-w-6xl">
         <div className="flex-1 p-3 md:py-6 md:px-10 flex flex-col">
           <p className="md:text-xl pb-4 ">Scientific Program Committee</p>
           <ul className="marker:text-green-button list-disc list-inside">
