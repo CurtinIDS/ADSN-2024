@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const PreviousConferences = () => {
   return (
-    <div className="p-3 md:p-10 relative flex justify-center items-center w-full bg-gray-300 text-black">
+    <div className="p-3 md:p-10 relative flex justify-center items-center w-full bg-white text-black">
       <div className="text-center w-full">
         <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl">
           Previous ADSN Conferences

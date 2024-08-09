@@ -1,39 +1,47 @@
+import Image from "next/image";
+
 const Locations = () => {
   return (
-    <div className="md:p-10 flex flex-col items-center w-full bg-white text-black scroll-mt-10">
-      <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
-        TICKET CATEGORIES
+    <div className="p-3 md:p-10 bg-gray-300 flex flex-col items-center w-full">
+      <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
+        LOCATIONS
       </h1>
-
-      <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <tbody>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-            <th
-              scope="row"
-              className="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white"
-            >
-              <div className="ps-3">
-                <div className="text-base font-semibold">General Admission</div>
-              </div>
-            </th>
-            <td className="px-6 py-4">$400</td>
-          </tr>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-            <th
-              scope="row"
-              className="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white"
-            >
-              <div className="ps-3">
-                <div className="text-base font-semibold">Student Admission</div>
-                <div className="font-normal text-gray-500">
-                  Limited to 20% of total tickets
-                </div>
-              </div>
-            </th>
-            <td className="px-6 py-4">$280 (30% off)</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="flex flex-col md:flex-row gap-6 text-white w-full max-w-6xl text-center">
+        <div className="bg-blue-navbar rounded-lg flex-1 flex flex-col overflow-hidden">
+          <div className="w-full">
+            <Image
+              src="/ADSN-2024/event_schedule_robertson.webp"
+              alt="The Hub"
+              width={400}
+              height={30}
+              layout="responsive"
+            />
+          </div>
+          <div className="p-4 w-full">
+            <h4 className="font-bold">DAY 1 & DAY 2 (2 -3 Dec, 2024)</h4>
+            <h4 className="italic">
+              TL Robertson Library, Level 7, Curtin University, Bentley, WA
+            </h4>
+          </div>
+        </div>
+        <div className="bg-blue-navbar rounded-lg flex-1 flex flex-col overflow-hidden">
+          <div className="w-full">
+            <Image
+              src="/ADSN-2024/event_schedule_techpark.webp"
+              alt="The Hub"
+              width={400}
+              height={30}
+              layout="responsive"
+            />
+          </div>
+          <div className="p-4 w-full">
+            <h4 className="font-bold text-center">DAY 3 (4 Dec, 2024)</h4>
+            <h4 className="italic text-center">
+              The Hub, Bentley Technology Park
+            </h4>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

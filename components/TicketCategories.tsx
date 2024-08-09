@@ -4,24 +4,104 @@ const TicketCategories = () => {
       <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
         TICKET CATEGORIES
       </h1>
-      <div className="p-3 md:p-6 text-center">
-        <ul>
-          <li>General Admission: $400</li>
-          <li>
-            Student Admission: $280 (30% off) - Limited to 20% of total tickets
-          </li>
-          <li>
-            Early Bird Admission: $320 (20% off) - Available until 30th
-            September 2024, limited to 30% of total tickets
-          </li>
-          <li>Sponsor Admission: Complimentary - Available to our sponsors</li>
-          <li>VIP/Guest Admission: Complimentary - By invitation only</li>
-          <li>
-            Industry-day Admission: $200 - Limited to 50 tickets for only the
-            third day, industry-focussed day + Day 1 sundowner.
-          </li>
-        </ul>
-      </div>
+
+      <table className="w-full max-w-6xl mx-3 text-sm text-left rtl:text-right shadow-md text-gray-500 dark:text-gray-400">
+        <tbody>
+          <tr className="bg-white border-b border-t dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th
+              scope="row"
+              className="flex items-center p-3 md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
+            >
+              <div className="md:ps-3">
+                <div className="text-base font-semibold">General Admission</div>
+              </div>
+            </th>
+            <td className="p-3 md:px-6 md:py-4 text-gray-900">$400</td>
+          </tr>
+          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th
+              scope="row"
+              className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
+            >
+              <div className="md:ps-3">
+                <div className="text-base font-semibold">Student Admission</div>
+                <div className="font-normal text-gray-500">
+                  Limited to 20% of total tickets
+                </div>
+              </div>
+            </th>
+            <td className="p-3 md:px-6 md:py-4 text-gray-900">
+              $280 (30% off)
+            </td>
+          </tr>
+          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th
+              scope="row"
+              className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
+            >
+              <div className="md:ps-3">
+                <div className="text-base font-semibold">
+                  Early Bird Admission
+                </div>
+                <div className="font-normal text-gray-500">
+                  Available until 30th September 2024, limited to 30% of total
+                  tickets
+                </div>
+              </div>
+            </th>
+            <td className="p-3 md:px-6 md:py-4 text-gray-900">
+              $320 (20% off)
+            </td>
+          </tr>
+          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th
+              scope="row"
+              className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
+            >
+              <div className="md:ps-3">
+                <div className="text-base font-semibold">Sponsor Admission</div>
+                <div className="font-normal text-gray-500">
+                  Available to our sponsors
+                </div>
+              </div>
+            </th>
+            <td className="p-3 md:px-6 md:py-4 text-gray-900">Complimentary</td>
+          </tr>
+          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th
+              scope="row"
+              className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
+            >
+              <div className="md:ps-3">
+                <div className="text-base font-semibold">
+                  VIP/Guest Admission
+                </div>
+                <div className="font-normal text-gray-500">
+                  By invitation only
+                </div>
+              </div>
+            </th>
+            <td className="p-3 md:px-6 md:py-4 text-gray-900">Complimentary</td>
+          </tr>
+          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th
+              scope="row"
+              className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
+            >
+              <div className="md:ps-3">
+                <div className="text-base font-semibold">
+                  Industry-day Admission
+                </div>
+                <div className="font-normal text-gray-500">
+                  Limited to 50 tickets for only the third day,
+                  industry-focussed day + Day 1 sundowner
+                </div>
+              </div>
+            </th>
+            <td className="p-3 md:px-6 md:py-4 text-gray-900">$200</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 };
