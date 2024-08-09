@@ -6,7 +6,7 @@ import ComingSoon from "@/components/ComingSoon";
 import Footer from "@/components/Footer";
 import PreviousConferences from "@/components/PreviousConferences";
 import Committees from "@/components/Committees";
-import ProgramOverview from "@/components/ProgramOverview";
+import EventSchedule from "@/components/EventSchedule";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <About />
       <KeyDates />
       <ComingSoon />
-      <ProgramOverview />
+      <EventSchedule />
       <Committees />
       <PreviousConferences />
 

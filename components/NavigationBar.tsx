@@ -13,7 +13,7 @@ import React from "react";
 
 const NavigationBar = () => {
   return (
-    <Navbar className="bg-blue-navbar" isBordered maxWidth="full">
+    <Navbar className="bg-blue-navbar md:py-1" isBordered maxWidth="full">
       <NavbarBrand>
         <Image
           src="/ADSN-2024/ADSN_Logo.png"

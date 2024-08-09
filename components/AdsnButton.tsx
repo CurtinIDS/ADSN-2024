@@ -14,7 +14,7 @@ const AdsnButton: React.FC<AdsnButtonProps> = ({ text, url = "#" }) => {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-green-button text-white text-center font-bold lg:text-xl lg:py-6 lg:px-6"
+      className="bg-green-button text-white text-center font-bold md:text-xl md:p-6"
       radius="full"
     >
       {text}

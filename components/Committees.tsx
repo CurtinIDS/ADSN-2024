@@ -4,10 +4,10 @@ const Committees = () => {
   return (
     <div
       id="committees"
-      className="md:p-10 relative flex flex-col items-center w-full bg-white text-black"
+      className="md:p-10 relative flex flex-col items-center w-full bg-white text-black scroll-mt-10"
     >
       <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
-        Committees
+        COMMITTEES
       </h1>
 
       <div className="flex flex-row gap-6 items-center w-full max-w-6xl">

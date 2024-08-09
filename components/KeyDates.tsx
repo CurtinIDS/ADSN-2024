@@ -1,6 +1,9 @@
 const KeyDates = () => {
   return (
-    <div className="md:p-10 flex flex-col justify-center items-center w-full bg-gray-300">
+    <div
+      id="key-dates"
+      className="md:p-10 flex flex-col justify-center items-center w-full bg-gray-300 scroll-mt-10"
+    >
       <h1 className="flex-1 items-start p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl">
         Key Dates
       </h1>
