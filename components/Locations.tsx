@@ -23,11 +23,9 @@ const Locations = () => {
     <div id="locations" className="scroll-mt-10">
       <div className="flex flex-col justify-end w-full h-[300px] md:h-[600px] bg-cover bg-center bg-[url('/ADSN-2024/background_locations.webp')]">
         <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
-          <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
-            <span className="bg-white/75 mb-3 px-3 md:px-12 md:py-2 inline-block">
-              LOCATIONS
-            </span>
-          </h1>
+          <span className="bg-white/75 mb-3 px-3 md:px-12 md:py-2 inline-block">
+            LOCATIONS
+          </span>
         </h1>
       </div>
       <div className="p-3 md:p-10 bg-gray-300 flex flex-col items-center w-full">
