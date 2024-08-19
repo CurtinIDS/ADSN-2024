@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const EventSchedule = () => {
   return (
-    <div className="p-3 md:p-10 bg-gray-300 flex flex-col items-center w-full">
+    <div
+      id="event-schedule"
+      className="p-3 md:p-10 bg-gray-300 flex flex-col items-center w-full scroll-mt-10"
+    >
       <h1 className="md:p-3 font-extrabold md:tracking-wide md:text-4xl text-center">
         EVENT SCHEDULE
       </h1>

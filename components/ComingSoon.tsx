@@ -2,7 +2,10 @@ import AdsnButton from "./AdsnButton";
 
 const ComingSoon = () => {
   return (
-    <div className="p-3 md:p-10 flex flex-col text-center text-white justify-center items-center w-full bg-cover bg-center bg-[url('/ADSN-2024/background_coming_soon.webp')]">
+    <div
+      id="coming-soon"
+      className="p-3 md:p-10 flex flex-col text-center text-white justify-center items-center w-full bg-cover bg-center bg-[url('/ADSN-2024/background_coming_soon.webp')]"
+    >
       <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center text-white">
         2024 CONFERENCE PROGRAM COMING SOON
       </h1>

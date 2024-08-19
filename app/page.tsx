@@ -21,6 +21,7 @@ export default function Home() {
       <ComingSoon />
       <EventSchedule />
       <TicketCategories />
+      <Locations />
       <Committees />
       <PreviousConferences />
 

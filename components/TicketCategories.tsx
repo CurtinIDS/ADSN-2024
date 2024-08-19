@@ -1,6 +1,9 @@
 const TicketCategories = () => {
   return (
-    <div className="md:p-10 flex flex-col items-center w-full bg-white text-black scroll-mt-10">
+    <div
+      id="ticket-categories"
+      className="md:p-10 flex flex-col items-center w-full bg-white text-black scroll-mt-10"
+    >
       <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
         TICKET CATEGORIES
       </h1>

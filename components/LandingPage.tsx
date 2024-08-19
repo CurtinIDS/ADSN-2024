@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LandingPage = () => {
   return (
-    <div className="relative flex justify-center flex-grow">
+    <div id="landing-page" className="relative flex justify-center flex-grow">
       <div className="relative flex flex-col h-[calc(100vh-64px)] w-full">
         <div className="relative flex-grow">
           <Image

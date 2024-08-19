@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white font-extrabold p-3 md:py-8 flex justify-center">
+    <footer
+      id="footer"
+      className="bg-black text-white font-extrabold p-3 md:py-8 flex justify-center"
+    >
       <div className="grid grid-cols-2 grid-rows-2 md:gap-8 w-full max-w-6xl md:py-10 md:px-24">
         <div className="col-span-2">
           <p className="pb-2 md:pb-4">Presenting Partners</p>
