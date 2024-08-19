@@ -13,6 +13,7 @@ const config: Config = {
       colors: {
         "blue-navbar": "#01446e",
         "green-button": "#3fa381",
+        "gray-background": "#f1f1f1",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -10,19 +10,24 @@ import {
 import Image from "next/image";
 import AdsnButton from "@/components/AdsnButton";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 const NavigationBar = () => {
+  const pathname = usePathname();
+
   return (
     <Navbar className="bg-blue-navbar md:py-1" isBordered maxWidth="full">
       <NavbarBrand>
-        <Image
-          src="/ADSN-2024/ADSN_Logo.png"
-          alt="ADSN Logo"
-          width="0"
-          height="0"
-          className="min-w-[150px] h-[35px]"
-          priority
-        />
+        <Link href="/ADSN-2024/">
+          <Image
+            src="/ADSN-2024/ADSN_Logo.png"
+            alt="ADSN Logo"
+            width="0"
+            height="0"
+            className="min-w-[150px] h-[35px]"
+            priority
+          />
+        </Link>
       </NavbarBrand>
 
       <NavbarContent
@@ -33,7 +38,7 @@ const NavigationBar = () => {
           <Link
             color="foreground"
             className="text-white font-extrabold"
-            href="#about"
+            href={pathname === "/" ? "#about" : "/ADSN-2024/#about"}
           >
             About
           </Link>
@@ -42,7 +47,7 @@ const NavigationBar = () => {
           <Link
             color="foreground"
             className="text-white font-extrabold"
-            href="#key-dates"
+            href={pathname === "/" ? "#key-dates" : "/ADSN-2024/#key-dates"}
           >
             Key Dates
           </Link>
@@ -51,9 +56,18 @@ const NavigationBar = () => {
           <Link
             color="foreground"
             className="text-white font-extrabold"
-            href="#committees"
+            href={pathname === "/" ? "#committees" : "/ADSN-2024/#committees"}
           >
             Committees
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            className="text-white font-extrabold"
+            href="/ADSN-2024/locations"
+          >
+            Locations
           </Link>
         </NavbarItem>
         <NavbarItem>
