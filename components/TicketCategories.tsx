@@ -13,7 +13,7 @@ const TicketCategories = () => {
         (10% GST inclusive, Eventbrite processing fee exclusive)
       </h2>
 
-      <table className="w-full max-w-6xl mx-3 text-sm text-left rtl:text-right shadow-md text-gray-500 dark:text-gray-400">
+      <table className="w-full max-w-6xl mx-3 text-left rtl:text-right shadow-md text-gray-500 dark:text-gray-400">
         <tbody>
           <TicketCategoriesRow
             borderTop={true}
