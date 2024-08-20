@@ -37,7 +37,7 @@ const Committees = () => {
         </div>
         <div className="flex-1 p-3 md:py-6 md:px-10 flex flex-col">
           <p className="md:text-xl md:pb-4">
-            Organizing Committee (
+            Organising Committee (
             <Link
               href="https://datascience.curtin.edu.au/"
               target="_blank"

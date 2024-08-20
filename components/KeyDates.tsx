@@ -1,4 +1,4 @@
-import TicketCategoriesRow from "./TicketCategoriesRow";
+import KeyDatesRow from "./KeyDatesRow";
 
 const KeyDates = () => {
   return (
@@ -31,45 +31,18 @@ const KeyDates = () => {
             </tr>
           </thead>
           <tbody>
-            <tr className="border-b">
-              <th
-                scope="row"
-                className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
-              >
-                <div className="md:text-xl font-semibold">
-                  Abstract Submission Open
-                </div>
-              </th>
-              <td className="md:text-xl p-3 md:px-6 md:py-4 text-gray-900">
-                5 August 2024
-              </td>
-            </tr>
-            <tr className="border-b ">
-              <th
-                scope="row"
-                className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
-              >
-                <div className="md:text-xl font-semibold">
-                  Abstract Submission Close
-                </div>
-              </th>
-              <td className="md:text-xl p-3 md:px-6 md:py-4 text-gray-900">
-                13 September 2024
-              </td>
-            </tr>
-            <tr className="border-b ">
-              <th
-                scope="row"
-                className="p-3 flex items-center md:px-6 md:py-4 text-gray-900 md:whitespace-nowrap dark:text-white"
-              >
-                <div className="md:text-xl font-semibold">
-                  ADSN Conference Dates
-                </div>
-              </th>
-              <td className="md:text-xl p-3 md:px-6 md:py-4 text-gray-900">
-                2 - 4 December 2024
-              </td>
-            </tr>
+            <KeyDatesRow
+              event="Abstract Submission Open"
+              date="5 August 2024"
+            />
+            <KeyDatesRow
+              event="Abstract Submission Close"
+              date="13 September 2024"
+            />
+            <KeyDatesRow
+              event="ADSN Conference Dates"
+              date="2 - 4 December 2024"
+            />
           </tbody>
         </table>
       </div>
