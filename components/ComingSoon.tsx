@@ -29,7 +29,10 @@ const ComingSoon = () => {
         </div>
         <div className="flex-1 p-3 md:py-6 md:px-10 flex  items-center justify-center">
           <div className="flex-1">
-            <AdsnButton text="Registration" />
+            <AdsnButton
+              text="Registration"
+              url="https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317"
+            />
           </div>
         </div>
       </div>
