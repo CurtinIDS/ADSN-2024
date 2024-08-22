@@ -4,6 +4,7 @@ interface RowProps {
   borderTop?: boolean;
   category: string;
   description: string;
+  description_2?: string;
   price: string;
 }
 
@@ -11,6 +12,7 @@ const TicketCategoriesRow: React.FC<RowProps> = ({
   borderTop = false,
   category,
   description,
+  description_2 = "",
   price,
 }) => {
   return (
@@ -26,6 +28,7 @@ const TicketCategoriesRow: React.FC<RowProps> = ({
         <div className="md:ps-3 md:text-xl">
           <div className="md:text-xl font-semibold">{category}</div>
           <div className="font-normal text-gray-500">{description}</div>
+          <div className="font-normal text-gray-500">{description_2}</div>
         </div>
       </th>
       <td className="md:text-xl p-3 md:px-6 md:py-4 text-gray-900">{price}</td>

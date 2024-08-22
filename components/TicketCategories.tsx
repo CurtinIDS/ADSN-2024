@@ -10,7 +10,7 @@ const TicketCategories = () => {
         TICKET CATEGORIES
       </h1>
       <h2 className="pb-3 md:pb-6 px-3 md:px-6 text-center">
-        (10% GST inclusive, Eventbrite processing fee exclusive)
+        (*Eventbrite processing fee and 10% GST exclusive)
       </h2>
 
       <table className="w-full max-w-6xl mx-3 text-left rtl:text-right shadow-md text-gray-500 dark:text-gray-400">
@@ -19,17 +19,18 @@ const TicketCategories = () => {
             borderTop={true}
             category="General Admission"
             description=""
-            price="$400"
+            price="$400 + fees*"
           />
           <TicketCategoriesRow
             category="Student Admission"
-            description="Limited to 20% of total tickets"
-            price="$280 (30% off)"
+            description="Please note, Student Admission is exclusively available to current students enrolled at a recognised educational institution."
+            description_2="We reserve the right to cancel any registrations if the registrant cannot provide valid proof of enrolment."
+            price="$260 + fees*"
           />
           <TicketCategoriesRow
             category="Early Bird Admission"
-            description="Available until 30th September 2024, limited to 30% of total tickets"
-            price="$320 (20% off)"
+            description="Available until 30th September 2024."
+            price="$365 + fees*"
           />
           <TicketCategoriesRow
             category="Sponsor Admission"
@@ -43,8 +44,8 @@ const TicketCategories = () => {
           />
           <TicketCategoriesRow
             category="Industry-day Admission"
-            description="Limited to 50 tickets for only the third day, industry-focussed day + Day 1 sundowner"
-            price="$200"
+            description="Industry-focused day (Day 3) + Sundowner Day 1"
+            price="$185 + fees*"
           />
         </tbody>
       </table>
