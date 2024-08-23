@@ -18,7 +18,7 @@ const TicketCategories = () => {
           <TicketCategoriesRow
             borderTop={true}
             category="General Admission"
-            description="Includes all three days of the ADSN Conference"
+            description="Includes all three days of the ADSN Conference."
             price="$400 + fees*"
           />
           <TicketCategoriesRow
@@ -33,17 +33,17 @@ const TicketCategories = () => {
           />
           <TicketCategoriesRow
             category="Sponsor Admission"
-            description="Available to our sponsors"
+            description="Available to our sponsors."
             price="Complimentary"
           />
           <TicketCategoriesRow
             category="VIP/Guest Admission"
-            description="By invitation only"
+            description="By invitation only."
             price="Complimentary"
           />
           <TicketCategoriesRow
             category="Industry-day Admission"
-            description="Includes the Industry-focused day (Day 3) and Sundowner on Day 1"
+            description="Includes the Industry-focused day (Day 3) and Sundowner on Day 1."
             price="$185 + fees*"
           />
         </tbody>

@@ -40,12 +40,12 @@ const KeyDates = () => {
               date="13 September 2024"
             />
             <KeyDatesRow
-              event="ADSN Conference Dates"
-              date="2 - 4 December 2024"
-            />
-            <KeyDatesRow
               event="Early Bird Admission Pricing Ends"
               date="30 September 2024"
+            />
+            <KeyDatesRow
+              event="ADSN Conference Dates"
+              date="2 - 4 December 2024"
             />
           </tbody>
         </table>
