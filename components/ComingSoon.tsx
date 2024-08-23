@@ -1,4 +1,3 @@
-import { Button } from "@nextui-org/button";
 import AdsnButton from "./AdsnButton";
 
 const ComingSoon = () => {
@@ -30,17 +29,10 @@ const ComingSoon = () => {
         </div>
         <div className="flex-1 p-3 md:py-6 md:px-10 flex  items-center justify-center">
           <div className="flex-1">
-            <Button
-              className="bg-green-button text-white text-center font-bold md:text-xl md:p-6"
-              radius="full"
-            >
-              Registration
-            </Button>
-            {/* Uncomment this button once the registration is open:
             <AdsnButton
               text="Registration"
               url="https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317"
-            /> */}
+            />
           </div>
         </div>
       </div>
