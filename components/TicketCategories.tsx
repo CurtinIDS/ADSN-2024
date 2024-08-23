@@ -18,18 +18,17 @@ const TicketCategories = () => {
           <TicketCategoriesRow
             borderTop={true}
             category="General Admission"
-            description=""
+            description="Includes all three days of the ADSN Conference"
             price="$400 + fees*"
           />
           <TicketCategoriesRow
             category="Student Admission"
-            description="Please note, Student Admission is exclusively available to current students enrolled at a recognised educational institution."
-            description_2="We reserve the right to cancel any registrations if the registrant cannot provide valid proof of enrolment."
+            description=" Includes all three days of the ADSN Conference. Please note, Student Admission is exclusively available to current students enrolled at a recognised educational institution. We reserve the right to cancel any registrations if the registrant cannot provide valid proof of enrolment."
             price="$260 + fees*"
           />
           <TicketCategoriesRow
             category="Early Bird Admission"
-            description="Available until 30th September 2024."
+            description="Includes all three days of the ADSN Conference. Available until 30th September 2024."
             price="$365 + fees*"
           />
           <TicketCategoriesRow
@@ -44,7 +43,7 @@ const TicketCategories = () => {
           />
           <TicketCategoriesRow
             category="Industry-day Admission"
-            description="Industry-focused day (Day 3) + Sundowner Day 1"
+            description="Includes the Industry-focused day (Day 3) and Sundowner on Day 1"
             price="$185 + fees*"
           />
         </tbody>
