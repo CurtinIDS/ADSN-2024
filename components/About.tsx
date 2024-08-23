@@ -15,7 +15,7 @@ const About = () => {
           The 3rd Australian Data Science Network Conference is set to take
           place in Perth, Western Australia. The Curtin Institute for Data
           Science is hosting the conference at Curtin University&apos;s Bentley
-          Campus. The ADSN conference aims to connect Australia`&apos;s top
+          Campus. The ADSN conference aims to connect Australia&apos;s top
           experts in data science, fostering collaboration, expanding
           opportunities, and showcasing our collective capabilities. The network
           is driven by its partner organisations, ensuring a strategic approach
