@@ -74,6 +74,15 @@ const NavigationBar = () => {
           <Link
             color="foreground"
             className="text-white font-extrabold"
+            href="/ADSN-2024/sponsorship"
+          >
+            Sponsorship
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="foreground"
+            className="text-white font-extrabold"
             href="mailto:adsn2024@curtin.edu.au"
           >
             Contact
