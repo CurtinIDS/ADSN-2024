@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex-1 p-3 md:py-6 md:px-10 flex items-center">
         <p className="font-extrabold md:text-4xl md:p-10">
           Australian Data Science Network Conference is coming to Perth, WA from
-          2 to 4 December 2024.
+          2 to 4 December 2024
         </p>
       </div>
       <div className="flex-1 p-3 md:py-6 md:px-10 flex items-center">
