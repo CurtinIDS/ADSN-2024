@@ -32,6 +32,7 @@ const Locations = () => {
         <div className="flex flex-col md:flex-col gap-6 text-black w-full max-w-6xl text-center">
           <div className="flex-1 flex flex-col overflow-hidden">
             <div className="p-4 w-full">
+              <h2 className="md:text-2xl">Day 1 and Day 2</h2>
               <h4 className="font-bold md:text-xl">
                 {tl_robertson_library.name}
               </h4>
@@ -44,6 +45,7 @@ const Locations = () => {
           </div>
           <div className="flex-1 flex flex-col overflow-hidden">
             <div className="p-4 w-full">
+              <h2 className="md:text-2xl">Day 3</h2>
               <h4 className="font-bold md:text-xl">{the_hub.name}</h4>
               <h4>{the_hub.address}</h4>
             </div>
