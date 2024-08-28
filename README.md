@@ -44,8 +44,11 @@ npm install -g pnpm
 [NextUI](https://nextui.org/docs/guide/introduction) is used for UI components. This [extra step](https://nextui.org/docs/guide/installation#hoisted-dependencies-setup-1) is required for `pnpm`:
 
 ```bash
-# Example location of `.pnpmrc` if using `nvm`
+# Example location of `.pnpmrc` if using `nvm`. For Linux:
 sudo gedit ~/.nvm/.npmrc
+
+# or for Mac:
+nano ~/.nvm/.npmrc
 
 # Add this line and save
 public-hoist-pattern[]=*@nextui-org/*
