@@ -102,7 +102,7 @@ const NavigationBar = () => {
             className="text-white font-extrabold"
             href="/ADSN-2024/sponsorship"
           >
-            Sponsorship
+            Sponsor Us
           </Link>
         </NavbarItem>
         <NavbarItem>
@@ -166,7 +166,7 @@ const NavigationBar = () => {
             className="text-blue-navbar font-extrabold"
             href="/ADSN-2024/sponsorship"
           >
-            Sponsorship
+            Sponsor Us
           </Link>
         </NavbarItem>
         <NavbarItem>
