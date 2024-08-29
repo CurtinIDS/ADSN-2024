@@ -32,7 +32,6 @@ const EventSchedule = () => {
               <li>Keynote Speeches</li>
               <li>Panel Discussions</li>
               <li>Poster Presentations</li>
-              <li>Workshop and Tutorials</li>
               <li>Network Breaks</li>
               <li>Sundowner on Day 1</li>
               <li>Optional visits to Curtin Hive</li>
