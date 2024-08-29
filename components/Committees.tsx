@@ -1,70 +1,110 @@
-import Link from "next/link";
+import CommitteesProfile from "@/components/CommitteesProfile";
+import { CommitteeProps } from "@/components/CommitteesProfile";
+
+const committeesScientificProgram: CommitteeProps[] = [
+  {
+    name: "Prof. Melanie Johnston-Hollitt",
+    role: "Director, Curtin Institute for Data Science (Chair)",
+    // profile_picture_path: "melanie.png" -> place the pictures in `/public/public_pictures/` and uncomment this
+  },
+  {
+    name: "Prof. Joanna Batstone",
+    role: "Director, Monash Data Futures Institute",
+  },
+  {
+    name: "Prof. Christopher Fluke",
+    role: "Director Advanced Visualisation Laboratory, Swinburne University",
+  },
+  {
+    name: "Prof. Lewis Mitchell",
+    role: "Immediate Past Conference Chair, University of Adelaide",
+  },
+  {
+    name: "Prof. Michael Small",
+    role: "Director, UWA Data Institute",
+  },
+  {
+    name: "Keith Russell",
+    role: "Director Outreach, Australia Research Data Commons",
+  },
+];
+const committeesOrganising: CommitteeProps[] = [
+  {
+    name: "Dr Uno Fang",
+    role: "Chair",
+  },
+  {
+    name: "Dr Daniel Marrable",
+    role: "Deputy Chair",
+  },
+  {
+    name: "Calvin Pang",
+    role: "Program Coordination and Catering Management",
+  },
+  {
+    name: "Dario Limongi",
+    role: "Web Application Development",
+  },
+  {
+    name: "Juanaili Hultzsch",
+    role: "Logistics and Venue Coordination",
+  },
+  {
+    name: "Leigh Tyers",
+    role: "Program Coordination and Risk Management",
+  },
+  {
+    name: "Shan Shan Ng",
+    role: "Budget, Finance and Participant Management",
+  },
+  {
+    name: "Trish Radotic",
+    role: "Business Development and Sponsorship Engagement",
+  },
+  {
+    name: "Youngwoo (Paul) Kim",
+    role: "Marketing and Publicity",
+  },
+  {
+    name: "Tim Macuga",
+    role: "Community Engagement, Queensland University of Technology",
+  },
+];
 
 const Committees = () => {
   return (
     <div
       id="committees"
-      className="md:p-10 relative flex flex-col items-center w-full bg-gray-background text-black scroll-mt-10"
+      className="flex-1 flex flex-col items-center justify-center text-center w-full max-w-6xl mx-auto"
     >
-      <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
+      <p className="font-extrabold p-3 text-2xl md:text-4xl md:p-10 text-blue-navbar">
         COMMITTEES
-      </h1>
-
-      <div className="flex flex-row gap-6 items-center w-full max-w-6xl">
-        <div className="flex-1 p-3 md:py-6 md:px-10 flex flex-col">
-          <p className="md:text-xl pb-4 ">Scientific Program Committee</p>
-          <ul className="marker:text-green-button list-disc list-inside">
-            <li>
-              Prof. Melanie Johnston-Hollitt, Director, Curtin Institute for
-              Data Science (Chair)
-            </li>
-            <li>
-              Prof. Joanna Batstone, Director, Monash Data Futures Institute
-            </li>
-            <li>
-              Prof. Christopher Fluke, Director Advanced Visualisation
-              Laboratory, Swinburne University
-            </li>
-            <li>
-              Prof. Lewis Mitchell, University of Adelaide (immediate past
-              conference chair)
-            </li>
-            <li>Prof. Michael Small, Director, UWA Data Institute</li>
-            <li>
-              Keith Russell, Director Outreach, Australia Research Data Commons
-            </li>
-          </ul>
-        </div>
-        <div className="flex-1 p-3 md:py-6 md:px-10 flex flex-col">
-          <p className="md:text-xl md:pb-4">
-            Organising Committee (
-            <Link
-              href="https://datascience.curtin.edu.au/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CIDS
-            </Link>
-            )
-          </p>
-          <ul className="marker:text-green-button list-disc list-inside select-end">
-            <li>Dr Uno Fang (Chair)</li>
-            <li>Dr Daniel Marrable (Deputy Chair)</li>
-            <li>Calvin Pang (Program Coordination and Catering Management)</li>
-            <li>Dario Limongi (Web Application Development)</li>
-            <li>Juanaili Hultzsch (Logistics and Venue Coordination)</li>
-            <li>Leigh Tyers (Program Coordination and Risk Management)</li>
-            <li>Shan Shan Ng (Budget, Finance and Participant Management)</li>
-            <li>
-              Trish Radotic (Business Development and Sponsorship Engagement)
-            </li>
-            <li>Youngwoo (Paul) Kim (Marketing and Publicity)</li>
-            <li>
-              Tim Macuga, Queensland University of Technology (Community
-              Engagement)
-            </li>
-          </ul>
-        </div>
+      </p>
+      <p className="font-extrabold p-3 text-xl md:text-3xl text-blue-navbar">
+        Scientific Program Committee
+      </p>
+      <div className="p-3 md:my-10 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10">
+        {committeesScientificProgram.map((item, index) => (
+          <CommitteesProfile
+            key={index}
+            name={item.name}
+            role={item.role}
+            profile_picture_path={item.profile_picture_path}
+          />
+        ))}
+      </div>
+      <h3 className="font-extrabold p-3 text-xl md:text-3xl text-blue-navbar">
+        Organising Committee (CIDS)
+      </h3>
+      <div className="p-3 md:my-10 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10">
+        {committeesOrganising.map((item, index) => (
+          <CommitteesProfile
+            key={index}
+            name={item.name}
+            role={item.role}
+            profile_picture_path={item.profile_picture_path}
+          />
+        ))}
       </div>
     </div>
   );

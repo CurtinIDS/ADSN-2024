@@ -4,7 +4,7 @@ const Sponsorship = () => {
   return (
     <div
       id="sponsorship"
-      className="bg-white scroll-mt-10 flex flex-col w-full items-center"
+      className="bg-white scroll-mt-10 flex-1 flex flex-col w-full items-center"
     >
       <div className="flex justify-center text-center">
         <p className="font-extrabold p-3 md:text-4xl md:p-10 text-blue-navbar">

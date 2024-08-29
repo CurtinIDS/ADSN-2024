@@ -82,7 +82,7 @@ const NavigationBar = () => {
           <Link
             color="foreground"
             className="text-white font-extrabold"
-            href={pathname === "/" ? "#committees" : "/ADSN-2024/#committees"}
+            href="/ADSN-2024/committees"
           >
             Committees
           </Link>
@@ -146,7 +146,7 @@ const NavigationBar = () => {
           <Link
             color="foreground"
             className="text-blue-navbar font-extrabold"
-            href={pathname === "/" ? "#committees" : "/ADSN-2024/#committees"}
+            href="/ADSN-2024/committees"
           >
             Committees
           </Link>

@@ -5,7 +5,7 @@ const PreviousConferences = () => {
   return (
     <div
       id="previous-conferences"
-      className="p-3 md:p-10 relative flex justify-center items-center w-full bg-white text-black scroll-mt-10"
+      className="p-3 md:p-10 relative flex justify-center items-center w-full bg-gray-background text-black scroll-mt-10"
     >
       <div className="text-center w-full">
         <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl">
