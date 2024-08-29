@@ -1,4 +1,5 @@
 import SponsorshipRow from "./SponsorshipRow";
+import AdsnButton from "@/components/AdsnButton";
 
 const Sponsorship = () => {
   return (
@@ -133,6 +134,9 @@ const Sponsorship = () => {
           Show your support in data science
         </p>
       </div>
+      <AdsnButton text="Contact Us"
+        url="mailto:adsn2024@curtin.edu.au" />
+      <br />
     </div>
   );
 };
