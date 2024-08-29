@@ -15,9 +15,40 @@ import AdsnButton from "@/components/AdsnButton";
 import React from "react";
 import { usePathname } from "next/navigation";
 
+interface MenuItem {
+  name: string;
+  link: string;
+}
+
 const NavigationBar = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const menuItems: MenuItem[] = [
+    {
+      name: "About",
+      link: pathname === "/" ? "#about" : "/ADSN-2024/#about",
+    },
+    {
+      name: "Key Dates",
+      link: pathname === "/" ? "#key-dates" : "/ADSN-2024/#key-dates",
+    },
+    {
+      name: "Committees",
+      link: "/ADSN-2024/committees",
+    },
+    {
+      name: "Locations",
+      link: "/ADSN-2024/locations",
+    },
+    {
+      name: "Sponsor Us",
+      link: "/ADSN-2024/sponsorship",
+    },
+    {
+      name: "Contact",
+      link: "mailto:adsn2024@curtin.edu.au",
+    },
+  ];
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
@@ -60,60 +91,17 @@ const NavigationBar = () => {
         className="hidden sm:flex gap-y-4 gap-x-10"
         justify="center"
       >
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-white font-extrabold"
-            href={pathname === "/" ? "#about" : "/ADSN-2024/#about"}
-          >
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-white font-extrabold"
-            href={pathname === "/" ? "#key-dates" : "/ADSN-2024/#key-dates"}
-          >
-            Key Dates
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-white font-extrabold"
-            href="/ADSN-2024/committees"
-          >
-            Committees
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-white font-extrabold"
-            href="/ADSN-2024/locations"
-          >
-            Locations
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-white font-extrabold"
-            href="/ADSN-2024/sponsorship"
-          >
-            Sponsor Us
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-white font-extrabold"
-            href="mailto:adsn2024@curtin.edu.au"
-          >
-            Contact
-          </Link>
-        </NavbarItem>
+        {menuItems.map((item, index) => (
+          <NavbarItem key={index}>
+            <Link
+              color="foreground"
+              className="text-white font-extrabold"
+              href={item.link}
+            >
+              {item.name}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
@@ -124,60 +112,17 @@ const NavigationBar = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="text-blue-navbar font-extrabold">
-        <NavbarMenuItem>
-          <Link
-            color="foreground"
-            className="text-blue-navbar font-extrabold"
-            href={pathname === "/" ? "#about" : "/ADSN-2024/#about"}
-          >
-            About
-          </Link>
-        </NavbarMenuItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-blue-navbar font-extrabold"
-            href={pathname === "/" ? "#key-dates" : "/ADSN-2024/#key-dates"}
-          >
-            Key Dates
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-blue-navbar font-extrabold"
-            href="/ADSN-2024/committees"
-          >
-            Committees
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-blue-navbar font-extrabold"
-            href="/ADSN-2024/locations"
-          >
-            Locations
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-blue-navbar font-extrabold"
-            href="/ADSN-2024/sponsorship"
-          >
-            Sponsor Us
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            className="text-blue-navbar font-extrabold"
-            href="mailto:adsn2024@curtin.edu.au"
-          >
-            Contact
-          </Link>
-        </NavbarItem>
+        {menuItems.map((item, index) => (
+          <NavbarItem key={index}>
+            <Link
+              color="foreground"
+              className="text-blue-navbar font-extrabold"
+              href={item.link}
+            >
+              {item.name}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarMenu>
     </Navbar>
   );
