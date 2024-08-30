@@ -134,8 +134,11 @@ const Sponsorship = () => {
           Show your support in data science
         </p>
       </div>
-      <AdsnButton text="Contact Us"
-        url="mailto:adsn2024@curtin.edu.au" />
+      <AdsnButton
+        extraClasses="mb-5"
+        text="Contact Us"
+        url="mailto:adsn2024@curtin.edu.au"
+      />
       <br />
     </div>
   );
