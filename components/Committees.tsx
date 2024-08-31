@@ -4,7 +4,7 @@ import { CommitteeProps } from "@/components/CommitteesProfile";
 const committeesScientificProgram: CommitteeProps[] = [
   {
     name: "Prof. Melanie Johnston-Hollitt",
-    role: "Director, Curtin Institute for Data Science (Chair)",
+    role: "Chair\nDirector, Curtin Institute for Data Science",
     profile_picture_path: "SPC/Melanie_Johnston-Hollitt.jpg",
     // profile_picture_path: "melanie.png" -> place the pictures in `/public/public_pictures/` and uncomment this
     biography_url: "https://datascience.curtin.edu.au/about-us/our-people/professor-melanie-johnston-hollitt/",
