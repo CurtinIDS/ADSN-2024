@@ -127,7 +127,7 @@ const Committees = () => {
         ))}
       </div>
       <h3 className="font-extrabold p-3 text-xl md:text-3xl text-blue-navbar">
-        Organising Committee (CIDS)
+        Organising Committee
       </h3>
       <div className="p-3 md:my-10 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10">
         {committeesOrganising.map((item, index) => (
