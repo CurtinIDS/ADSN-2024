@@ -131,7 +131,7 @@ const Sponsorship = () => {
       </div>
       <div className="flex justify-center text-center">
         <p className="font-extrabold p-3 md:text-4xl md:p-10 text-blue-navbar">
-          Show your support in data science
+          Please show your support for data science
         </p>
       </div>
       <AdsnButton
