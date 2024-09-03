@@ -48,7 +48,7 @@ const NavigationBar = () => {
       link: "#",
       subtabs: [
         { name: "Locations", link: "/ADSN-2024/locations" },
-        { name: "Accommodations", link: "/ADSN-2024/comingsoon" },
+        { name: "Accommodation", link: "/ADSN-2024/comingsoon" },
       ],
     },
     {

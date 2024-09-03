@@ -27,7 +27,7 @@ const Locations = () => {
       <div className="flex flex-col justify-end w-full h-[300px] md:h-[600px] bg-cover bg-center bg-[url('/ADSN-2024/background_locations.webp')]">
         <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
           <span className="bg-white/75 mb-3 px-3 md:px-12 md:py-2 inline-block">
-            LOCATIONS
+            CONFERENCE LOCATIONS
           </span>
         </h1>
       </div>
