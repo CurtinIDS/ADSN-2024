@@ -18,11 +18,14 @@ import { usePathname } from "next/navigation";
 interface MenuItem {
   name: string;
   link: string;
+  subtabs?: MenuItem[];
 }
 
 const NavigationBar = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [activeTab, setActiveTab] = React.useState<string | null>(null);
+
   const menuItems: MenuItem[] = [
     {
       name: "About",
@@ -33,12 +36,20 @@ const NavigationBar = () => {
       link: pathname === "/" ? "#key-dates" : "/ADSN-2024/#key-dates",
     },
     {
+      name: "Program",
+      link: "/ADSN-2024/comingsoon",
+    },
+    {
       name: "Committees",
       link: "/ADSN-2024/committees",
     },
     {
-      name: "Locations",
-      link: "/ADSN-2024/locations",
+      name: "Attend",
+      link: "#",
+      subtabs: [
+        { name: "Locations", link: "/ADSN-2024/locations" },
+        { name: "Accommodations", link: "/ADSN-2024/comingsoon" },
+      ],
     },
     {
       name: "Sponsor Us",
@@ -49,6 +60,11 @@ const NavigationBar = () => {
       link: "mailto:adsn2024@curtin.edu.au",
     },
   ];
+
+  const handleTabClick = (name: string) => {
+    setActiveTab((prev) => (prev === name ? null : name));
+  };
+
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
@@ -92,14 +108,40 @@ const NavigationBar = () => {
         justify="center"
       >
         {menuItems.map((item, index) => (
-          <NavbarItem key={index}>
-            <Link
-              color="foreground"
-              className="text-white font-extrabold"
-              href={item.link}
-            >
-              {item.name}
-            </Link>
+          <NavbarItem key={index} className="relative">
+            {item.subtabs ? (
+              <div className="relative group">
+                <button
+                  onClick={() => handleTabClick(item.name)}
+                  className={`text-white font-extrabold focus:outline-none ${activeTab === item.name ? "underline" : ""
+                    }`}
+                >
+                  {item.name}
+                </button>
+                {activeTab === item.name && (
+                  <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden z-10 transition-all ease-in-out duration-300 opacity-100">
+                    {item.subtabs.map((subtab, subIndex) => (
+                      <Link
+                        key={subIndex}
+                        href={subtab.link}
+                        className="block px-4 py-2 text-blue-navbar hover:bg-gray-100"
+                      >
+                        {subtab.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                color="foreground"
+                className={`text-white font-extrabold ${pathname === item.link ? "underline" : ""
+                  }`}
+                href={item.link}
+              >
+                {item.name}
+              </Link>
+            )}
           </NavbarItem>
         ))}
       </NavbarContent>
@@ -113,15 +155,41 @@ const NavigationBar = () => {
       </NavbarContent>
       <NavbarMenu className="text-blue-navbar font-extrabold">
         {menuItems.map((item, index) => (
-          <NavbarItem key={index}>
-            <Link
-              color="foreground"
-              className="text-blue-navbar font-extrabold"
-              href={item.link}
-            >
-              {item.name}
-            </Link>
-          </NavbarItem>
+          <NavbarMenuItem key={index}>
+            {item.subtabs ? (
+              <div className="relative group">
+                <button
+                  onClick={() => handleTabClick(item.name)}
+                  className={`text-blue-navbar font-extrabold focus:outline-none ${activeTab === item.name ? "underline" : ""
+                    }`}
+                >
+                  {item.name}
+                </button>
+                {activeTab === item.name && (
+                  <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden z-10 transition-all ease-in-out duration-300 opacity-100">
+                    {item.subtabs.map((subtab, subIndex) => (
+                      <Link
+                        key={subIndex}
+                        href={subtab.link}
+                        className="block px-4 py-2 text-blue-navbar hover:bg-gray-100"
+                      >
+                        {subtab.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                color="foreground"
+                className={`text-blue-navbar font-extrabold ${pathname === item.link ? "underline" : ""
+                  }`}
+                href={item.link}
+              >
+                {item.name}
+              </Link>
+            )}
+          </NavbarMenuItem>
         ))}
       </NavbarMenu>
     </Navbar>
