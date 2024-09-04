@@ -44,6 +44,10 @@ const NavigationBar = () => {
       link: "/ADSN-2024/committees",
     },
     {
+      name: "Speakers",
+      link: "/ADSN-2024/comingsoon",
+    },
+    {
       name: "Attend",
       link: "#",
       subtabs: [
