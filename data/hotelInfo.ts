@@ -31,8 +31,8 @@ export const hotelInfo = [
     location: "South Perth",
     address: "61 Canning Hwy, South Perth WA 6151, Australia",
     phone: "+61 8 9367 6122",
-    walkingDirections: "https://maps.app.goo.gl/example-walking-metro",
-    drivingDirections: "https://maps.app.goo.gl/example-driving-metro",
+    walkingDirections: "https://maps.app.goo.gl/tQs7MMThyg2ij1mw5",
+    drivingDirections: "https://maps.app.goo.gl/M69eQ4BrVyew4JVu5",
     specialOffer: "Metro Hotel Perth offers a special rate for conference attendees. Use promo code ADSN2024 when booking online.",
     bookingConditions: [
       "Special rates are subject to availability and valid for stays during the conference period.",
@@ -50,8 +50,8 @@ export const hotelInfo = [
     location: "Como",
     address: "137 Melville Parade, Como WA 6152, Australia",
     phone: "+61 8 9474 4222",
-    walkingDirections: "https://maps.app.goo.gl/example-walking-broadwater",
-    drivingDirections: "https://maps.app.goo.gl/example-driving-broadwater",
+    walkingDirections: "https://maps.app.goo.gl/8hCktkMXBP3JBvLX9",
+    drivingDirections: "https://maps.app.goo.gl/9B2DuwrFLQZDLBGr7",
     specialOffer: "Book directly with Broadwater Resort Como for the best rates. Mention ADSN2024 for a potential upgrade, subject to availability.",
     bookingConditions: [
       "Rates are based on double occupancy. Additional guests may incur extra charges.",
@@ -69,8 +69,8 @@ export const hotelInfo = [
     location: "South Perth",
     address: "53 South Perth Esplanade, South Perth WA 6151, Australia",
     phone: "+61 8 9368 6688",
-    walkingDirections: "https://maps.app.goo.gl/example-walking-peninsula",
-    drivingDirections: "https://maps.app.goo.gl/example-driving-peninsula",
+    walkingDirections: "https://maps.app.goo.gl/Hxgcr9zdDupFpcUK6",
+    drivingDirections: "https://maps.app.goo.gl/Pepw7aqJNNYbV9AcA",
     specialOffer: "Stay 7 nights or more and receive a 10% discount. Use promo code ADSN7NIGHTS when booking online.",
     bookingConditions: [
       "Full payment is required at the time of booking for the special offer.",
