@@ -28,5 +28,5 @@
           Location and contact information
           Directions (walking, driving, public transport)
           Special offers and booking conditions (if applicable)
-    4. Data:
+  4. Data:
           The hotel information is stored in a separate file and imported into the Accommodation component:
