@@ -73,7 +73,7 @@ const Accommodation = () => {
             >
               <Suspense fallback={<div className="w-full h-full bg-gray-300 animate-pulse"></div>}>
                 <Image
-                  src={hotel.imageUrl}
+                  src="/ADSN-2024/hotels_images/banner-campus.webp"
                   alt={hotel.name}
                   fill
                   className="absolute inset-0 object-cover"
@@ -81,7 +81,7 @@ const Accommodation = () => {
                 />
               </Suspense>
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-between p-5">
-                <h2 className="text-white text-2xl font-bold mb-3">
+                <h2 className="text-blue-navbar text-3xl font-bold mb-3">
                   {hotel.website ? (
                     <a href={hotel.website} target="_blank" rel="noopener noreferrer" className="hover:underline">
                       {hotel.name}
@@ -114,17 +114,26 @@ const Accommodation = () => {
         <div>
           {hotelInfo.map((hotel, index) => (
             <React.Fragment key={hotel.id}>
-              {index > 0 && <div className="my-8"></div>} {/* Keep spacing, remove border */}
+              {index > 0 && <div className="my-8"></div>}
               <div id={`hotel-${hotel.id}`} className="scroll-mt-24 transition-all duration-300">
                 <AccommodationCard
                   {...hotel}
                   amenities={hotel.amenities.split(', ')}
                   imageUrl={hotel.imageUrl}
-                  website={hotel.website} // Add this line
+                  website={hotel.website}
                 />
               </div>
             </React.Fragment>
           ))}
+        </div>
+
+        {/* New section with additional information */}
+        <div className="mt-12">
+          <p className="text-xl md:text-2xl text-center text-gray-800 leading-relaxed">
+            <span className="bg-white px-6 md:px-16 py-6 inline-block w-full max-w-7xl mx-auto">
+              A detailed map with directions from each hotel to Curtin University is available to assist with your travel. Please click on the links provided to view the map and directions for each accommodation.
+            </span>
+          </p>
         </div>
       </div>
     </div>

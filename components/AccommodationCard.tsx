@@ -58,13 +58,13 @@ const AccommodationCard: React.FC<AccommodationCardProps> = ({
     return parts.map((part, index) => {
       if (part === 'Superior Room') {
         return (
-          <Link key={index} href="https://www.nesuto.com/curtin/accommodation/hotel-guest-room" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300 hover:underline">
+          <Link key={index} href="https://www.nesuto.com/curtin/accommodation/hotel-guest-room" target="_blank" rel="noopener noreferrer" className="text-blue-navbar hover:text-blue-700 hover:underline">
             {part}
           </Link>
         );
       } else if (part === 'click here') {
         return (
-          <Link key={index} href="https://reservations.nesuto.com/113917?discount=ADSN24" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300 hover:underline">
+          <Link key={index} href="https://reservations.nesuto.com/113917?discount=ADSN24" target="_blank" rel="noopener noreferrer" className="text-blue-navbar hover:text-blue-700 hover:underline">
             {part}
           </Link>
         );
@@ -77,13 +77,13 @@ const AccommodationCard: React.FC<AccommodationCardProps> = ({
     <div className="bg-white rounded-lg overflow-hidden shadow-lg w-full">
       <div className="bg-gray-100 text-gray-900 p-6 rounded-lg shadow-md flex flex-col lg:flex-row w-full">
         <div className="lg:w-2/3 pr-6">
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-blue-navbar text-5xl font-bold mb-4">
             {website ? (
               <a 
                 href={website}
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors"
+                className="hover:underline transition-colors"
               >
                 {name}
               </a>
@@ -115,16 +115,16 @@ const AccommodationCard: React.FC<AccommodationCardProps> = ({
             <h3 className="text-2xl font-semibold mb-2">Directions:</h3>
             <div className="flex flex-wrap gap-2">
               {walkingDirections && (
-                <a href={walkingDirections} target="_blank" rel="noopener noreferrer" className="text-base bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
-                  Walking Directions
+                <a href={walkingDirections} target="_blank" rel="noopener noreferrer" className="text-base bg-blue-navbar text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
+                  Walking 
                 </a>
               )}
-              <a href={drivingDirections} target="_blank" rel="noopener noreferrer" className="text-base bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
-                Driving Directions
+              <a href={drivingDirections} target="_blank" rel="noopener noreferrer" className="text-base bg-blue-navbar text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
+                Driving 
               </a>
               {publicTransportDirections && (
-                <a href={publicTransportDirections} target="_blank" rel="noopener noreferrer" className="text-base bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
-                  Public Transport Directions
+                <a href={publicTransportDirections} target="_blank" rel="noopener noreferrer" className="text-base bg-blue-navbar text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors">
+                  Public Transport 
                 </a>
               )}
             </div>
@@ -148,7 +148,7 @@ const AccommodationCard: React.FC<AccommodationCardProps> = ({
                         ) : (
                           <>
                             {condition.text}
-                            <span className="text-blue-600 font-semibold">{condition.highlight}</span>
+                            <span className="text-blue-navbar font-semibold">{condition.highlight}</span>
                           </>
                         )}
                       </li>
