@@ -74,8 +74,8 @@ const AccommodationCard: React.FC<AccommodationCardProps> = ({
   };
 
   return (
-    <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg w-full">
-      <div className="bg-gray-900 text-white p-6 rounded-lg shadow-md flex flex-col lg:flex-row w-full">
+    <div className="bg-white rounded-lg overflow-hidden shadow-lg w-full">
+      <div className="bg-gray-100 text-gray-900 p-6 rounded-lg shadow-md flex flex-col lg:flex-row w-full">
         <div className="lg:w-2/3 pr-6">
           <h2 className="text-4xl font-bold mb-4">
             {website ? (

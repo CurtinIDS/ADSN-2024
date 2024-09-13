@@ -40,7 +40,7 @@ const Accommodation = () => {
   }, [scrollToHotel]);
 
   return (
-    <div id="accommodation" className="bg-gray-900 scroll-mt-10">
+    <div id="accommodation" className="bg-white scroll-mt-10">
       <div className="flex flex-col justify-end w-full h-[250px] md:h-[500px] bg-cover bg-center bg-[url('/ADSN-2024/pertheq.webp')]">
         <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
           <span className="bg-white/75 mb-3 px-3 md:px-12 md:py-2 inline-block">
@@ -49,12 +49,15 @@ const Accommodation = () => {
         </h1>
       </div>
 
+      {/* Accommodation Section */}
       <div className="max-w-6xl mx-auto px-4 py-8">
-        <p className="md:p-6 font-bold md:tracking-wide md:text-2xl text-center text-white mb-12 leading-relaxed">
-          <span className="bg-gray-800/75 mb-3 px-3 md:px-12 md:py-2 inline-block">
-            Welcome to the 3rd Australia Data Science Network Conference at Curtin University! We have selected a range of nearby hotels to ensure you have a comfortable and convenient stay during the conference. Below, you will find details about three recommended hotels, including their locations, amenities, and directions on how to get there. A map with directions from each hotel to Curtin University is also provided for your convenience.
-          </span>
-        </p>
+        <div className="mb-12">
+          <p className="text-2xl md:text-3xl text-center text-gray-800 leading-relaxed">
+            <span className="bg-white px-6 md:px-16 py-6 inline-block w-full max-w-7xl mx-auto">
+              Welcome to the <span className="text-blue-600 font-bold">3rd Australia Data Science Network Conference</span> at <span className="text-blue-600 font-bold">Curtin University</span>! We have selected a range of <span className="text-blue-600 font-bold">nearby hotels</span> to ensure you have a comfortable and convenient stay during the conference. Below, you will find details about <span className="text-blue-600 font-bold">four recommended hotels</span>, including their <span className="text-blue-600 font-bold">locations, amenities, and directions</span> on how to get there. A <span className="text-blue-600 font-bold">map with directions</span> from each hotel to Curtin University is also provided for your convenience.
+            </span>
+          </p>
+        </div>
 
         {/* 2x2 Grid of Hotel Previews */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -106,7 +109,7 @@ const Accommodation = () => {
         <div>
           {hotelInfo.map((hotel, index) => (
             <React.Fragment key={hotel.id}>
-              {index > 0 && <div className="my-8 border-t border-gray-700"></div>}
+              {index > 0 && <div className="my-8"></div>} {/* Keep spacing, remove border */}
               <div id={`hotel-${hotel.id}`} className="scroll-mt-24 transition-all duration-300">
                 <AccommodationCard
                   {...hotel}

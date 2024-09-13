@@ -2,7 +2,7 @@ export const hotelInfo = [
   {
     id: "nesuto-curtin-perth-hotel",
     name: "Nesuto Curtin Perth Hotel",
-    imageUrl: "/ADSN-2024/hotels_images/nesuto-curtin.webp",
+    imageUrl: "/ADSN-2024/hotels_images/banner-campus.webp",  
     amenities: "Complimentary Wi-Fi, On-site dining options, Fitness centre",
     description: "Nesuto Curtin Perth Hotel is perfect for those who want to stay near the University and Perth’s CBD. It's also within walking distance from cafes, restaurants, and a supermarket. The hotel is only 7 kilometres from the airport and offers comfortable accommodations with easy access to all conference venues. Guests can enjoy various amenities. Its proximity to conference venues allows attendees to maximise their time at the event.",
     location: "On-Campus, Curtin University",
@@ -25,7 +25,7 @@ export const hotelInfo = [
   {
     id: "metro-hotel-perth-south-perth",
     name: "Metro Hotel Perth, South Perth",
-    imageUrl: "/ADSN-2024/hotels_images/metro-hotel.webp",
+    imageUrl: "/ADSN-2024/hotels_images/banner-campus.webp",
     amenities: "Complimentary Wi-Fi, On-site dining options, Fitness centre",
     description: "Located in South Perth, this hotel offers stunning views of the Swan River and Perth city skyline. It's a short drive from Curtin University and provides easy access to public transport.",
     location: "South Perth",
@@ -44,7 +44,7 @@ export const hotelInfo = [
   {
     id: "broadwater-resort-como",
     name: "Broadwater Resort Como",
-    imageUrl: "/ADSN-2024/hotels_images/broadwater-resort.webp",
+    imageUrl: "/ADSN-2024/hotels_images/banner-campus.webp",
     amenities: "Complimentary Wi-Fi, Nearby dining options, Street parking, Swimming pool / Spa / Sauna, BBQ Area",
     description: "Broadwater Resort Como offers apartment-style accommodation with full kitchen facilities. It's located in a quiet suburb, providing a relaxing stay while still being close to Curtin University.",
     location: "Como",
@@ -63,7 +63,7 @@ export const hotelInfo = [
   {
     id: "the-peninsula-riverside-serviced-apartments",
     name: "The Peninsula Riverside Serviced Apartments",
-    imageUrl: "/ADSN-2024/hotels_images/peninsula-apartments.webp",
+    imageUrl: "/ADSN-2024/hotels_images/banner-campus.webp",
     amenities: "Complimentary Wi-Fi, Nearby dining options, On-site free parking",
     description: "Offering spacious apartments with river views, The Peninsula is perfect for those seeking a home-away-from-home experience. It's conveniently located for easy access to Curtin University and Perth CBD.",
     location: "South Perth",
