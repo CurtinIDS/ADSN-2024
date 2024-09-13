@@ -54,10 +54,15 @@ const Accommodation = () => {
         <div className="mb-12">
           <p className="text-2xl md:text-3xl text-center text-gray-800 leading-relaxed">
             <span className="bg-white px-6 md:px-16 py-6 inline-block w-full max-w-7xl mx-auto">
-              Welcome to the <span className="text-blue-600 font-bold">3rd Australia Data Science Network Conference</span> at <span className="text-blue-600 font-bold">Curtin University</span>! We have selected a range of <span className="text-blue-600 font-bold">nearby hotels</span> to ensure you have a comfortable and convenient stay during the conference. Below, you will find details about <span className="text-blue-600 font-bold">four recommended hotels</span>, including their <span className="text-blue-600 font-bold">locations, amenities, and directions</span> on how to get there. A <span className="text-blue-600 font-bold">map with directions</span> from each hotel to Curtin University is also provided for your convenience.
+              Welcome to the 3rd Australia Data Science Network Conference at Curtin University! We have selected a range of nearby hotels to ensure you have a comfortable and convenient stay during the conference. 
+            </span>
+            <span className="md:text-xl md:p-10">
+            Below, you will find details about four recommended hotels, including their locations, amenities, and directions on how to get there. Link to maps with directions from each hotel to Curtin University is also provided for your convenience.
             </span>
           </p>
         </div>
+
+
 
         {/* 2x2 Grid of Hotel Previews */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
