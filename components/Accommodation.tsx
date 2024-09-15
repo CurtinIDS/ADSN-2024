@@ -81,7 +81,7 @@ const Accommodation = () => {
                 />
               </Suspense>
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-between p-5">
-                <h2 className="text-blue-navbar text-3xl font-bold mb-3">
+                <h2 className="text-white text-3xl font-bold mb-3">
                   {hotel.website ? (
                     <a href={hotel.website} target="_blank" rel="noopener noreferrer" className="hover:underline">
                       {hotel.name}
