@@ -20,7 +20,7 @@ const EventSchedule = () => {
               alt="The Hub"
               width={400}
               height={30}
-              layout="responsive"
+              style={{ width: '100%', height: 'auto' }}
             />
           </div>
           <div className="p-4 w-full">
@@ -45,7 +45,7 @@ const EventSchedule = () => {
               alt="The Hub"
               width={400}
               height={30}
-              layout="responsive"
+              style={{ width: '100%', height: 'auto' }}
             />
           </div>
           <div className="p-4 w-full">

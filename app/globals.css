@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.highlight-hotel {
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+}
