@@ -53,7 +53,7 @@ const NavigationBar = () => {
       subtabs: [
         { name: "Registration", link: "https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317" },
         { name: "Locations", link: "/ADSN-2024/locations" },
-        { name: "Accommodation", link: "/ADSN-2024/accommodation" },
+        { name: "Accommodation", link: "/ADSN-2024/comingsoon" },
       ],
     },
     {
