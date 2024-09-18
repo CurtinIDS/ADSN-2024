@@ -105,12 +105,19 @@ const Program = () => {
           ))}
         </div>
 
+        {/* Fixed height spacer */}
+        <div className="h-8"></div>
+
         {/* Detailed Schedule Tables */}
-        <div className="mb-8">
+        <div className="mb-8 relative">
           {programData.map((day, index) => (
             <React.Fragment key={day.day}>
-              {index > 0 && <div className="my-4"></div>}
-              <div id={`day-${day.day}`} className="scroll-mt-24 transition-all duration-300">
+              <div 
+                id={`day-${day.day}`} 
+                className={`scroll-mt-24 transition-all duration-300 ${
+                  activeDay === day.day ? 'opacity-100 visible' : 'opacity-0 invisible h-0'
+                }`}
+              >
                 <ScheduleTable
                   day={day.day}
                   date={day.date}
