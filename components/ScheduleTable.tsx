@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 
 interface ScheduleItem {
   startTime: string;
@@ -14,9 +14,23 @@ interface ScheduleTableProps {
 }
 
 const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOpen }) => {
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [contentHeight, setContentHeight] = useState<number>(0);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      setContentHeight(contentRef.current.scrollHeight);
+    }
+  }, [schedule, isOpen]);
+
   return (
-    <div className={`bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-      <div className="p-6">
+    <div 
+      className={`bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ${
+        isOpen ? 'opacity-100' : 'opacity-0'
+      }`}
+      style={{ maxHeight: isOpen ? `${contentHeight}px` : '0' }}
+    >
+      <div ref={contentRef} className="p-6">
         <h2 className="text-2xl font-bold mb-4">Day {day} - {date}</h2>
         <table className="w-full border-collapse">
           <thead>
