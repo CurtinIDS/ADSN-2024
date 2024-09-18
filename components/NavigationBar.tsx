@@ -37,7 +37,7 @@ const NavigationBar = () => {
     },
     {
       name: "Program",
-      link: "/ADSN-2024/comingsoon",
+      link: "/ADSN-2024/program",
     },
     {
       name: "Committees",
