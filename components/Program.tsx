@@ -71,7 +71,7 @@ const Program = () => {
 
   return (
     <div id="program" className="bg-white scroll-mt-10">
-      <div className="flex flex-col justify-end w-full h-[250px] md:h-[500px] bg-cover bg-center bg-[url('/ADSN-2024/program/conference-hall.webp')]">
+      <div className="flex flex-col justify-end w-full h-[250px] md:h-[500px] bg-cover bg-center bg-[url('/ADSN-2024/program/CurtinCampus.webp')]">
         <h1 className="md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center">
           <span className="bg-white/75 mb-3 px-3 md:px-12 md:py-2 inline-block">
             CONFERENCE PROGRAM
