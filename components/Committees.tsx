@@ -39,6 +39,18 @@ const committeesScientificProgram: CommitteeProps[] = [
     profile_picture_path: "SPC/Keith_Russell.jpg",
     biography_url: "https://ardc.edu.au/about-us/our-people/",
   },
+  {
+    name: "Dr. Farzana Jahan",
+    role: "Lecturer, College of Science, Technology, Engineering and Mathematics, Murdoch University",
+    profile_picture_path: "SPC/Farzana_Jahan.png",
+    biography_url: "https://researchportal.murdoch.edu.au/esploro/profile/farzana_jahan/overview",
+  },
+  {
+    name: "F. Swen Kuh",
+    role: "Teaching Associate, Monash University",
+    profile_picture_path: "SPC/F_Swen_Kuh.jpeg",
+    biography_url: "https://www.linkedin.com/in/swenkuh/?originalSubdomain=au",
+  },
 ];
 const committeesOrganising: CommitteeProps[] = [
   {
@@ -58,12 +70,6 @@ const committeesOrganising: CommitteeProps[] = [
     role: "Program Coordination",
     profile_picture_path: "OC/Calvin_Pang.jpg",
     biography_url: "https://datascience.curtin.edu.au/about-us/our-people/calvin-pang/",
-  },
-  {
-    name: "Dario Limongi",
-    role: "Web Application Development",
-    profile_picture_path: "OC/Dario_Limongi.jpg",
-    biography_url: "https://datascience.curtin.edu.au/about-us/our-people/dario-limongi/",
   },
   {
     name: "Juanaili Hultzsch",
