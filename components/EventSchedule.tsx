@@ -34,7 +34,7 @@ const EventSchedule = () => {
               <li>Poster Presentations</li>
               <li>Network Breaks</li>
               <li>Sundowner on Day 1</li>
-              <li>Optional visits to Curtin Hive</li>
+              <li>Optional visits to Curtin HIVE</li>
             </ul>
           </div>
         </div>
