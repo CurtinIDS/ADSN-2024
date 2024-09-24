@@ -153,8 +153,8 @@ const NavigationBar = () => {
       <NavbarContent justify="end">
         <NavbarItem>
           <AdsnButton
-            text="Submit Abstract"
-            url="https://curtin.au1.qualtrics.com/jfe/form/SV_0Pdhwdfxu0NWJH8"
+            text="Register Now"
+            url="https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317"
           />
         </NavbarItem>
       </NavbarContent>

@@ -20,20 +20,12 @@ const ComingSoon = () => {
         discussions awaiting you this year.
       </p>
 
-      <div className="flex flex-row gap-6 items-center w-full max-w-6xl">
+      <div className="flex flex-row gap-6 items-center w-full max-w-6xl justify-center">
         <div className="flex-1 p-3 md:py-6 md:px-10 flex items-center justify-center">
           <AdsnButton
-            text="Submit Abstract"
-            url="https://curtin.au1.qualtrics.com/jfe/form/SV_0Pdhwdfxu0NWJH8"
+            text="Registration"
+            url="https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317"
           />
-        </div>
-        <div className="flex-1 p-3 md:py-6 md:px-10 flex  items-center justify-center">
-          <div className="flex-1">
-            <AdsnButton
-              text="Registration"
-              url="https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317"
-            />
-          </div>
         </div>
       </div>
     </div>
