@@ -76,25 +76,25 @@ const Locations = () => {
               <p className="mt-2 text-gray-600">{tl_robertson_library.description}</p>
             </div>
             <Map
-              locations={[
-                { name: tl_robertson_library.name, lat: tl_robertson_library.lat, lng: tl_robertson_library.lng },
-                { name: carpark_p211.name, lat: carpark_p211.lat, lng: carpark_p211.lng }
-              ]}
+              locations={[tl_robertson_library, carpark_p211]}
               center={{ lat: -32.0060, lng: 115.8941 }}
+              showDirections={true}
+              origin={carpark_p211}
+              destination={tl_robertson_library}
+              zoom={16}
             />
           </div>
           <div className="flex-1 flex flex-col overflow-hidden">
             <div className="p-4 w-full">
               <h2 className="md:text-2xl">Day 3</h2>
-              <h4 className="font-bold md:text-xl">{the_hub.name}</h4>
+              <h4 className="font-bold md:text-xl text-black">{the_hub.name}</h4>
               <h4>{the_hub.address}</h4>
               <p className="mt-2 text-gray-600">{the_hub.description}</p>
             </div>
             <Map
-              locations={[
-                { name: the_hub.name, lat: the_hub.lat, lng: the_hub.lng }
-              ]}
+              locations={[the_hub]}
               center={{ lat: the_hub.lat, lng: the_hub.lng }}
+              locationColors={{ [the_hub.name]: 'black' }}
             />
           </div>
         </div>
