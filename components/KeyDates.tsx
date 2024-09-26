@@ -41,7 +41,7 @@ const KeyDates = () => {
             />
             <KeyDatesRow
               event="Early Bird Admission Pricing Ends"
-              date="30 September 2024"
+              date="Extended until 14 October 2024"
             />
             <KeyDatesRow
               event="ADSN Conference Dates"
