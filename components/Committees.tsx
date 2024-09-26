@@ -40,15 +40,15 @@ const committeesScientificProgram: CommitteeProps[] = [
     biography_url: "https://ardc.edu.au/about-us/our-people/",
   },
   {
-    name: "Dr. Farzana Jahan",
-    role: "Lecturer, College of Science, Technology, Engineering and Mathematics, Murdoch University",
-    profile_picture_path: "SPC/Farzana_Jahan.png",
+    name: "Dr. Farzana Jahan, FHEA",
+    role: "Lecturer in Statistics\nAssociate Dean of Engagement (Mathematics & Statistics)",
+    profile_picture_path: "SPC/Farzana_Jahan.jpg",
     biography_url: "https://researchportal.murdoch.edu.au/esploro/profile/farzana_jahan/overview",
   },
   {
-    name: "F. Swen Kuh",
-    role: "Teaching Associate, Monash University",
-    profile_picture_path: "SPC/F_Swen_Kuh.jpeg",
+    name: "Dr. Swen Kuh",
+    role: "Research Associate, RMIT University",
+    profile_picture_path: "SPC/Swen_Kuh.jpg",
     biography_url: "https://www.linkedin.com/in/swenkuh/?originalSubdomain=au",
   },
 ];
