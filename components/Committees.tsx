@@ -69,6 +69,12 @@ const committeesOrganising: CommitteeProps[] = [
     name: "Calvin Pang",
     role: "Program Coordination",
     profile_picture_path: "OC/Calvin_Pang.jpg",
+    biography_url: "https://datascience.curtin.edu.au/about-us/our-people/camila-herrera-palavercino/",
+  },
+  {
+    name: "Camila Herrera",
+    role: "Logistics and Venue Coordination",
+    profile_picture_path: "OC/Camila_Herrera.jpg",
     biography_url: "https://datascience.curtin.edu.au/about-us/our-people/calvin-pang/",
   },
   {
