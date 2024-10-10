@@ -5,7 +5,7 @@ export const programData = [
     schedule: [
       // { startTime: "8:45", endTime: "9:00", activity: "Registration" },
       { startTime: "8:45", endTime: "9:15", activity: "Coffee & Registration", presenter: "", institution: "" },
-      { startTime: "9:15", endTime: "9:30", activity: "Welcome (Incl Acknowledgement of Country)", presenter: "", institution: "" },
+      { startTime: "9:15", endTime: "9:30", activity: "Welcome & Acknowledgement of Country", presenter: "", institution: "" },
       { startTime: "9:30", endTime: "10:00", activity: "Keynote presentation: TBC", presenter: "", institution: "" },
       { startTime: "10:00", endTime: "10:15", activity: "Accepted Talk: A user-friendly digital prediction tool for dengue prevention", presenter: "Dr Wala Draidi", institution: "University of Queensland" },
       { startTime: "10:15", endTime: "10:30", activity: "Accepted Talk: Investigating EEG markers for responsiveness following surgical noxious stimuli under propofol anaesthesia: A case study", presenter: "Ms Ilandari Deva Vidushani Jayanga Dhanawansa", institution: "Monash University" },
