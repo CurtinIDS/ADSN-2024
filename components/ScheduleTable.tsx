@@ -4,6 +4,8 @@ interface ScheduleItem {
   startTime: string;
   endTime: string;
   activity: string;
+  presenter?: string;
+  institution?: string;
 }
 
 interface ScheduleTableProps {
@@ -24,10 +26,9 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOp
   }, [schedule, isOpen]);
 
   return (
-    <div 
-      className={`bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ${
-        isOpen ? 'opacity-100' : 'opacity-0'
-      }`}
+    <div
+      className={`bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'
+        }`}
       style={{ maxHeight: isOpen ? `${contentHeight}px` : '0' }}
     >
       <div ref={contentRef} className="p-6">
@@ -35,9 +36,11 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOp
         <table className="w-full border-collapse">
           <thead>
             <tr className="bg-gray-100">
-              <th className="px-4 py-2 text-left border">Start Time</th>
-              <th className="px-4 py-2 text-left border">End Time</th>
-              <th className="px-4 py-2 text-left border">Activity</th>
+              <th className="w-2 px-4 py-2 text-left border">Start Time</th>
+              <th className="w-2 px-4 py-2 text-left border">End Time</th>
+              <th className="w-1/2 px-4 py-2 text-left border">Activity</th>
+              <th className="px-4 py-2 text-left border">Presenter</th>
+              <th className="px-4 py-2 text-left border">Institution</th>
             </tr>
           </thead>
           <tbody>
@@ -47,6 +50,8 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOp
                   <td className="px-4 py-2 border">{item.startTime}</td>
                   <td className="px-4 py-2 border">{item.endTime}</td>
                   <td className="px-4 py-2 border break-words">{item.activity}</td>
+                  <td className="px-4 py-2 border break-words">{item.presenter}</td>
+                  <td className="px-4 py-2 border break-words">{item.institution}</td>
                 </tr>
               ))
             ) : (
