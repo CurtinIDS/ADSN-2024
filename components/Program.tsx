@@ -13,11 +13,11 @@ const Program = () => {
   const scrollToDay = useCallback((day: number) => {
     const previewElement = document.getElementById(`day-preview-${day}`);
     const scheduleElement = document.getElementById(`day-${day}`);
-    
+
     if (previewElement && scheduleElement) {
       const header = document.querySelector('header');
       const headerHeight = header ? header.offsetHeight : 0;
-      
+
       // Calculate the position to scroll to (just above the schedule table)
       const schedulePosition = scheduleElement.getBoundingClientRect().top;
       const offsetPosition = schedulePosition + window.scrollY - headerHeight - 20;
@@ -31,7 +31,7 @@ const Program = () => {
       // Highlight both the preview and the schedule
       previewElement.classList.add('highlight-day');
       scheduleElement.classList.add('highlight-day');
-      
+
       // Remove the highlight after 2 seconds
       setTimeout(() => {
         previewElement.classList.remove('highlight-day');
@@ -87,7 +87,7 @@ const Program = () => {
               Welcome to the 3rd Australia Data Science Network Conference at Curtin University!
             </span>
             <span className="md:text-xl md:p-10">
-              Below, you will find the conference program for each day. Click on a day to view its detailed schedule.
+              Below, you will find the preliminary conference program for each day. Click on a day to view its detailed schedule.
             </span>
           </p>
         </div>
@@ -112,11 +112,10 @@ const Program = () => {
         <div className="mb-8 relative">
           {programData.map((day, index) => (
             <React.Fragment key={day.day}>
-              <div 
-                id={`day-${day.day}`} 
-                className={`scroll-mt-24 transition-all duration-300 ${
-                  activeDay === day.day ? 'opacity-100 visible' : 'opacity-0 invisible h-0'
-                }`}
+              <div
+                id={`day-${day.day}`}
+                className={`scroll-mt-24 transition-all duration-300 ${activeDay === day.day ? 'opacity-100 visible' : 'opacity-0 invisible h-0'
+                  }`}
               >
                 <ScheduleTable
                   day={day.day}
