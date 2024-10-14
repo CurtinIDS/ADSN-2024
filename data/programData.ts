@@ -19,7 +19,7 @@ export const programData = [
       { startTime: "13:15", endTime: "13:45", activity: "Lunch & (Optional) Curtin HIVE Tour - Must indicate attendance on registration", presenter: "", institution: "" },
       { startTime: "13:45", endTime: "14:45", activity: "Panel Discussion: Data science is a relatively new field drawn from many different existing research areas, how do we define and promote data science careers for early to mid-career researchers?", presenter: "Panel members: TBC", institution: "" },
       { startTime: "14:45", endTime: "15:00", activity: "Predicting self-harm among psychiatric inpatients", presenter: "Mr Ken Bredemeyer", institution: "University of Western Australia" },
-      { startTime: "15:00", endTime: "15:15", activity: "Prediction of Protein Aggregation Propensity Using Learning Approaches", presenter: "", institution: "Murdoch University" },
+      { startTime: "15:00", endTime: "15:15", activity: "Prediction of Protein Aggregation Propensity Using Learning Approaches", presenter: "Dr Soudabeh Shemehsavar", institution: "Murdoch University" },
       { startTime: "15:15", endTime: "15:30", activity: "MetaHD: a multivariate meta-analysis model for metabolomics data", presenter: "Dr Alysha De Livera", institution: "La Trobe University" },
       { startTime: "15:30", endTime: "15:45", activity: "Identifying children's postures and movements from a single camera", presenter: "Professor Andrew Lloyd Rohl", institution: "Curtin University" },
       { startTime: "15:45", endTime: "16:00", activity: "ComFe: Interpretable Image Classifiers With Foundation Models", presenter: "Ms Evelyn Mannix", institution: "University of Melbourne" },
