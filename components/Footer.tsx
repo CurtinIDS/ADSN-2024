@@ -59,7 +59,7 @@ const Footer = () => {
 
             {/* Gold */}
             <div>
-              <p className="pb-2 text-lg text-gray-400">Glod Sponsors</p>
+              <p className="pb-2 text-lg text-gray-400">Gold Sponsors</p>
               <div className="text-sm flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8">
                 <p>Coming Soon</p>
               </div>
