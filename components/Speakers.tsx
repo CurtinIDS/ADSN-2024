@@ -6,6 +6,18 @@ import { PanellistProps } from "@/components/PanellistProfile";
 
 const speakersKeynote: SpeakersProps[] = [
     {
+        name: "Prof. Suzanne Robinson ",
+        role: "Chair and Head, Deakin Health Economics\nDeakin University",
+        profile_picture_path: "speakers/Suzanne_Robinson.png",
+        // profile_picture_path: "melanie.png" -> place the pictures in `/public/public_pictures/` and uncomment this
+        biography: "Professor Suzanne Robinson is Chair and Director of Deakin Health Economics. She leads impactful health economics projects, focusing on the cost-effectiveness and decision-making processes within health systems. Suzanne's research examines how resource allocation, funding, and policy influence healthcare delivery and outcomes. She has secured competitive grants and established industry partnerships, contributing to significant reform initiatives. Passionate about evidence-based approaches, Suzanne works to improve healthcare quality and equity. She also mentors PhD students and early-career researchers, helping them succeed in their academic and professional journeys.",
+        keynote_topic: "To be announced",
+        keynote_abstract: "To be announced",
+    },
+];
+
+const speakersInvited: SpeakersProps[] = [
+    {
         name: "Prof. Mingming Cheng",
         role: "Professor in Digital Marketing and Director of the Social Media Research Lab\nCurtin University",
         profile_picture_path: "speakers/Mingming_Cheng.jpg",
@@ -40,6 +52,23 @@ const Speakers = () => {
             {/* Keynote Speakers */}
             <div className="p-3 md:my-10 flex flex-col space-y-6 md:space-y-10 w-full">
                 {speakersKeynote.map((item, index) => (
+                    <SpeakersProfile
+                        key={index}
+                        name={item.name}
+                        role={item.role}
+                        profile_picture_path={item.profile_picture_path}
+                        biography={item.biography}
+                        keynote_topic={item.keynote_topic}
+                        keynote_abstract={item.keynote_abstract}
+                    />
+                ))}
+            </div>
+            <p className="font-extrabold p-3 text-xl md:text-3xl text-blue-navbar">
+                Invited Speakers
+            </p>
+            {/* Keynote Speakers */}
+            <div className="p-3 md:my-10 flex flex-col space-y-6 md:space-y-10 w-full">
+                {speakersInvited.map((item, index) => (
                     <SpeakersProfile
                         key={index}
                         name={item.name}

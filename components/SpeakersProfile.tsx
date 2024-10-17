@@ -77,7 +77,7 @@ const SpeakersProfile: React.FC<SpeakersProps> = ({
                         {/* Conditionally render Keynote Topic if not empty */}
                         {keynote_topic && (
                             <div className="mb-4">
-                                <h3 className="font-bold text-lg">Keynote Topic</h3>
+                                <h3 className="font-bold text-lg">Topic</h3>
                                 <p className="text-gray-700">{keynote_topic}</p>
                             </div>
                         )}
@@ -85,7 +85,7 @@ const SpeakersProfile: React.FC<SpeakersProps> = ({
                         {/* Conditionally render Keynote Abstract if not empty */}
                         {keynote_abstract && (
                             <div>
-                                <h3 className="font-bold text-lg">Keynote Abstract</h3>
+                                <h3 className="font-bold text-lg">Abstract</h3>
                                 <p className="text-gray-700">{keynote_abstract}</p>
                             </div>
                         )}
