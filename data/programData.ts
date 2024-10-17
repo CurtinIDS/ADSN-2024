@@ -39,7 +39,7 @@ export const programData = [
     schedule: [
       { startTime: "8:45", endTime: "9:00", activity: "Coffee & Registration", presenter: "", institution: "" },
       { startTime: "9:00", endTime: "9:15", activity: "Intro Day 2", presenter: "", institution: "" },
-      { startTime: "9:15", endTime: "9:45", activity: "Leveraging the power of social media analytics", presenter: "Prof. Mingming Cheng", institution: "Curtin University" },
+      { startTime: "9:15", endTime: "9:45", activity: "Invited Talk: Leveraging the power of social media analytics", presenter: "Prof. Mingming Cheng", institution: "Curtin University" },
       { startTime: "9:45", endTime: "10:00", activity: "Does Gender Affect Sentiment Analysis?", presenter: "Mr Oska Dubsky-Smith", institution: "The University of Adelaide" },
       { startTime: "10:00", endTime: "10:15", activity: "Liberating Petri Nets in Social Network Data Analysis", presenter: "Mr Ethan Johnson", institution: "The University of Adelaide" },
       { startTime: "10:15", endTime: "10:45", activity: "Break", presenter: "", institution: "" },
