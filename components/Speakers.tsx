@@ -7,10 +7,10 @@ import { PanellistProps } from "@/components/PanellistProfile";
 const speakersKeynote: SpeakersProps[] = [
     {
         name: "Prof. Suzanne Robinson ",
-        role: "Chair and Head, Deakin Health Economics\nDeakin University",
+        role: "Chair and Director, Health Economics, Deakin Institute for Health Transformation\nDeakin University",
         profile_picture_path: "speakers/Suzanne_Robinson.png",
         // profile_picture_path: "melanie.png" -> place the pictures in `/public/public_pictures/` and uncomment this
-        biography: "Professor Suzanne Robinson is Chair and Director of Deakin Health Economics. She leads impactful health economics projects, focusing on the cost-effectiveness and decision-making processes within health systems. Suzanne's research examines how resource allocation, funding, and policy influence healthcare delivery and outcomes. She has secured competitive grants and established industry partnerships, contributing to significant reform initiatives. Passionate about evidence-based approaches, Suzanne works to improve healthcare quality and equity. She also mentors PhD students and early-career researchers, helping them succeed in their academic and professional journeys.",
+        biography: "Professor Suzanne Robinson is the Chair and Director of Health Economics at Deakin Institute for Health Transformation. She leads impactful health economics projects, focusing on the cost-effectiveness and decision-making processes within health systems. Suzanne's research examines how resource allocation, funding, and policy influence healthcare delivery and outcomes. She has secured competitive grants and established industry partnerships, contributing to significant reform initiatives. Passionate about evidence-based approaches, Suzanne is a pioneer in the use of data science for health research to improve healthcare quality and equity. She also mentors PhD students and early-career researchers, helping them succeed in their academic and professional journeys.",
         keynote_topic: "To be announced",
         keynote_abstract: "To be announced",
     },
