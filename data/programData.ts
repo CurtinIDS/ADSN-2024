@@ -26,7 +26,7 @@ export const programData = [
       { startTime: "16:15", endTime: "16:30", activity: "Identifying children's postures and movements from a single camera", presenter: "Professor Andrew Lloyd Rohl", institution: "Curtin University" },
       { startTime: "16:30", endTime: "16:45", activity: "ComFe: Interpretable Image Classifiers With Foundation Models", presenter: "Ms Evelyn Mannix", institution: "University of Melbourne" },
       { startTime: "16:45", endTime: "17:00", activity: "Poster Sparkler Talks", presenter: "", institution: "" },
-      { startTime: "17:00", endTime: "17:15", activity: "Sundowner & Networking / Poster Session", presenter: "", institution: "" },
+      { startTime: "17:00", endTime: "18:30", activity: "Sundowner & Networking / Poster Session", presenter: "", institution: "" },
 
       // { startTime: "", endTime: "", activity: "", presenter: "", institution: ""  },
       // { startTime: "", endTime: "", activity: "", presenter: "", institution: ""  },
