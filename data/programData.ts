@@ -7,7 +7,7 @@ export const programData = [
 
       { startTime: "8:45", endTime: "9:05", activity: "Coffee & Registration", presenter: "", institution: "" },
       { startTime: "9:05", endTime: "9:15", activity: "Welcome & Acknowledgement of Country", presenter: "", institution: "" },
-      { startTime: "9:15", endTime: "10:15", activity: "Keynote Presentation", presenter: "Prof. Suzanne Robinson", institution: "Deakin University" },
+      { startTime: "9:15", endTime: "10:15", activity: "Keynote Presentation - Reimagining Healthcare: Better Outcomes Through Digital Innovation", presenter: "Prof. Suzanne Robinson", institution: "Deakin University" },
       { startTime: "10:15", endTime: "10:30", activity: "A user-friendly digital prediction tool for dengue prevention", presenter: "Dr Wala Draidi", institution: "University of Queensland" },
       { startTime: "10:30", endTime: "10:45", activity: "nvestigating EEG markers for responsiveness following surgical noxious stimuli under propofol anaesthesia: A case study", presenter: "Ms Ilandari Deva Vidushani Jayanga Dhanawansa", institution: "Monash University" },
       { startTime: "10:45", endTime: "11:15", activity: "Morning Tea", presenter: "", institution: "" },
@@ -39,7 +39,7 @@ export const programData = [
     schedule: [
       { startTime: "8:45", endTime: "9:00", activity: "Coffee & Registration", presenter: "", institution: "" },
       { startTime: "9:00", endTime: "9:15", activity: "Intro Day 2", presenter: "", institution: "" },
-      { startTime: "9:15", endTime: "9:45", activity: "Invited Talk: Leveraging the power of social media analytics", presenter: "Prof. Mingming Cheng", institution: "Curtin University" },
+      { startTime: "9:15", endTime: "9:45", activity: "Invited Talk - Leveraging the power of social media analytics", presenter: "Prof. Mingming Cheng", institution: "Curtin University" },
       { startTime: "9:45", endTime: "10:00", activity: "Does Gender Affect Sentiment Analysis?", presenter: "Mr Oska Dubsky-Smith", institution: "The University of Adelaide" },
       { startTime: "10:00", endTime: "10:15", activity: "Liberating Petri Nets in Social Network Data Analysis", presenter: "Mr Ethan Johnson", institution: "The University of Adelaide" },
       { startTime: "10:15", endTime: "10:45", activity: "Break", presenter: "", institution: "" },
