@@ -7,17 +7,14 @@ const ComingSoon = () => {
       className="p-3 md:p-10 flex flex-col text-center text-white justify-center items-center w-full bg-cover bg-center bg-[url('/ADSN-2024/background_coming_soon.webp')]"
     >
       <h1 className="p-3 md:p-6 font-extrabold md:tracking-wide md:text-4xl text-center text-white">
-        2024 CONFERENCE PROGRAM COMING SOON
+        2024 CONFERENCE PROGRAM NOW AVAILABLE
       </h1>
-      <p className="p-3 m-3 md:p-6 md:text-xl font-bold">
-        Stay tuned - 2024 conference program coming soon.
-      </p>
+      <AdsnButton
+        text="Program Schedule"
+        url="/ADSN-2024/program"
+      />
       <p className="p-3 m-3 md:px-10 md:p-6 md:text-xl">
-        This year, we are pleased to offer a comprehensive program designed to
-        be just as stimulating and informative as the 2023 conference. Please
-        stay tuned for updates and announcements. For now, you can review the
-        2023 conference wrap-up below for a preview of the upcoming topics and
-        discussions awaiting you this year.
+        We are excited to announce that the ADSN 2024 program is now available, offering a wide array of engaging topics, expert-led discussions, and networking opportunities. This year’s program is crafted to inspire and inform, building on the success of previous conferences. Explore the sessions, speakers, and tours scheduled, and get ready for a stimulating experience at ADSN 2024!
       </p>
 
       <div className="flex flex-row gap-6 items-center w-full max-w-6xl justify-center">

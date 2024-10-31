@@ -55,7 +55,7 @@ export const programData = [
       { startTime: "14:30", endTime: "14:45", activity: "Leveraging Dynamical Systems for Data Driven Characterisation of Time Series", presenter: "Mr Braden John Thorne", institution: "University of Western Australia" },
       { startTime: "14:45", endTime: "15:15", activity: "Break", presenter: "", institution: "" },
       { startTime: "15:15", endTime: "15:30", activity: "Poster Sparkler Talks", presenter: "", institution: "" },
-      { startTime: "15:30", endTime: "16:00", activity: "ADSN Business and Future", presenter: "Mr Tim Macuga", institution: "" },
+      { startTime: "15:30", endTime: "16:00", activity: "ADSN Business and Future", presenter: "Mr Tim Macuga", institution: "Queensland University of Technology (Centre for Data Science)" },
       { startTime: "16:00", endTime: "17:00", activity: "Poster Session", presenter: "", institution: "" }
     ]
   },
@@ -64,11 +64,11 @@ export const programData = [
     date: "December 4, 2024",
     schedule: [
       { startTime: "8:45", endTime: "9:00", activity: "Coffee & Registration", presenter: "", institution: "" },
-      { startTime: "9:00", endTime: "9:15", activity: "CIDS Director Talk", presenter: "Professor Melanie Johnston-Hollitt", institution: "" },
+      { startTime: "9:00", endTime: "9:15", activity: "CIDS Director Talk", presenter: "Professor Melanie Johnston-Hollitt", institution: "Curtin University (Curtin Institute for Data Science)" },
       { startTime: "9:15", endTime: "9:45", activity: "Invited Talk", presenter: "TBC", institution: "" },
       { startTime: "9:45", endTime: "10:00", activity: "Recommendations for a National Framework for Advanced Health Analytics Infrastructure", presenter: "Professor Nicola Armstrong", institution: "Curtin University" },
       { startTime: "10:00", endTime: "10:15", activity: "Exploring Data and Model Embeddings with EmbedLens: A Plug-and-Play Visualisation Tool", presenter: "Mr Milan Marocchi", institution: "Curtin University" },
-      { startTime: "10:15", endTime: "10:30", activity: "Automating Research Evaluation: Development and deployment of an ERA-Like Reporting Impact Evaluation System", presenter: "Dr Kathryn Napier", institution: "Curtin University" },
+      { startTime: "10:15", endTime: "10:30", activity: "Automating Research Evaluation: Development and deployment of an ERA-Like Reporting Impact Evaluation System", presenter: "Dr Kathryn Napier", institution: "Curtin University (Curtin Institute for Data Science)" },
       { startTime: "10:30", endTime: "11:00", activity: "Invited Talk", presenter: "TBC", institution: "" },
       { startTime: "11:00", endTime: "12:15", activity: "Brunch / Networking", presenter: "", institution: "" },
       { startTime: "12:15", endTime: "13:15", activity: "Panel Discussion: What are the barriers to working closely with universities/industry, and what strategies do we have to create more collaborations?", presenter: "Panel members: TBC", institution: "" },
