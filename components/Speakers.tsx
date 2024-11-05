@@ -58,6 +58,13 @@ const speakersPanel: PanellistProps[] = [
         biography: "Nick Jenkins has over 32 years of experience in software engineering, graduating from Curtin University in 1992 with a Bachelor of Computer Science. Early in his career, he supported academics in developing interactive teaching resources and co-authored “The Developer’s Handbook to Interactive Multimedia.” Nick went on to help establish the Australian Multimedia Testing Centre under Paul Keating’s “Creative Nation” initiative and later held software leadership roles in London, Prague, and Boston. In 2016, he co-founded Mechanical Rock, a Perth-based consultancy specializing in high-end software engineering and cloud solutions. In 2024, Nick joined CIDS as a Program Manager (Research Software Specialist) through its partnership with the ARDC, where he now leads CIDS's team in advancing the ARDC’s Research Software Agenda in Australia.",
         topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
     },
+    {
+        name: "Prof. Graham Gardner",
+        role: "Director, Centre for Animal Production and Health, Food Futures Institute\n Murdoch University",
+        profile_picture_path: "panellists/Graham_Gardner.jpg",
+        biography: "Professor Graham Gardner is a leading researcher in livestock measurement technologies and the Chief Investigator of the Advanced Livestock Measurement Technologies Project (ALMTech). This national initiative has pioneered the development and implementation of technologies that measure lean meat yield and eating quality in the sheep, pork, and cattle industries across Australia. With a background in biochemistry, nutrition, and toxicology, Professor Gardner’s work at Murdoch University focuses on understanding the physiological responses in livestock selected for traits such as growth, leanness, and eating quality. His expertise supports industry advancements in the precision measurement of meat quantity and quality, contributing to better health and production outcomes in the livestock sector.",
+        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+    },
 ];
 
 const Speakers = () => {
