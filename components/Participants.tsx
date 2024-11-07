@@ -25,9 +25,6 @@ const Participants: React.FC = () => {
                 <p className="text-lg text-gray-700">
                     We look forward to seeing you in Perth!
                 </p>
-                <p className="text-xs text-gray-1000">
-                    (Sorted by the first name's first character alphabetically)
-                </p>
             </div>
             <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-6">
                 {/* Participant Grid */}
