@@ -5,6 +5,7 @@ import { programData } from '../data/programData';
 import ScheduleTable from './ScheduleTable';
 import DayPreview from './DayPreview';
 import { useSmoothScroll } from '../hooks/useSmoothScroll';
+import Participants from './Participants';
 
 const Program = () => {
   useSmoothScroll();
@@ -87,8 +88,11 @@ const Program = () => {
               Welcome to the 3rd Australia Data Science Network Conference at Curtin University!
             </span>
             <span className="md:text-xl md:p-10">
-              Below, you will find the preliminary conference program for each day. Click on a day to view its detailed schedule.
+              Below, you will find the conference program for each day. Click on a day to view its detailed schedule.
             </span>
+          </p>
+          <p className="text-sm text-gray-500 text-center mt-4">
+            The conference program is subject to change. Please check back regularly for updates and additional details about speakers and sessions.
           </p>
         </div>
 
@@ -128,14 +132,10 @@ const Program = () => {
           ))}
         </div>
 
-        {/* Footer section with additional information */}
-        <div>
-          <p className="text-xl md:text-2xl text-center text-gray-800 leading-relaxed">
-            <span className="bg-white px-6 md:px-16 py-6 inline-block w-full max-w-7xl mx-auto">
-              The conference program is subject to change. Please check back regularly for updates and additional details about speakers and sessions.
-            </span>
-          </p>
-        </div>
+        {/* Participants Section */}
+
+        <Participants />
+
       </div>
     </div>
   );
