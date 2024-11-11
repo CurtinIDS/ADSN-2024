@@ -18,7 +18,7 @@ export const programData = [
       { startTime: "12:15", endTime: "12:45", activity: "Poster Sparkler Talks", presenter: "", institution: "" },
       { startTime: "12:45", endTime: "13:30", activity: "Lunch", presenter: "", institution: "" },
       { startTime: "13:30", endTime: "14:00", activity: "Lunch & (Optional) Curtin HIVE Tour - Must indicate attendance on registration", presenter: "", institution: "" },
-      { startTime: "14:00", endTime: "15:00", activity: "Panel Discussion: Data science is a relatively new field drawn from many different existing research areas, how do we define and promote data science careers for early to mid-career researchers?", presenter: "Panel members: TBC", institution: "" },
+      { startTime: "14:00", endTime: "15:00", activity: "Panel Discussion: Data science is a relatively new field drawn from many different existing research areas, how do we define and promote data science careers for early to mid-career researchers?", presenter: "Panel members: Distinguished Prof. Kerrie Mengersen - TBC", institution: "" },
       { startTime: "15:00", endTime: "15:15", activity: "Predicting self-harm among psychiatric inpatients", presenter: "Mr Ken Bredemeyer", institution: "University of Western Australia" },
       { startTime: "15:15", endTime: "15:30", activity: "Identifying Inequality through Urban Health Indicators (the AusUrb-HI project)", presenter: "Dr Aiden Price", institution: "Queensland University of Technology" },
       { startTime: "15:30", endTime: "15:45", activity: "Invited Talk - MYLO: Applying Data Science to a Rule-Based Conversational Agent to Support Problem Clarification for Wellbeing and Mental Health", presenter: "Prof. Warren Mansell", institution: "Curtin University" },
@@ -65,7 +65,7 @@ export const programData = [
     schedule: [
       { startTime: "8:45", endTime: "9:00", activity: "Coffee & Registration", presenter: "", institution: "" },
       { startTime: "9:00", endTime: "9:15", activity: "CIDS Director Talk", presenter: "Professor Melanie Johnston-Hollitt", institution: "Curtin University (Curtin Institute for Data Science)" },
-      { startTime: "9:15", endTime: "9:45", activity: "Invited Talk", presenter: "TBC", institution: "" },
+      { startTime: "9:15", endTime: "9:45", activity: "Invited Talk - Shared Environmental Analytics Facility - Facilitating research, industry and government translation for cumulative impact assessment", presenter: "TBC", institution: "Australian Research Data Commons (ARDC)" },
       { startTime: "9:45", endTime: "10:00", activity: "Recommendations for a National Framework for Advanced Health Analytics Infrastructure", presenter: "Professor Nicola Armstrong", institution: "Curtin University" },
       { startTime: "10:00", endTime: "10:15", activity: "Exploring Data and Model Embeddings with EmbedLens: A Plug-and-Play Visualisation Tool", presenter: "Mr Milan Marocchi", institution: "Curtin University" },
       { startTime: "10:15", endTime: "10:30", activity: "Automating Research Evaluation: Development and deployment of an ERA-Like Reporting Impact Evaluation System", presenter: "Dr Kathryn Napier", institution: "Curtin University (Curtin Institute for Data Science)" },
