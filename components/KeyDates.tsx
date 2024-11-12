@@ -44,6 +44,10 @@ const KeyDates = () => {
               date="Extended until 14 October 2024"
             />
             <KeyDatesRow
+              event="Registration Ends"
+              date="22 November 2024"
+            />
+            <KeyDatesRow
               event="ADSN Conference Dates"
               date="2 - 4 December 2024"
             />
