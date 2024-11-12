@@ -103,4 +103,5 @@ export const participantsData: Participant[] = [
     { name: "Shadi Jaradat", title: "Mr.", organization: "Queensland University of Technology" },
     { name: "Aiden Price", title: "Dr.", organization: "Queensland University of Technology" },
     { name: "Chris King", title: "Mr.", organization: "Western Rock Lobster Council" },
+    { name: "Keith Russell", title: "Mr.", organization: "ARDC" },
 ];
