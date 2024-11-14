@@ -20,7 +20,7 @@ export const participantsData: Participant[] = [
     { name: "Veelash Mongar", title: "Mr.", organization: "Curtin Institute for Data Science" },
     { name: "Calvin Pang", title: "Mr.", organization: "Curtin Institute for Data Science" },
     { name: "Juanaili Hultzsch", title: "Ms.", organization: "Curtin Institute for Data Science" },
-    { name: "Dan Marrable", title: "Dr.", organization: "Curtin Institute for Data Science" },
+    { name: "Dan Marrable", title: "Dr.", organization: "Innovation Central Perth" },
     { name: "Camila Herrera", title: "Miss.", organization: "Curtin Institute for Data Science" },
     { name: "Keegan Smith", title: "Mr.", organization: "Curtin Institute for Data Science" },
     { name: "Rebecca Handcock", title: "Dr.", organization: "Curtin Institute for Data Science" },
@@ -104,4 +104,9 @@ export const participantsData: Participant[] = [
     { name: "Aiden Price", title: "Dr.", organization: "Queensland University of Technology" },
     { name: "Chris King", title: "Mr.", organization: "Western Rock Lobster Council" },
     { name: "Keith Russell", title: "Mr.", organization: "ARDC" },
+    { name: "Owen Nevin", title: "Prof.", organization: "Western Australian Biodiversity Science Institute" },
+    { name: "Laurie Hughes", title: "Dr.", organization: "Edith Cowan University" },
+    { name: "Ethan Johnson", title: "Mr.", organization: "University of Adelaide" },
+    { name: "Oska Dubsky-Smith", title: "Mr.", organization: "University of Adelaide" },
+    { name: "Tej Bahadur Shahi", title: "Dr.", organization: "Queensland University of Technology" },
 ];
