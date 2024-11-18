@@ -50,14 +50,14 @@ const speakersPanel: PanellistProps[] = [
         topic: "Day 1: Data science is a relatively new field drawn from many different existing research areas, how do we define and promote data science careers for early to mid-career researchers?"
     },
     {
-        name: "Dr Paul Hancock",
+        name: "Dr. Paul Hancock",
         role: "Data Science Project Lead - Curtin Institute for Data Science\n Curtin University",
         profile_picture_path: "panellists/Paul-H.png",
-        biography: "Dr Paul Hancock holds a PhD in Physics from Sydney University, where he studied the youngest radio galaxies using a 20GHz survey. He developed key software for the survey processing. After his PhD, Paul worked as a postdoc at Sydney and Curtin Universities, focusing on variable radio sources and surveys, developing software like visibility stacking and the Aegean source finding algorithm. In 2021, Paul became the data science lead for ADACS at CIDS, contributing to software support, teaching, and the SMART pulsar survey project.",
+        biography: "Dr. Paul Hancock holds a PhD in Physics from Sydney University, where he studied the youngest radio galaxies using a 20GHz survey. He developed key software for the survey processing. After his PhD, Paul worked as a postdoc at Sydney and Curtin Universities, focusing on variable radio sources and surveys, developing software like visibility stacking and the Aegean source finding algorithm. In 2021, Paul became the data science lead for ADACS at CIDS, contributing to software support, teaching, and the SMART pulsar survey project.",
         topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
     },
     {
-        name: "Mr Shiv Akarsh Meka",
+        name: "Mr. Shiv Akarsh Meka",
         role: "Principle Data Scientist\n Perth Royal Hospital",
         profile_picture_path: "panellists/Shiv_Meka.jpg",
         biography: "Shiv Akarsh Meka is a Principal Data Scientist at Royal Perth Hospital, where he focuses on using data science to enhance patient care. He leads the development of predictive algorithms that provide real-time information to clinicians, helping to anticipate and address patient deterioration. Prior to his current role, Shiv served as WA Health’s Lead Data Scientist, working on applications ranging from anonymising health data to patient identity verification from limited information. Originally from India, Shiv completed a Bachelor's in Electrical Engineering before moving to the U.S. to pursue an advanced degree in materials engineering, where he researched materials for semiconductor applications. Throughout his career, Shiv has applied his expertise across a range of projects in materials science, scientific visualisation, and machine learning. He has published research in applied machine learning, semiconductors, and optimisation, and brings a deep understanding of computational methods to accelerate discoveries in healthcare.",
@@ -71,7 +71,7 @@ const speakersPanel: PanellistProps[] = [
         topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
     },
     {
-        name: "Mr Nick Jenkins",
+        name: "Mr. Nick Jenkins",
         role: "Program Manager – Research Software\n Australian Research Data Commons (ARDC)",
         profile_picture_path: "panellists/Nick_Jenkins.jpg",
         biography: "Nick Jenkins has over 32 years of experience in software engineering, graduating from Curtin University in 1992 with a Bachelor of Computer Science. Early in his career, he supported academics in developing interactive teaching resources and co-authored “The Developer’s Handbook to Interactive Multimedia.” Nick went on to help establish the Australian Multimedia Testing Centre under Paul Keating’s “Creative Nation” initiative and later held software leadership roles in London, Prague, and Boston. In 2016, he co-founded Mechanical Rock, a Perth-based consultancy specializing in high-end software engineering and cloud solutions. In 2024, Nick joined CIDS as a Program Manager (Research Software Specialist) through its partnership with the ARDC, where he now leads CIDS's team in advancing the ARDC’s Research Software Agenda in Australia.",
@@ -92,10 +92,10 @@ const speakersPanel: PanellistProps[] = [
         topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
     },
     {
-        name: "Mr Martyn Weir",
+        name: "Mr. Martyn Weir",
         role: "Co-founder, Managing Director & CEO\n Oqea",
         profile_picture_path: "panellists/Martyn_Weir.jpg",
-        biography: "With over 25 years of experience in executive and advisory roles, Mr Martyn Weir has led businesses through transformational change, driving growth through the adoption of new technologies and more efficient operating models. He has significant expertise in the resources, industrial, manufacturing, infrastructure, and commercial building sectors, and is skilled in business strategy, project delivery, and digital systems implementation. Martyn has a successful track record in business transformation, risk management, and mergers and acquisitions. He has also founded and commercialised two technology solutions, including the sale of one to a large US manufacturing and construction company. His leadership spans both large enterprises and startups, with a focus on digital engineering, business process improvement, and venture capital.",
+        biography: "With over 25 years of experience in executive and advisory roles, Mr. Martyn Weir has led businesses through transformational change, driving growth through the adoption of new technologies and more efficient operating models. He has significant expertise in the resources, industrial, manufacturing, infrastructure, and commercial building sectors, and is skilled in business strategy, project delivery, and digital systems implementation. Martyn has a successful track record in business transformation, risk management, and mergers and acquisitions. He has also founded and commercialised two technology solutions, including the sale of one to a large US manufacturing and construction company. His leadership spans both large enterprises and startups, with a focus on digital engineering, business process improvement, and venture capital.",
         topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
     },
 ];
