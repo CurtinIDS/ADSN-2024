@@ -58,9 +58,9 @@ const speakersPanel: PanellistProps[] = [
     },
     {
         name: "Mr. Shiv Akarsh Meka",
-        role: "Principle Data Scientist\n Perth Royal Hospital",
+        role: "Chief Data Scientist\n Perth Royal Hospital",
         profile_picture_path: "panellists/Shiv_Meka.jpg",
-        biography: "Shiv Akarsh Meka is a Principal Data Scientist at Royal Perth Hospital, where he focuses on using data science to enhance patient care. He leads the development of predictive algorithms that provide real-time information to clinicians, helping to anticipate and address patient deterioration. Prior to his current role, Shiv served as WA Health’s Lead Data Scientist, working on applications ranging from anonymising health data to patient identity verification from limited information. Originally from India, Shiv completed a Bachelor's in Electrical Engineering before moving to the U.S. to pursue an advanced degree in materials engineering, where he researched materials for semiconductor applications. Throughout his career, Shiv has applied his expertise across a range of projects in materials science, scientific visualisation, and machine learning. He has published research in applied machine learning, semiconductors, and optimisation, and brings a deep understanding of computational methods to accelerate discoveries in healthcare.",
+        biography: "Shiv Akarsh Meka is a Chief Data Scientist at Royal Perth Hospital, where he leads a “skunk-works” team dedicated to applying deeptech solutions to transform patient care. His current work focuses on providing clinicians with real-time prognostic information to aid in timely patient deterioration predictions and on developing non-invasive & non-contact monitoring systems. Prior to joining the hospital, Shiv held the position of Lead Data Scientist at WA Health where he employed data science to tackle diverse healthcare challenges such as data linkage, synthetic data generation, cancer staging, and automated clinical coding. Shiv's research in applied machine learning, semiconductors, and optimisation has been supported by grants exceeding $3 million, and he has published work in these areas.",
         topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
     },
     {
