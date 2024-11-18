@@ -57,6 +57,13 @@ const speakersPanel: PanellistProps[] = [
         topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
     },
     {
+        name: "Mr Shiv Akarsh Meka",
+        role: "Principle Data Scientist\n Perth Royal Hospital",
+        profile_picture_path: "panellists/Shiv_Meka.jpg",
+        biography: "Shiv Akarsh Meka is a Principal Data Scientist at Royal Perth Hospital, where he focuses on using data science to enhance patient care. He leads the development of predictive algorithms that provide real-time information to clinicians, helping to anticipate and address patient deterioration. Prior to his current role, Shiv served as WA Health’s Lead Data Scientist, working on applications ranging from anonymising health data to patient identity verification from limited information. Originally from India, Shiv completed a Bachelor's in Electrical Engineering before moving to the U.S. to pursue an advanced degree in materials engineering, where he researched materials for semiconductor applications. Throughout his career, Shiv has applied his expertise across a range of projects in materials science, scientific visualisation, and machine learning. He has published research in applied machine learning, semiconductors, and optimisation, and brings a deep understanding of computational methods to accelerate discoveries in healthcare.",
+        topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
+    },
+    {
         name: "Prof. Ryan Loxton",
         role: "Director, Centre for Optimisation & Decision Science\n Curtin University",
         profile_picture_path: "panellists/Ryan_Loxton.jpg",
@@ -75,6 +82,20 @@ const speakersPanel: PanellistProps[] = [
         role: "Director, Centre for Animal Production and Health, Food Futures Institute\n Murdoch University",
         profile_picture_path: "panellists/Graham_Gardner.jpg",
         biography: "Professor Graham Gardner is a leading researcher in livestock measurement technologies and the Chief Investigator of the Advanced Livestock Measurement Technologies Project (ALMTech). This national initiative has pioneered the development and implementation of technologies that measure lean meat yield and eating quality in the sheep, pork, and cattle industries across Australia. With a background in biochemistry, nutrition, and toxicology, Professor Gardner’s work at Murdoch University focuses on understanding the physiological responses in livestock selected for traits such as growth, leanness, and eating quality. His expertise supports industry advancements in the precision measurement of meat quantity and quality, contributing to better health and production outcomes in the livestock sector.",
+        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+    },
+    {
+        name: "Dr. Roberta Fornarelli",
+        role: "Principal, Advanced Analytics\n Rio Tinto",
+        profile_picture_path: "panellists/Roberta_Fornarelli.jpg",
+        biography: "Dr. Roberta Fornarelli joined Rio Tinto in 2023, where she leads technical teams of data scientists and optimization experts to deliver AI and data analytics solutions that enhance operations. Before this, Roberta worked at the intersection of data science, artificial intelligence, and environmental management, with experience as an academic researcher, engineering consultant, and technical leader. Her career has evolved from academic research and technical development to team leadership, where she is passionate about supporting and coaching her colleagues to help them reach their full potential. Roberta’s proudest achievement is returning safely to her young family each day, balancing her professional and personal life.",
+        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+    },
+    {
+        name: "Mr Martyn Weir",
+        role: "Co-founder, Managing Director & CEO\n Oqea",
+        profile_picture_path: "panellists/Martyn_Weir.jpg",
+        biography: "With over 25 years of experience in executive and advisory roles, Mr Martyn Weir has led businesses through transformational change, driving growth through the adoption of new technologies and more efficient operating models. He has significant expertise in the resources, industrial, manufacturing, infrastructure, and commercial building sectors, and is skilled in business strategy, project delivery, and digital systems implementation. Martyn has a successful track record in business transformation, risk management, and mergers and acquisitions. He has also founded and commercialised two technology solutions, including the sale of one to a large US manufacturing and construction company. His leadership spans both large enterprises and startups, with a focus on digital engineering, business process improvement, and venture capital.",
         topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
     },
 ];
