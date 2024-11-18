@@ -58,7 +58,7 @@ const speakersPanel: PanellistProps[] = [
     },
     {
         name: "Mr. Shiv Akarsh Meka",
-        role: "Chief Data Scientist\n Perth Royal Hospital",
+        role: "Chief Data Scientist\n Royal Perth Hospital",
         profile_picture_path: "panellists/Shiv_Meka.jpg",
         biography: "Shiv Akarsh Meka is a Chief Data Scientist at Royal Perth Hospital, where he leads a “skunk-works” team dedicated to applying deeptech solutions to transform patient care. His current work focuses on providing clinicians with real-time prognostic information to aid in timely patient deterioration predictions and on developing non-invasive & non-contact monitoring systems. Prior to joining the hospital, Shiv held the position of Lead Data Scientist at WA Health where he employed data science to tackle diverse healthcare challenges such as data linkage, synthetic data generation, cancer staging, and automated clinical coding. Shiv's research in applied machine learning, semiconductors, and optimisation has been supported by grants exceeding $3 million, and he has published work in these areas.",
         topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
