@@ -17,7 +17,7 @@ const Participants: React.FC = () => {
     const visibleParticipants = isExpanded ? sortedParticipants : sortedParticipants.slice(0, 4);
 
     return (
-        <div className="bg-gray-100 p-8">
+        <div id="participants" className="bg-gray-100 p-8">
             <div className="text-center mb-8">
                 <h1 className="text-3xl font-extrabold text-blue-900 mb-2">
                     Conference Participants

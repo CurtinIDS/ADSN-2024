@@ -30,7 +30,7 @@ const speakersInvited: SpeakersProps[] = [
         profile_picture_path: "speakers/Warren_Mansell.jpg",
         biography: "Professor Warren Mansell's work focuses on transdiagnostic interventions for mental health, including the development of digital health tools such as Manage Your Life Online (MYLO). His research is grounded in Perceptual Control Theory (PCT), a model that explains behaviour as a purposeful, dynamic control system. This approach informs his work on the Method of Levels Therapy for mental health issues and guides his exploration into communication in dementia, robotics, and consciousness. Professor Mansell’s work highlights the potential of digital health and data science in advancing mental health interventions by enabling robust, individualized models for predicting and improving mental health outcomes. He brings insights from his roles across Oxford, King's College London, and the University of Manchester, where he previously served as a Reader in Clinical Psychology.",
         keynote_topic: "MYLO: Applying Data Science to a Rule-Based Conversational Agent to Support Problem Clarification for Wellbeing and Mental Health",
-        keynote_abstract: "MYLO is a rules-based system that engages the user in a text-based conversation about a current problem. Its architecture is informed by control systems engineering and research evidence on the active ingredients of psychological change. Through MYLO's curious questioning, the user is supported in problem expression (putting their thoughts and feelings into words), problem clarification (exploring the problem in greater depth and detail), and problem resolution (seeing the problem from a new perspective and getting insights). The Curtin Institute of Data Science implemented two rounds of codesigned improvements to MYLO - a progressive web application for smartphones - and an improvement to its database and decision-making and learning algorithms. We report on the impact of these improvements, and our plans for integrating large language models (LLMs) and natural language processing (NLP) within MYLO to generate a hybrid in the next round of improvements ahead of commercialisation.",
+        keynote_abstract: "MYLO is a rules-based system that engages the user in a text-based conversation about a current problem. Its architecture is informed by control systems engineering and research evidence on the active ingredients of psychological change. Through MYLO's curious questioning, the user is supported in problem expression (putting their thoughts and feelings into words), problem clarification (exploring the problem in greater depth and detail), and problem resolution (seeing the problem from a new perspective and getting insights). The Curtin Institute for Data Science implemented two rounds of codesigned improvements to MYLO - a progressive web application for smartphones - and an improvement to its database and decision-making and learning algorithms. We report on the impact of these improvements, and our plans for integrating large language models (LLMs) and natural language processing (NLP) within MYLO to generate a hybrid in the next round of improvements ahead of commercialisation.",
     },
     {
         name: "Prof. Owen Nevin ",
@@ -57,6 +57,13 @@ const speakersPanel: PanellistProps[] = [
         topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
     },
     {
+        name: "Mr Shiv Akarsh Meka",
+        role: "Chief Data Scientist\n Royal Perth Hospital",
+        profile_picture_path: "panellists/Shiv_Meka.jpg",
+        biography: "Shiv Akarsh Meka is a Chief Data Scientist at Royal Perth Hospital, where he leads a “skunk-works” team dedicated to applying deeptech solutions to transform patient care. His current work focuses on providing clinicians with real-time prognostic information to aid in timely patient deterioration predictions and on developing non-invasive & non-contact monitoring systems. Prior to joining the hospital, Shiv held the position of Lead Data Scientist at WA Health where he employed data science to tackle diverse healthcare challenges such as data linkage, synthetic data generation, cancer staging, and automated clinical coding. Shiv's research in applied machine learning, semiconductors, and optimisation has been supported by grants exceeding $3 million, and he has published work in these areas.",
+        topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
+    },
+    {
         name: "Prof. Ryan Loxton",
         role: "Director, Centre for Optimisation & Decision Science\n Curtin University",
         profile_picture_path: "panellists/Ryan_Loxton.jpg",
@@ -75,6 +82,20 @@ const speakersPanel: PanellistProps[] = [
         role: "Director, Centre for Animal Production and Health, Food Futures Institute\n Murdoch University",
         profile_picture_path: "panellists/Graham_Gardner.jpg",
         biography: "Professor Graham Gardner is a leading researcher in livestock measurement technologies and the Chief Investigator of the Advanced Livestock Measurement Technologies Project (ALMTech). This national initiative has pioneered the development and implementation of technologies that measure lean meat yield and eating quality in the sheep, pork, and cattle industries across Australia. With a background in biochemistry, nutrition, and toxicology, Professor Gardner’s work at Murdoch University focuses on understanding the physiological responses in livestock selected for traits such as growth, leanness, and eating quality. His expertise supports industry advancements in the precision measurement of meat quantity and quality, contributing to better health and production outcomes in the livestock sector.",
+        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+    },
+    // {
+    //     name: "Dr Roberta Fornarelli",
+    //     role: "Principal, Advanced Analytics\n Rio Tinto",
+    //     profile_picture_path: "panellists/Roberta_Fornarelli.jpg",
+    //     biography: "Dr Roberta Fornarelli joined Rio Tinto in 2023, where she leads technical teams of data scientists and optimization experts to deliver AI and data analytics solutions that enhance operations. Before this, Roberta worked at the intersection of data science, artificial intelligence, and environmental management, with experience as an academic researcher, engineering consultant, and technical leader. Her career has evolved from academic research and technical development to team leadership, where she is passionate about supporting and coaching her colleagues to help them reach their full potential. Roberta’s proudest achievement is returning safely to her young family each day, balancing her professional and personal life.",
+    //     topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+    // },
+    {
+        name: "Mr Martyn Weir",
+        role: "Co-founder, Managing Director & CEO\n Oqea",
+        profile_picture_path: "panellists/Martyn_Weir.jpg",
+        biography: "With over 25 years of experience in executive and advisory roles, Mr Martyn Weir has led businesses through transformational change, driving growth through the adoption of new technologies and more efficient operating models. He has significant expertise in the resources, industrial, manufacturing, infrastructure, and commercial building sectors, and is skilled in business strategy, project delivery, and digital systems implementation. Martyn has a successful track record in business transformation, risk management, and mergers and acquisitions. He has also founded and commercialised two technology solutions, including the sale of one to a large US manufacturing and construction company. His leadership spans both large enterprises and startups, with a focus on digital engineering, business process improvement, and venture capital.",
         topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
     },
 ];
