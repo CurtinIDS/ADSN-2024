@@ -84,13 +84,13 @@ const speakersPanel: PanellistProps[] = [
         biography: "Professor Graham Gardner is a leading researcher in livestock measurement technologies and the Chief Investigator of the Advanced Livestock Measurement Technologies Project (ALMTech). This national initiative has pioneered the development and implementation of technologies that measure lean meat yield and eating quality in the sheep, pork, and cattle industries across Australia. With a background in biochemistry, nutrition, and toxicology, Professor Gardner’s work at Murdoch University focuses on understanding the physiological responses in livestock selected for traits such as growth, leanness, and eating quality. His expertise supports industry advancements in the precision measurement of meat quantity and quality, contributing to better health and production outcomes in the livestock sector.",
         topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
     },
-    {
-        name: "Dr Roberta Fornarelli",
-        role: "Principal, Advanced Analytics\n Rio Tinto",
-        profile_picture_path: "panellists/Roberta_Fornarelli.jpg",
-        biography: "Dr Roberta Fornarelli joined Rio Tinto in 2023, where she leads technical teams of data scientists and optimization experts to deliver AI and data analytics solutions that enhance operations. Before this, Roberta worked at the intersection of data science, artificial intelligence, and environmental management, with experience as an academic researcher, engineering consultant, and technical leader. Her career has evolved from academic research and technical development to team leadership, where she is passionate about supporting and coaching her colleagues to help them reach their full potential. Roberta’s proudest achievement is returning safely to her young family each day, balancing her professional and personal life.",
-        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
-    },
+    // {
+    //     name: "Dr Roberta Fornarelli",
+    //     role: "Principal, Advanced Analytics\n Rio Tinto",
+    //     profile_picture_path: "panellists/Roberta_Fornarelli.jpg",
+    //     biography: "Dr Roberta Fornarelli joined Rio Tinto in 2023, where she leads technical teams of data scientists and optimization experts to deliver AI and data analytics solutions that enhance operations. Before this, Roberta worked at the intersection of data science, artificial intelligence, and environmental management, with experience as an academic researcher, engineering consultant, and technical leader. Her career has evolved from academic research and technical development to team leadership, where she is passionate about supporting and coaching her colleagues to help them reach their full potential. Roberta’s proudest achievement is returning safely to her young family each day, balancing her professional and personal life.",
+    //     topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+    // },
     {
         name: "Mr Martyn Weir",
         role: "Co-founder, Managing Director & CEO\n Oqea",
