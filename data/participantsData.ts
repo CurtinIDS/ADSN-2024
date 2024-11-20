@@ -20,7 +20,7 @@ export const participantsData: Participant[] = [
     { name: "Veelash Mongar", title: "Mr", organization: "Curtin Institute for Data Science" },
     { name: "Calvin Pang", title: "Mr", organization: "Curtin Institute for Data Science" },
     { name: "Juanaili Hultzsch", title: "Ms", organization: "Curtin Institute for Data Science" },
-    { name: "Dan Marrable", title: "Dr", organization: "Innovation Central Perth" },
+    { name: "Daniel Marrable", title: "Dr", organization: "Innovation Central Perth" },
     { name: "Camila Herrera", title: "Miss", organization: "Curtin Institute for Data Science" },
     { name: "Keegan Smith", title: "Mr", organization: "Curtin Institute for Data Science" },
     { name: "Rebecca Handcock", title: "Dr", organization: "Curtin Institute for Data Science" },
@@ -120,4 +120,5 @@ export const participantsData: Participant[] = [
     { name: "Martyn Weir", title: "Mr", organization: "Oqea" },
     { name: "Andrew Grose", title: "Mr", organization: "Curtin University" },
     { name: "Srikanth Kompella", title: "Dr", organization: "" },
+    { name: "Michael Nefiodovas", title: "Mr", organization: "" },
 ];
