@@ -123,4 +123,7 @@ export const participantsData: Participant[] = [
     { name: "Gabriella La Macchia", title: "Ms", organization: "" },
     { name: "Mildred Mmbone", title: "Ms", organization: "Queensland University of Technology" },
     { name: "Sheryar Ahmad", title: "Mr", organization: "" },
+    { name: "Ashley Stewart", title: "Ms", organization: "Queensland University of Technology" },
+    { name: "Sarah James", title: "Ms", organization: "Capgemini" },
+    { name: "Hannah	White", title: "Miss", organization: "" },
 ];
