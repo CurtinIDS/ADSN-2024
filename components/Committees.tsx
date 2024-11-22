@@ -12,7 +12,7 @@ const committeesScientificProgram: CommitteeProps[] = [
   {
     name: "Prof. Joanna Batstone",
     role: "Director, Monash Data Futures Institute",
-    profile_picture_path: "SPC/Joanne_Batstone.jpg",
+    profile_picture_path: "SPC/Joanna_Batstone.jpg",
     biography_url: "https://research.monash.edu/en/persons/joanna-batstone",
   },
   {
@@ -61,25 +61,31 @@ const committeesOrganising: CommitteeProps[] = [
   },
   {
     name: "Dr Daniel Marrable",
-    role: "Deputy Chair",
+    role: "Co-Deputy Chair\n Director, Innovation Central Perth",
     profile_picture_path: "OC/Dan_Marrable.jpg",
     biography_url: "https://datascience.curtin.edu.au/about-us/our-people/dr-daniel-marrable/",
+  },
+  {
+    name: "Dr Kathryn Napier",
+    role: "Co-Deputy Chair",
+    profile_picture_path: "OC/Kathryn_N.png",
+    biography_url: "https://datascience.curtin.edu.au/about-us/our-people/kathryn-napier/",
   },
   {
     name: "Calvin Pang",
     role: "Program Coordination",
     profile_picture_path: "OC/Calvin_Pang.jpg",
-    biography_url: "https://datascience.curtin.edu.au/about-us/our-people/camila-herrera-palavercino/",
+    biography_url: "https://datascience.curtin.edu.au/about-us/our-people/calvin-pang/",
   },
   {
     name: "Camila Herrera",
     role: "Logistics and Venue Coordination",
     profile_picture_path: "OC/Camila_Herrera.jpg",
-    biography_url: "https://datascience.curtin.edu.au/about-us/our-people/calvin-pang/",
+    biography_url: "https://datascience.curtin.edu.au/about-us/our-people/camila-herrera-palavercino/",
   },
   {
     name: "Juanaili Hultzsch",
-    role: "Logistics and Venue Coordination",
+    role: "Logistics and Venue Coordination, Sponsorship Engagement",
     profile_picture_path: "OC/Juanaili_Hultzsch.jpg",
     biography_url: "https://datascience.curtin.edu.au/about-us/our-people/juanaili-hultzsch/",
   },
@@ -97,7 +103,7 @@ const committeesOrganising: CommitteeProps[] = [
   },
   {
     name: "Trish Radotic",
-    role: "Business Development and Sponsorship Engagement",
+    role: "Business Development",
     profile_picture_path: "OC/Trish_Radotic.png",
     biography_url: "https://datascience.curtin.edu.au/about-us/our-people/trish-radotic/",
   },

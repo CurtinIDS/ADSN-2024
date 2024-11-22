@@ -43,62 +43,131 @@ const speakersInvited: SpeakersProps[] = [
 ];
 const speakersPanel: PanellistProps[] = [
     {
+        name: "Dr Daniel Marrable",
+        role: "Director\n Innovation Central Perth",
+        profile_picture_path: "OC/Dan_Marrable.jpg",
+        biography: "Dr Daniel Marrable is the Director of Innovation Central Perth (ICP), an industry and science collaboration centre located at Curtin University. ICP has the vision of advancing digital transformation through an open innovation ecosystem, offering unique access to world-class facilities and global networks for organisations in search of a bold solution to a business challenge. The centre is designed to nurture innovation and growth by solving real business problems for small and medium sized enterprises. With a PhD in Earth observation and remote sensing from Curtin University and first-class honours in applied physics, he has extensive experience in processing very large data sets and coding complex light models on a variety of platforms, such as cloud infrastructure, supercomputers, and GPUs. He has previously worked on numerous projects funded by the European Space Agency and World Bank, and joined the Curtin Institute for Data Science in  2017, becoming Lead Data Scientist in 2020. His work at the CIDS included leading a collaboration with fish ecologists from Curtin University’s fish ecology lab and the Australian Institute for Marine Science, using machine learning to automate much of the manual labour required for counting and measuring fish from underwater videos. The result of this collaboration, the Automated Fish Identification (AFID) digital assistant, is now licenced by numerous agencies.",
+        position: "Panellist",
+        day: 1,
+    },
+    // {
+    //     name: "Prof. Joanna Batstone",
+    //     role: "Director\n Monash Data Futures Institute",
+    //     profile_picture_path: "SPC/Joanna_Batstone.jpg",
+    //     biography: "Professor Joanna Batstone is the inaugural Director of the Monash Data Futures Institute, leading the integration of data science and AI capabilities across the University. Under her leadership, the Institute focuses on AI for social good, with an emphasis on Health Sciences, Sustainable Development, and Policy and Governance. It aims to be the region’s leading centre for AI and data science. Joanna brings extensive international experience, having previously served as Vice President, Innovation, at IBM Corporate Strategy in New York. She held several senior technical and business leadership roles at IBM, including Vice President and Lab Director of IBM Research – Australia, and Chief Technology Officer of IBM Australia and New Zealand. With a Ph.D. in Physics from the University of Bristol, Joanna’s work spans academia and industry, having led teams across the USA, Europe, and Australia. She has received numerous prestigious awards, including the Burton Medal and the Robert Lansing Hardy Gold Medal, and was elected a Fellow of the Australian Academy of Technological Sciences and Engineering in 2023.",
+    //     position: "Panellist",
+    //     day: 1,
+    // },
+    {
         name: "Distinguished Prof. Kerrie Mengersen",
         role: "Director, QUT Centre for Data Science\n Queensland University of Technology",
         profile_picture_path: "panellists/Kerrie_Mengersen.jpg",
         biography: "Distinguished Professor Kerrie Mengersen is a leading statistician and Director of the QUT Centre for Data Science at Queensland University of Technology. With a career spanning both academic and commercial settings, she has made significant contributions in Bayesian statistical modelling, complex systems modelling, and computational methods. Professor Mengersen's research addresses pressing challenges across diverse fields, including environmental science, health and medicine, genetics, and industry. She has held notable positions, such as Deputy Director of the ARC Centre of Excellence in Mathematical and Statistical Frontiers, and has been recognized as a Fellow of the Australian Academy of Science, the Academy of Social Sciences in Australia, and the Queensland Academy of Arts and Sciences.",
-        topic: "Day 1: Data science is a relatively new field drawn from many different existing research areas, how do we define and promote data science careers for early to mid-career researchers?"
+        position: "Panellist",
+        day: 1,
+    },
+    {
+        name: "Prof. Michael Small",
+        role: "Director\n UWA Data Institute",
+        profile_picture_path: "SPC/Michael_Small.jpg",
+        biography: "Professor Michael Small is a leading expert in complex systems and dynamical systems theory, with a focus on applying these fields to solve real-world engineering and social problems. He holds the CSIRO-UWA Chair in Complex Systems and is the Director of the UWA Data Institute. Professor Small is also Chief Investigator for three Australian Research Council initiatives: the Industrial Transformation Training Centre for Transforming Maintenance through Data Science, the Industrial Transformation Research Hub for Transforming Energy Infrastructure Through Digital Engineering and the Training Centre in Electrifying Australia for a Net-zero Future. In addition to his role at UWA, Professor Small leads the Complex Systems Group at UWA. He is also the Deputy Editor-in-Chief of Chaos and the Main Editor of Physica A. His research focuses on advancing fundamental knowledge in complex systems and applying this to areas such as data science, energy, and maintenance.",
+        position: "Panellist",
+        day: 1,
     },
     {
         name: "Dr Paul Hancock",
         role: "Data Science Project Lead - Curtin Institute for Data Science\n Curtin University",
         profile_picture_path: "panellists/Paul-H.png",
         biography: "Dr Paul Hancock holds a PhD in Physics from Sydney University, where he studied the youngest radio galaxies using a 20GHz survey. He developed key software for the survey processing. After his PhD, Paul worked as a postdoc at Sydney and Curtin Universities, focusing on variable radio sources and surveys, developing software like visibility stacking and the Aegean source finding algorithm. In 2021, Paul became the data science lead for ADACS at CIDS, contributing to software support, teaching, and the SMART pulsar survey project.",
-        topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
+        position: "Panellist",
+        day: 2,
+    },
+    {
+        name: "Mrs Sarah James",
+        role: "Director Insights and Data\n Capgemini",
+        profile_picture_path: "panellists/Sarah_James.jpg",
+        biography: "Sarah James brings over 25 years of experience in big data, AI, automation, and data science, with a proven track record of delivering impactful solutions on a global scale. She excels in uniting diverse teams across multiple technology sectors, driving innovation and scaling future technologies to create new growth opportunities. As a mentor and high-level communicator, Sarah advises ministers and C-suite executives on technology solutions and strategies. She has produced numerous digital and data strategies for organizations worldwide, demonstrating her exceptional written work and thought leadership. Sarah’s leadership style amplifies the strengths of others, and she is passionate about identifying the workforce of the future and the technological advancements required to drive progress. In recognition of her work, Sarah has won several awards, including a CEO Innovation Award, the 2022 AI, Robotics, Data & Analytics Shining Star WITWA award and the Alcoa Peel Business award for Tourism. She is also an advocate for Autism, a TEDx speaker, and a mentor at Coderdojo.",
+        position: "Panellist",
+        day: 2,
     },
     {
         name: "Mr Shiv Akarsh Meka",
         role: "Chief Data Scientist\n Royal Perth Hospital",
         profile_picture_path: "panellists/Shiv_Meka.jpg",
         biography: "Shiv Akarsh Meka is a Chief Data Scientist at Royal Perth Hospital, where he leads a “skunk-works” team dedicated to applying deeptech solutions to transform patient care. His current work focuses on providing clinicians with real-time prognostic information to aid in timely patient deterioration predictions and on developing non-invasive & non-contact monitoring systems. Prior to joining the hospital, Shiv held the position of Lead Data Scientist at WA Health where he employed data science to tackle diverse healthcare challenges such as data linkage, synthetic data generation, cancer staging, and automated clinical coding. Shiv's research in applied machine learning, semiconductors, and optimisation has been supported by grants exceeding $3 million, and he has published work in these areas.",
-        topic: "Day 2: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?"
+        position: "Panellist",
+        day: 2,
     },
     {
-        name: "Prof. Ryan Loxton",
-        role: "Director, Centre for Optimisation & Decision Science\n Curtin University",
-        profile_picture_path: "panellists/Ryan_Loxton.jpg",
-        biography: "Professor Ryan Loxton is the Director of the Centre for Optimisation and Decision Science at Curtin. His work focuses on using advanced mathematics to optimise complex processes in a wide range of applications such as mining, oil and gas, agriculture, and industrial process control. Ryan is a passionate advocate for industry engagement and he has worked with many companies including Woodside Energy, Linkforce, Fleetcare, and Vekta Automation. He was the 2014 West Australian Young Scientist of the Year and he leads the optimisation theme in the ARC Industrial Training Centre for Transforming Maintenance through Data Science, which is funded by the Australian Research Council and industry partners Alcoa, BHP, and Roy Hill.",
-        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
-    },
-    {
-        name: "Mr Nick Jenkins",
-        role: "Program Manager – Research Software\n Australian Research Data Commons (ARDC)",
-        profile_picture_path: "panellists/Nick_Jenkins.jpg",
-        biography: "Nick Jenkins has over 32 years of experience in software engineering, graduating from Curtin University in 1992 with a Bachelor of Computer Science. Early in his career, he supported academics in developing interactive teaching resources and co-authored “The Developer’s Handbook to Interactive Multimedia.” Nick went on to help establish the Australian Multimedia Testing Centre under Paul Keating’s “Creative Nation” initiative and later held software leadership roles in London, Prague, and Boston. In 2016, he co-founded Mechanical Rock, a Perth-based consultancy specializing in high-end software engineering and cloud solutions. In 2024, Nick joined CIDS as a Program Manager (Research Software Specialist) through its partnership with the ARDC, where he now leads CIDS's team in advancing the ARDC’s Research Software Agenda in Australia.",
-        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+        name: "Dr Valentina Tiporlini",
+        role: "Business Development Manager, Curtin Institute for Data Science\n Curtin University",
+        profile_picture_path: "panellists/Valentina_T.png",
+        biography: "Dr Valentina Tiporlini holds a PhD in Biomedical Engineering from Edith Cowan University and an MBA specializing in Innovation and Enterprise from Curtin University. With 15 years of experience in AI, machine learning, and data science across academia and industry, Valentina has a strong background in leading research and development projects. Before joining CIDS, she managed cross-functional teams at the BrainChip Research Institute and built partnerships with research institutes and industry leaders in sectors such as agriculture, healthcare, and environmental monitoring. Valentina also completed a Postdoctoral Research Fellowship at Edith Cowan University, where she focused on health and medtech research and facilitated strong industry-university connections. At CIDS, Valentina leads data science initiatives, drives strategic partnerships, and supports the development of collaborations to address industry challenges",
+        position: "Moderator",
+        day: 3,
     },
     {
         name: "Prof. Graham Gardner",
         role: "Director, Centre for Animal Production and Health, Food Futures Institute\n Murdoch University",
         profile_picture_path: "panellists/Graham_Gardner.jpg",
         biography: "Professor Graham Gardner is a leading researcher in livestock measurement technologies and the Chief Investigator of the Advanced Livestock Measurement Technologies Project (ALMTech). This national initiative has pioneered the development and implementation of technologies that measure lean meat yield and eating quality in the sheep, pork, and cattle industries across Australia. With a background in biochemistry, nutrition, and toxicology, Professor Gardner’s work at Murdoch University focuses on understanding the physiological responses in livestock selected for traits such as growth, leanness, and eating quality. His expertise supports industry advancements in the precision measurement of meat quantity and quality, contributing to better health and production outcomes in the livestock sector.",
-        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+        position: "Panellist",
+        day: 3,
     },
-    // {
-    //     name: "Dr Roberta Fornarelli",
-    //     role: "Principal, Advanced Analytics\n Rio Tinto",
-    //     profile_picture_path: "panellists/Roberta_Fornarelli.jpg",
-    //     biography: "Dr Roberta Fornarelli joined Rio Tinto in 2023, where she leads technical teams of data scientists and optimization experts to deliver AI and data analytics solutions that enhance operations. Before this, Roberta worked at the intersection of data science, artificial intelligence, and environmental management, with experience as an academic researcher, engineering consultant, and technical leader. Her career has evolved from academic research and technical development to team leadership, where she is passionate about supporting and coaching her colleagues to help them reach their full potential. Roberta’s proudest achievement is returning safely to her young family each day, balancing her professional and personal life.",
-    //     topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
-    // },
     {
         name: "Mr Martyn Weir",
         role: "Co-founder, Managing Director & CEO\n Oqea",
         profile_picture_path: "panellists/Martyn_Weir.jpg",
         biography: "With over 25 years of experience in executive and advisory roles, Mr Martyn Weir has led businesses through transformational change, driving growth through the adoption of new technologies and more efficient operating models. He has significant expertise in the resources, industrial, manufacturing, infrastructure, and commercial building sectors, and is skilled in business strategy, project delivery, and digital systems implementation. Martyn has a successful track record in business transformation, risk management, and mergers and acquisitions. He has also founded and commercialised two technology solutions, including the sale of one to a large US manufacturing and construction company. His leadership spans both large enterprises and startups, with a focus on digital engineering, business process improvement, and venture capital.",
-        topic: "Day 3: What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?"
+        position: "Panellist",
+        day: 3,
+    },
+    {
+        name: "Mr Nick Jenkins",
+        role: "Program Manager – Research Software\n Australian Research Data Commons (ARDC)",
+        profile_picture_path: "panellists/Nick_Jenkins.jpg",
+        biography: "Nick Jenkins has over 32 years of experience in software engineering, graduating from Curtin University in 1992 with a Bachelor of Computer Science. Early in his career, he supported academics in developing interactive teaching resources and co-authored “The Developer’s Handbook to Interactive Multimedia.” Nick went on to help establish the Australian Multimedia Testing Centre under Paul Keating’s “Creative Nation” initiative and later held software leadership roles in London, Prague, and Boston. In 2016, he co-founded Mechanical Rock, a Perth-based consultancy specializing in high-end software engineering and cloud solutions. In 2024, Nick joined CIDS as a Program Manager (Research Software Specialist) through its partnership with the ARDC, where he now leads CIDS's team in advancing the ARDC’s Research Software Agenda in Australia.",
+        position: "Panellist",
+        day: 3,
+    },
+    {
+        name: "Dr Roberta Fornarelli",
+        role: "Principal, Advanced Analytics\n Rio Tinto",
+        profile_picture_path: "panellists/Roberta_Fornarelli.jpg",
+        biography: "Dr Roberta Fornarelli joined Rio Tinto in 2023, where she leads technical teams of data scientists and optimization experts to deliver AI and data analytics solutions that enhance and modernise Rio Tinto’s operations. Before this, Roberta worked at the intersection of data science, artificial intelligence, and environmental management, as an academic researcher at UWA, Murdoch and Curtin University, as well as an engineering consultant and technical leader at Water Corporation and Hatch Engineering. Her career has evolved from academic research and technical development to team leadership, where she is passionate about supporting and coaching her colleagues to help them reach their full potential. Roberta’s proudest achievement is returning safely to her young family each day, balancing her professional and personal life.",
+        position: "Panellist",
+        day: 3,
+    },
+    {
+        name: "Prof. Ryan Loxton",
+        role: "Director, Centre for Optimisation & Decision Science\n Curtin University",
+        profile_picture_path: "panellists/Ryan_Loxton.jpg",
+        biography: "Professor Ryan Loxton is the Director of the Centre for Optimisation and Decision Science at Curtin. His work focuses on using advanced mathematics to optimise complex processes in a wide range of applications such as mining, oil and gas, agriculture, and industrial process control. Ryan is a passionate advocate for industry engagement and he has worked with many companies including Woodside Energy, Linkforce, Fleetcare, and Vekta Automation. He was the 2014 West Australian Young Scientist of the Year and he leads the optimisation theme in the ARC Industrial Training Centre for Transforming Maintenance through Data Science, which is funded by the Australian Research Council and industry partners Alcoa, BHP, and Roy Hill.",
+        position: "Panellist",
+        day: 3,
     },
 ];
+
+const panelDiscussionTopics: { [key: number]: string } = {
+    1: "Data science is a relatively new field drawn from many different existing research areas, how do we define and promote data science careers for early to mid-career researchers?",
+    2: "How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve?",
+    3: "What are the barriers to working closely between universities and industry, and what strategies do we have to create more collaborations?",
+};
+
+// Helper to group panellists by day
+const groupPanellistsByDay = (panellists: PanellistProps[]) => {
+    const grouped: { [key: number]: PanellistProps[] } = {};
+    panellists.forEach((panellist) => {
+        const day = panellist.day!;
+        if (!grouped[day]) {
+            grouped[day] = [];
+        }
+        grouped[day].push(panellist);
+    });
+    return grouped;
+};
+
+const groupedPanellists = groupPanellistsByDay(speakersPanel);
 
 const Speakers = () => {
     return (
@@ -144,21 +213,38 @@ const Speakers = () => {
                 ))}
             </div>
             <h3 className="font-extrabold p-3 text-xl md:text-3xl text-blue-navbar">
-                Panellists
+                Panel Discussions
             </h3>
-            {/* Panelists */}
-            <div className="p-3 md:my-10 flex flex-col space-y-6 md:space-y-10 w-full">
-                {speakersPanel.map((item, index) => (
-                    <PanellistProfile
-                        key={index}
-                        name={item.name}
-                        role={item.role}
-                        profile_picture_path={item.profile_picture_path}
-                        biography={item.biography}
-                        topic={item.topic}
-                    />
-                ))}
-            </div>
+
+            {Object.entries(groupedPanellists).map(([day, panellists], index) => (
+                <div
+                    key={index}
+                    className="w-full my-10 p-6 bg-gray-50 rounded-lg shadow-lg border border-gray-200"
+                >
+                    <div className="mb-6 text-center">
+                        <h4 className="text-2xl md:text-3xl font-extrabold text-blue-800 mb-2">
+                            Day {day}
+                        </h4>
+                        <p className="text-gray-700 text-md md:text-lg max-w-3xl mx-auto leading-relaxed">
+                            {panelDiscussionTopics[+day]}
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
+                        {panellists.map((panellist, idx) => (
+                            <PanellistProfile
+                                key={idx}
+                                name={panellist.name}
+                                role={panellist.role}
+                                profile_picture_path={panellist.profile_picture_path}
+                                biography={panellist.biography}
+                                position={panellist.position}
+                            />
+                        ))}
+                    </div>
+                </div>
+            ))}
+
+
         </div>
     );
 };
