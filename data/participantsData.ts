@@ -133,4 +133,5 @@ export const participantsData: Participant[] = [
     { name: "Guy Park", title: "Mr", organization: "Oqea" },
     { name: "Matthew Miller", title: "Mr", organization: "Oqea" },
     { name: "Jenelle Dellar", title: "Ms", organization: "Oqea" },
+    { name: "Alin Ibrahim", title: "Mr", organization: "Innovation Central Perth" },
 ];
