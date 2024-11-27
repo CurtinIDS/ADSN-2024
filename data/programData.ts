@@ -15,7 +15,7 @@ export const programData = [
       { startTime: "11:30", endTime: "11:45", activity: "The WA Cancer Staging Project", presenter: "Dr Nancy Tippaya", institution: "Curtin University (Curtin Institute for Data Science)" },
       { startTime: "11:45", endTime: "12:00", activity: "Predicting Funding Program Change in Aged Care: A Machine Learning Analysis of Frailty Indicators", presenter: "Dr Bahar Moezzi", institution: "Silverchain" },
       { startTime: "12:00", endTime: "12:15", activity: "Statistical versus generative adversarial network synthetic tabular health data generation: who wins?", presenter: "Dr Yunwei Zhang", institution: "Murdoch University; Macquarie University" },
-      { startTime: "12:15", endTime: "12:45", activity: "Poster Sparkler Talks", presenter: "", institution: "" },
+      { startTime: "12:15", endTime: "12:45", activity: "Poster Sparkler Talks", presenter: "", institution: "", link: "https://docs.google.com/spreadsheets/d/1lu4o0W-s0U4mOMjzgIEzKzlvlwT6K3oA4CbcqzXNUOc/edit?gid=382942974#gid=382942974" },
       { startTime: "12:45", endTime: "13:30", activity: "Lunch", presenter: "", institution: "" },
       { startTime: "13:30", endTime: "14:00", activity: "Lunch & (Optional) Curtin HIVE Tour - Must indicate attendance on registration", presenter: "", institution: "" },
       { startTime: "14:00", endTime: "15:00", activity: "Panel Discussion: Data science is a relatively new field drawn from many different existing research areas, how do we define and promote data science careers for early to mid-career researchers?", presenter: "Panel members: Dr Daniel Marrable, Distinguished Prof. Kerrie Mengersen, Prof. Michael Small - TBC", institution: "" },
@@ -25,8 +25,9 @@ export const programData = [
       { startTime: "15:45", endTime: "16:15", activity: "Afternoon Break", presenter: "", institution: "" },
       { startTime: "16:15", endTime: "16:30", activity: "Identifying children's postures and movements from a single camera", presenter: "Prof. Andrew Lloyd Rohl", institution: "Curtin University" },
       { startTime: "16:30", endTime: "16:45", activity: "ComFe: Interpretable Image Classifiers With Foundation Models", presenter: "Ms Evelyn Mannix", institution: "University of Melbourne" },
-      { startTime: "16:45", endTime: "17:00", activity: "Poster Sparkler Talks", presenter: "", institution: "" },
-      { startTime: "17:00", endTime: "18:30", activity: "Sundowner & Networking / Poster Session", presenter: "", institution: "" },
+      { startTime: "16:45", endTime: "17:00", activity: "Poster Sparkler Talks", presenter: "", institution: "", link: "https://docs.google.com/spreadsheets/d/1lu4o0W-s0U4mOMjzgIEzKzlvlwT6K3oA4CbcqzXNUOc/edit?gid=382942974#gid=382942974" },
+      { startTime: "17:00", endTime: "18:30", activity: "Poster Session", presenter: "", institution: "", link: "https://docs.google.com/spreadsheets/d/1lu4o0W-s0U4mOMjzgIEzKzlvlwT6K3oA4CbcqzXNUOc/edit?gid=382942974#gid=382942974" },
+      { startTime: "17:00", endTime: "18:30", activity: "Sundowner & Networking", presenter: "", institution: "" },
 
       // { startTime: "", endTime: "", activity: "", presenter: "", institution: ""  },
       // { startTime: "", endTime: "", activity: "", presenter: "", institution: ""  },
@@ -46,7 +47,7 @@ export const programData = [
       { startTime: "10:45", endTime: "11:30", activity: "Panel Discussion: How do current training options in higher education meet industry requirements for data science careers? Are there areas to improve? ", presenter: "Panel members: Dr Paul Hancock, Mrs Sarah James, Mr Shiv Akarsh Meka - TBC", institution: "" },
       { startTime: "11:30", endTime: "11:45", activity: "Urban Planning and Smart Cities", presenter: "Dr Lillian Wu", institution: "University of Western Australia" },
       { startTime: "11:45", endTime: "12:00", activity: "Advancing Traffic Safety Analysis: Multimodal Data Fusion of Tabular and Textual Data", presenter: "Mr Shadi Jaradat", institution: "Queensland University of Technology" },
-      { startTime: "12:00", endTime: "12:30", activity: "Poster Sparkler Talks", presenter: "", institution: "" },
+      { startTime: "12:00", endTime: "12:30", activity: "Poster Sparkler Talks", presenter: "", institution: "", link: "https://docs.google.com/spreadsheets/d/1lu4o0W-s0U4mOMjzgIEzKzlvlwT6K3oA4CbcqzXNUOc/edit?gid=382942974#gid=382942974" },
       { startTime: "12:30", endTime: "13:15", activity: "Lunch", presenter: "", institution: "" },
       { startTime: "13:15", endTime: "13:45", activity: "Lunch & (Optional) Curtin HIVE Tour - Must indicate attendance on registration", presenter: "", institution: "" },
       { startTime: "13:45", endTime: "14:00", activity: "Enabling National Infrastructure for Environmental Science through the Sustainable Futures Portfolio", presenter: "Dr Sebastian Lopez Marcano", institution: "Queensland Cyber Infrastructure Foundation" },
@@ -54,9 +55,9 @@ export const programData = [
       { startTime: "14:15", endTime: "14:30", activity: "Loss-based optimal designs for symbolic data", presenter: "Mr Ahmad Hakiim Jamaluddin", institution: "University of New South Wales (Data Science Hub)" },
       { startTime: "14:30", endTime: "14:45", activity: "Leveraging Dynamical Systems for Data Driven Characterisation of Time Series", presenter: "Mr Braden John Thorne", institution: "University of Western Australia" },
       { startTime: "14:45", endTime: "15:15", activity: "Break", presenter: "", institution: "" },
-      { startTime: "15:15", endTime: "15:30", activity: "Poster Sparkler Talks", presenter: "", institution: "" },
+      { startTime: "15:15", endTime: "15:30", activity: "Poster Sparkler Talks", presenter: "", institution: "", link: "https://docs.google.com/spreadsheets/d/1lu4o0W-s0U4mOMjzgIEzKzlvlwT6K3oA4CbcqzXNUOc/edit?gid=382942974#gid=382942974" },
       { startTime: "15:30", endTime: "16:00", activity: "ADSN Business and Future", presenter: "Mr Tim Macuga", institution: "Queensland University of Technology (Centre for Data Science)" },
-      { startTime: "16:00", endTime: "17:00", activity: "Poster Session", presenter: "", institution: "" }
+      { startTime: "16:00", endTime: "17:00", activity: "Poster Session", presenter: "", institution: "", link: "https://docs.google.com/spreadsheets/d/1lu4o0W-s0U4mOMjzgIEzKzlvlwT6K3oA4CbcqzXNUOc/edit?gid=382942974#gid=382942974" }
     ]
   },
   {
