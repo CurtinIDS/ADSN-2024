@@ -5,7 +5,7 @@ export const programData = [
     schedule: [
       // { startTime: "8:45", endTime: "9:00", activity: "Registration" },
 
-      { startTime: "8:45", endTime: "9:05", activity: "Coffee & Registration", presenter: "", institution: "" },
+      { startTime: "8:15", endTime: "9:05", activity: "Coffee & Registration", presenter: "", institution: "" },
       { startTime: "9:05", endTime: "9:15", activity: "Welcome & Acknowledgement of Country", presenter: "", institution: "" },
       { startTime: "9:15", endTime: "10:15", activity: "Keynote Presentation - Reimagining Healthcare: Better Outcomes Through Digital Innovation", presenter: "Prof. Suzanne Robinson", institution: "Deakin University" },
       { startTime: "10:15", endTime: "10:30", activity: "A user-friendly digital prediction tool for dengue prevention", presenter: "Dr Wala Draidi", institution: "University of Queensland" },
