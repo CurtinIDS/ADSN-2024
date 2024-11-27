@@ -6,6 +6,7 @@ interface ScheduleItem {
   activity: string;
   presenter?: string;
   institution?: string;
+  link?: string;
 }
 
 interface ScheduleTableProps {
@@ -49,7 +50,20 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOp
                 <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : ''}>
                   <td className="px-4 py-2 border">{item.startTime}</td>
                   <td className="px-4 py-2 border">{item.endTime}</td>
-                  <td className="px-4 py-2 border break-words">{item.activity}</td>
+                  <td className="border border-gray-200 p-2">
+                    {item.link ? (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 underline"
+                      >
+                        {item.activity}
+                      </a>
+                    ) : (
+                      item.activity
+                    )}
+                  </td>
                   <td className="px-4 py-2 border break-words">{item.presenter}</td>
                   <td className="px-4 py-2 border break-words">{item.institution}</td>
                 </tr>
