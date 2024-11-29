@@ -26,6 +26,15 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOp
     }
   }, [schedule, isOpen]);
 
+  // Helper function to render text with line breaks
+  const renderWithLineBreaks = (text: string) =>
+    text.split('\n').map((line, index) => (
+      <React.Fragment key={index}>
+        {line}
+        <br />
+      </React.Fragment>
+    ));
+
   return (
     <div
       className={`bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'
@@ -58,19 +67,23 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOp
                         rel="noopener noreferrer"
                         className="text-blue-600 underline"
                       >
-                        {item.activity}
+                        {renderWithLineBreaks(item.activity)}
                       </a>
                     ) : (
-                      item.activity
+                      renderWithLineBreaks(item.activity)
                     )}
                   </td>
-                  <td className="px-4 py-2 border break-words">{item.presenter}</td>
-                  <td className="px-4 py-2 border break-words">{item.institution}</td>
+                  <td className="px-4 py-2 border break-words">
+                    {item.presenter ? renderWithLineBreaks(item.presenter) : '-'}
+                  </td>
+                  <td className="px-4 py-2 border break-words">
+                    {item.institution ? renderWithLineBreaks(item.institution) : '-'}
+                  </td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan={3} className="px-4 py-2 text-center border">Schedule details coming soon</td>
+                <td colSpan={5} className="px-4 py-2 text-center border">Schedule details coming soon</td>
               </tr>
             )}
           </tbody>
