@@ -74,10 +74,10 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ day, date, schedule, isOp
                     )}
                   </td>
                   <td className="px-4 py-2 border break-words">
-                    {item.presenter ? renderWithLineBreaks(item.presenter) : '-'}
+                    {item.presenter ? renderWithLineBreaks(item.presenter) : ''}
                   </td>
                   <td className="px-4 py-2 border break-words">
-                    {item.institution ? renderWithLineBreaks(item.institution) : '-'}
+                    {item.institution ? renderWithLineBreaks(item.institution) : ''}
                   </td>
                 </tr>
               ))
