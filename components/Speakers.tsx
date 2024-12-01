@@ -43,6 +43,14 @@ const speakersInvited: SpeakersProps[] = [
 ];
 const speakersPanel: PanellistProps[] = [
     {
+        name: "Dr Farzana Jahan, FHEA",
+        role: "Lecturer in Statistics, Associate Dean of Engagement (Mathematics & Statistics)\n Murdoch University",
+        profile_picture_path: "SPC/Farzana_Jahan.jpg",
+        biography: "Dr Farzana Jahan is a researcher in Statistics and Data Science with a focus on geospatial data analysis. Her research spans multiple disciplines, including environmental science, health, geography, education, and social sciences, with an emphasis on statistical modelling applications. Dr Jahan has extensive experience working in multidisciplinary teams, contributing to diverse fields through data-driven insights. She began her academic journey at the University of Dhaka, earning her Honours and Masters in Statistics, before becoming a Lecturer in Applied Statistics at East West University. Dr Jahan completed her PhD in Statistics at Queensland University of Technology in Brisbane, Australia, and subsequently worked as a postdoctoral research fellow. She is currently a Lecturer in Statistics at Murdoch University in Perth.",
+        position: "Moderator",
+        day: 1,
+    },
+    {
         name: "Dr Daniel Marrable",
         role: "Director\n Innovation Central Perth",
         profile_picture_path: "OC/Dan_Marrable.jpg",
@@ -50,14 +58,6 @@ const speakersPanel: PanellistProps[] = [
         position: "Panellist",
         day: 1,
     },
-    // {
-    //     name: "Prof. Joanna Batstone",
-    //     role: "Director\n Monash Data Futures Institute",
-    //     profile_picture_path: "SPC/Joanna_Batstone.jpg",
-    //     biography: "Professor Joanna Batstone is the inaugural Director of the Monash Data Futures Institute, leading the integration of data science and AI capabilities across the University. Under her leadership, the Institute focuses on AI for social good, with an emphasis on Health Sciences, Sustainable Development, and Policy and Governance. It aims to be the region’s leading centre for AI and data science. Joanna brings extensive international experience, having previously served as Vice President, Innovation, at IBM Corporate Strategy in New York. She held several senior technical and business leadership roles at IBM, including Vice President and Lab Director of IBM Research – Australia, and Chief Technology Officer of IBM Australia and New Zealand. With a Ph.D. in Physics from the University of Bristol, Joanna’s work spans academia and industry, having led teams across the USA, Europe, and Australia. She has received numerous prestigious awards, including the Burton Medal and the Robert Lansing Hardy Gold Medal, and was elected a Fellow of the Australian Academy of Technological Sciences and Engineering in 2023.",
-    //     position: "Panellist",
-    //     day: 1,
-    // },
     {
         name: "Distinguished Prof. Kerrie Mengersen",
         role: "Director, QUT Centre for Data Science\n Queensland University of Technology",
@@ -75,8 +75,24 @@ const speakersPanel: PanellistProps[] = [
         day: 1,
     },
     {
+        name: "Prof. Joanna Batstone",
+        role: "Director\n Monash Data Futures Institute",
+        profile_picture_path: "SPC/Joanna_Batstone.jpg",
+        biography: "Professor Joanna Batstone is the inaugural Director of the Monash Data Futures Institute, leading the integration of data science and AI capabilities across the University. Under her leadership, the Institute focuses on AI for social good, with an emphasis on Health Sciences, Sustainable Development, and Policy and Governance. It aims to be the region’s leading centre for AI and data science. Joanna brings extensive international experience, having previously served as Vice President, Innovation, at IBM Corporate Strategy in New York. She held several senior technical and business leadership roles at IBM, including Vice President and Lab Director of IBM Research – Australia, and Chief Technology Officer of IBM Australia and New Zealand. With a Ph.D. in Physics from the University of Bristol, Joanna’s work spans academia and industry, having led teams across the USA, Europe, and Australia. She has received numerous prestigious awards, including the Burton Medal and the Robert Lansing Hardy Gold Medal, and was elected a Fellow of the Australian Academy of Technological Sciences and Engineering in 2023.",
+        position: "Panellist",
+        day: 1,
+    },
+    {
+        name: "Dr Rebecca Handcock",
+        role: "Senior Data Scientist, Curtin Institute for Data Science\n Curtin University",
+        profile_picture_path: "panellists/Rebecca-H.png",
+        biography: "Dr Rebecca Handcock holds a PhD in Geography from the University of Toronto, where her research focused on spatiotemporal analysis of vegetation from satellite imagery to predict climate outcomes. She also holds an MSc in Environmental Modelling and a BSc (Hons) in Information Technology and Geography from the University of Western Australia. Rebecca’s research career includes a fellowship at the University of Washington, where she worked on monitoring terrestrial stream temperatures through satellite and airborne thermal imaging. She later spent a decade at CSIRO, calibrating remote sensing models for pasture biomass and monitoring vegetation with sensor networks. Since joining the Curtin Institute for Data Science (CIDS) in 2020, Rebecca has worked with the Curtin Open Knowledge Initiative (COKI), focusing on large-scale data analytics, visualisation, and bridging the technical and applied aspects of data-driven projects. Her expertise includes spatial analysis, remote sensing, data analysis, and visualisation.",
+        position: "Moderator",
+        day: 2,
+    },
+    {
         name: "Dr Paul Hancock",
-        role: "Data Science Project Lead - Curtin Institute for Data Science\n Curtin University",
+        role: "Data Science Project Lead, Curtin Institute for Data Science\n Curtin University",
         profile_picture_path: "panellists/Paul-H.png",
         biography: "Dr Paul Hancock holds a PhD in Physics from Sydney University, where he studied the youngest radio galaxies using a 20GHz survey. He developed key software for the survey processing. After his PhD, Paul worked as a postdoc at Sydney and Curtin Universities, focusing on variable radio sources and surveys, developing software like visibility stacking and the Aegean source finding algorithm. In 2021, Paul became the data science lead for ADACS at CIDS, contributing to software support, teaching, and the SMART pulsar survey project.",
         position: "Panellist",
