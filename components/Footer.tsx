@@ -50,16 +50,16 @@ const Footer = () => {
           <p className="text-2xl pb-4">Our Sponsors</p>
           <div className="space-y-6">
             {/* Platinum */}
-            <div>
+            {/* <div>
               <p className="pb-2 text-lg text-gray-400">Platinum Sponsors</p>
               <div className="text-sm flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8">
                 <p>Coming Soon</p>
               </div>
-            </div>
+            </div> */}
 
             {/* Gold */}
             <div>
-              <p className="pb-2 text-lg text-gray-400">Gold Sponsors</p>
+              <p className="pb-2 text-lg text-gray-400">Gold Sponsor</p>
               <div className="text-sm flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8">
                 <Link
                   href="https://ardc.edu.au/"
@@ -80,16 +80,16 @@ const Footer = () => {
             </div>
 
             {/* Silver */}
-            <div>
+            {/* <div>
               <p className="pb-2 text-lg text-gray-400">Silver Sponsors</p>
               <div className="text-sm flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8">
                 <p>Coming Soon</p>
               </div>
-            </div>
+            </div> */}
 
             {/* Bronze */}
             <div>
-              <p className="pb-2 text-lg text-gray-400">Bronze Sponsors</p>
+              <p className="pb-2 text-lg text-gray-400">Bronze Sponsor</p>
               <div className="flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8">
                 <Link
                   href="https://zhamatix.com/"
