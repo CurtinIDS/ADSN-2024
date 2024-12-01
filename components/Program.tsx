@@ -88,9 +88,13 @@ const Program = () => {
               Welcome to the 3rd Australia Data Science Network Conference at Curtin University!
             </span>
             <span className="md:text-xl md:p-10">
-              Below, you will find the conference program for each day. Click on a day to view its detailed schedule.
+             The conference program is available in the tables below, click on a day to view its detailed schedule. You may also download pdf versions at the links below, along with the conference proceedings (abstracts for all presentations and posters):
+
             </span>
           </p>
+          <p className="text-xl text-blue-navbar text-center mt-4">
+            <a href="https://drive.google.com/file/d/1zALOFin41GYDVIGky2sf0-qCytAU_3RD/view?usp=sharing" target="_blank" rel="noopener noreferrer">Day 1 program</a> | <a href="https://drive.google.com/file/d/14y4oIROgnjErXzLXv2hFHUr648BpmYdK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Day 2 program</a> | <a href="https://drive.google.com/file/d/1cXjZbIWymhs1Fqqiq4MMB258Y7mM6jSq/view?usp=sharing" target="_blank" rel="noopener noreferrer">Day 3 program</a> | <a href="https://drive.google.com/file/d/1iLg-CrOITavU3NbaXZWHMbuHVytnPh4O/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Conference proceedings</a>
+          </p> 
           <p className="text-sm text-gray-500 text-center mt-4">
             The conference program is subject to change. Please check back regularly for updates and additional details about speakers and sessions.
           </p>
