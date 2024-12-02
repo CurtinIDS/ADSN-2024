@@ -140,5 +140,6 @@ export const participantsData: Participant[] = [
     { name: "Tim Sondalini", title: "Mr", organization: "WA Data Science Innovation Hub (WADSIH)" },
     { name: "Shannon Hansen", title: "Ms", organization: "WA Data Science Innovation Hub (WADSIH)" },
     { name: "Ola Lozyk", title: "Miss", organization: "University of Western Australia" },
- 
+    { name: "Ben Sayer", title: "Mr", organization: "idoba" },
+    { name: "Pouyra Farmanbar", title: "Mr", organization: "idoba" },
 ];
