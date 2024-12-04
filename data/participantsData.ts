@@ -142,4 +142,5 @@ export const participantsData: Participant[] = [
     { name: "Ben Sayer", title: "Mr", organization: "idoba" },
     { name: "Pouyra Farmanbar", title: "Mr", organization: "idoba" },
     { name: "Adrian Burton", title: "Dr", organization: "Australian Research Data Commons (ARDC)" },
+    { name: "Jaxson Brown", title: "Mr", organization: "Innovation Central Perth" },
 ];
