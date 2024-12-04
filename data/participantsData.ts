@@ -27,7 +27,6 @@ export const participantsData: Participant[] = [
     { name: "Trish Radotic", title: "Ms", organization: "Australian Research Data Commons (ARDC)" },
     { name: "Alex Massen-Hane", title: "Mr", organization: "Curtin Institute for Data Science" },
     { name: "Batbold Sangi", title: "Dr", organization: "Curtin Institute for Data Science" },
-    { name: "Martin Cupak", title: "Mr", organization: "Curtin Institute for Data Science" },
     { name: "Kamila Durakova", title: "Ms", organization: "Curtin Institute for Data Science" },
     { name: "Anusha Gadigatla", title: "Ms", organization: "Curtin Institute for Data Science" },
     { name: "Joshua Norton", title: "Mr", organization: "Curtin Institute for Data Science" },
@@ -142,4 +141,5 @@ export const participantsData: Participant[] = [
     { name: "Ola Lozyk", title: "Miss", organization: "University of Western Australia" },
     { name: "Ben Sayer", title: "Mr", organization: "idoba" },
     { name: "Pouyra Farmanbar", title: "Mr", organization: "idoba" },
+    { name: "Adrian Burton", title: "Dr", organization: "Australian Research Data Commons (ARDC)" },
 ];
