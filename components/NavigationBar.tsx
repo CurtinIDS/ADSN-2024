@@ -51,7 +51,7 @@ const NavigationBar = () => {
       name: "Attend",
       link: "#",
       subtabs: [
-        { name: "Registration", link: "https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317" },
+        // { name: "Registration", link: "https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317" },
         { name: "Locations", link: "/ADSN-2024/locations" },
         { name: "Accommodation", link: "/ADSN-2024/accommodation" },
       ],
@@ -153,8 +153,8 @@ const NavigationBar = () => {
       <NavbarContent justify="end">
         <NavbarItem>
           <AdsnButton
-            text="Register Now"
-            url="https://www.eventbrite.com.au/e/australian-data-science-network-conference-2024-tickets-967171274317"
+            text="Check Photos"
+            url="https://drive.google.com/drive/folders/1hksy4Uy0LAQseDEXzuguwyqn9wJDw-gj"
           />
         </NavbarItem>
       </NavbarContent>
